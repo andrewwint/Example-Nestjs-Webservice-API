@@ -1,0 +1,84 @@
+.Servers .table td {
+  position: relative;
+}
+
+.Servers .table {
+  font-size: 1.1rem;
+}
+
+.Servers .table td,
+.Servers .table th {
+  padding: 0.35rem;
+}
+
+.Servers .table .btn-group-sm > .btn,
+.Servers .card .btn-sm {
+  padding: 0.15rem 0.5rem;
+  font-size: 0.675rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+
+.Servers .btn-install {
+  position: absolute;
+  top: 0.35rem;
+  left: 7rem;
+}
+
+.Servers .btn-edit-shortname {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.Servers .tr-server-btns {
+  vertical-align: top;
+  background-color: #f7f7f785;
+  border-right-color: #dee2e6;
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+.Servers .card-footer {
+  font-size: 0.8rem;
+}
+
+.Servers .bg-light .table,
+.Servers .bg-light .h5,
+.Servers .bg-light .btn-outline-secondary {
+  color: #adabab;
+  border-color: #adabab;
+}
+
+.Servers .card .form-control-sm {
+  font-size: 0.775rem;
+}
+.Servers .card {
+  min-width: 90%;
+  margin-bottom: 10px;
+}
+
+.Servers .card .form-label,
+.Servers form strong {
+  font-weight: bold;
+  font-size: 0.675rem;
+  color: #666;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}
+
+.Servers form strong {
+  font-size: 0.875rem;
+}
+
+.Servers .card label {
+  display: inline-block;
+  margin-bottom: 0.3rem;
+}
+
+.Servers .card .form-group {
+  margin-bottom: 0.5rem;
+}
+
+.Servers .accordion .text-danger {
+  font-size: x-small;
+}

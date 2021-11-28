@@ -1,0 +1,23 @@
+{
+  "name": "@truechoice/portal-cli",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "bin": "src/bin/index.js",
+  "homepage": "https://bitbucket.org/truechoicesolutions/portal-webservice/portal-ci#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/truechoicesolutions/portal-webservice.git",
+    "directory": "portal-ci"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.1.0"
+  }
+}

@@ -1,0 +1,20 @@
+.failure-header {
+  color: red;
+}
+
+.success-header {
+  color: green;
+}
+
+.toast {
+  margin-top: 20px;
+  max-width: none; // Override bootstrap max-width
+}
+
+.toast-body-overflow-x-scroll {
+  overflow-x: scroll; // For long error messages
+}
+
+.xml-file-upload-toast-header {
+  font-size: 20px;
+}

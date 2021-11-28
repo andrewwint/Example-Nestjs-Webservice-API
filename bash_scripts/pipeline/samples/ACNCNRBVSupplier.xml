@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE client SYSTEM "object.dtd">
+
+<client name="ACNCNRBVSupplier">
+  <game name="ACNCNRBVSupplier" fixed="false">
+    <attribute name="Reliability" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="Product performance">
+        <language key="description" locale="en">Company's product quality (material characteristics, quality consistency, purity, properties) meets expectations on a consistent basis</language>
+        <language key="displayname" locale="en">Product performance</language>
+        <language key="icon" locale="en">icon-reliability-performance</language>
+      </level>
+      <level value="Differentiability">
+        <language key="description" locale="en">Company's product can distinguish your products and/or end-use value chain products, providing a unique value</language>
+        <language key="displayname" locale="en">Differentiability</language>
+        <language key="icon" locale="en">icon-reliability-differentiability</language>
+      </level>
+      <level value="Product consistency">
+        <language key="description" locale="en">Company stands for consistent high quality</language>
+        <language key="displayname" locale="en">Product consistency</language>
+        <language key="icon" locale="en">icon-reliability-product</language>
+      </level>
+      <level value="Asset footprint">
+        <language key="description" locale="en">Company products are available across various locations and/or globally, ensuring security of supply</language>
+        <language key="displayname" locale="en">Asset footprint</language>
+        <language key="icon" locale="en">icon-reliability-asset</language>
+      </level>
+      <!-- <level value="Raw materials flexibility">
+        <language key="description" locale="en">Supplier can manufacture the desired product using a set of diverse raw materials (bio, gas, oil, ore, scrap, etc.)</language>
+        <language key="displayname" locale="en">Raw materials flexibility</language>
+        <language key="icon" locale="en">icon-reliability-raw</language>
+      </level>-->
+      <level value="Logistics reliability">
+        <language key="description" locale="en">Company consistently delivers on time</language>
+        <language key="displayname" locale="en">Logistics reliability</language>
+        <language key="icon" locale="en">icon-reliability-logistics</language>
+      </level>
+      <language key="description" locale="en">How would your customers weigh each factor shown when selecting a materials supplier with regard to overall reliability?</language>
+      <language key="displayname" locale="en">When selecting a supplier, how much importance do your customers place on the following factors?</language>
+      <language key="group" locale="en" />
+      <language key="instructions" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the elements shown.</language>
+      <language key="shortname.levels" locale="en">Reliability</language>
+      <language key="shortname" locale="en">Reliability</language>
+      <language key="leastpreferred" locale="en">Less Important</language>
+      <language key="mostpreferred" locale="en">More Important</language>
+    </attribute>
+    <attribute name="Product support" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="Product selection and support">
+        <language key="description" locale="en">Availability and ease of getting consulting and advice related to product and/or used materials</language>
+        <language key="displayname" locale="en">Product selection and support</language>
+        <language key="icon" locale="en">icon-vendor-selection</language>
+      </level>
+      <level value="Easy access to product information">
+        <language key="description" locale="en">Ease of accessing product and material information about the desired product</language>
+        <language key="displayname" locale="en">Easy access to product information</language>
+        <language key="icon" locale="en">icon-vendor-info</language>
+      </level>
+      <level value="Product sampling / trials">
+        <language key="description" locale="en">Ability of the company to quickly prototype products for trial and provide samples for testing</language>
+        <language key="displayname" locale="en">Product sampling / trials</language>
+        <language key="icon" locale="en">icon-vendor-samples</language>
+      </level>
+      <level value="Regulatory support">
+        <language key="description" locale="en">Company can offer regulatory support regarding product registration (e.g., REACH, ISO standards, FSC) and offer information, consulting and/or advice on future regulations</language>
+        <language key="displayname" locale="en">Regulatory support</language>
+        <language key="icon" locale="en">icon-vendor-regulatory</language>
+      </level>
+      <level value="Quality and knowledge of sales team">
+        <language key="description" locale="en">Capabilities of sales assistants, particularly with regard to product and trend knowledge</language>
+        <language key="displayname" locale="en">Quality and knowledge of sales team</language>
+        <language key="icon" locale="en">icon-vendor-knowledge</language>
+      </level>
+      <level value="Quality technical support">
+        <language key="description" locale="en">Solid technical product knowledge</language>
+        <language key="displayname" locale="en">Quality technical support</language>
+        <language key="icon" locale="en">icon-vendor-support</language>
+      </level>
+      <language key="description" locale="en">How would your customers weigh each factor shown when selecting a materials supplier with regard to product / service support?</language>
+      <language key="displayname" locale="en">When selecting a supplier, how much importance do your customers place on the following factors?</language>
+      <language key="group" locale="en" />
+      <language key="instructions" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the elements shown.</language>
+      <language key="shortname.levels" locale="en">Product support</language>
+      <language key="shortname" locale="en">Product support</language>
+      <language key="leastpreferred" locale="en">Less Important</language>
+      <language key="mostpreferred" locale="en">More Important</language>
+    </attribute>
+    <attribute name="Order process focus" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="Order placement">
+        <language key="description" locale="en">Ease with which an order can be placed</language>
+        <language key="displayname" locale="en">Order placement</language>
+        <language key="icon" locale="en">icon-order-placement</language>
+      </level>
+      <level value="Single point of order">
+        <language key="description" locale="en">Ability to order various products across a company via a single point of access (e.g., customized online portal)</language>
+        <language key="displayname" locale="en">Single point of order</language>
+        <language key="icon" locale="en">icon-order-single</language>
+      </level>
+      <level value="Order tracking">
+        <language key="description" locale="en">Ability to track orders (e.g., real time)</language>
+        <language key="displayname" locale="en">Order tracking</language>
+        <language key="icon" locale="en">icon-order-tracking</language>
+      </level>
+      <level value="Order flexibility">
+        <language key="description" locale="en">Ability to accommodate changes to an order and the ease of the order change / amendment process</language>
+        <language key="displayname" locale="en">Order flexibility</language>
+        <language key="icon" locale="en">icon-order-flex</language>
+      </level>
+      <level value="Customized payment terms">
+        <language key="description" locale="en">Ability to offer flexible terms (e.g., payment timing, payment options, rebates)</language>
+        <language key="displayname" locale="en">Customized payment terms</language>
+        <language key="icon" locale="en">icon-order-terms</language>
+      </level>
+      <language key="description" locale="en">How would your customers weigh each factor shown when selecting a materials supplier with regard to order transactions?</language>
+      <language key="displayname" locale="en">When selecting a supplier, how much importance do your customers place on the following factors?</language>
+      <language key="group" locale="en" />
+      <language key="instructions" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the elements shown.</language>
+      <language key="shortname.levels" locale="en">Order process focus</language>
+      <language key="shortname" locale="en">Order process focus</language>
+      <language key="leastpreferred" locale="en">Less Important</language>
+      <language key="mostpreferred" locale="en">More Important</language>
+    </attribute>
+    <attribute name="Product issues management" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="Complaint resolution">
+        <language key="description" locale="en">Effective and responsive complaint handling with identification of root causes and corrective measures</language>
+        <language key="displayname" locale="en">Complaint resolution</language>
+        <language key="icon" locale="en">icon-complaint-resolutions</language>
+      </level>
+      <level value="Ease of returns">
+        <language key="description" locale="en">Easy and timely return options</language>
+        <language key="displayname" locale="en">Ease of returns</language>
+        <language key="icon" locale="en">icon-complaint-returns</language>
+      </level>
+      <level value="24/7 access">
+        <language key="description" locale="en">A customer is able to connect quickly and easily with the required person within the company whenever needed. All relevant information is available online, up-to-date and easy to obtain.</language>
+        <language key="displayname" locale="en">24/7 access</language>
+        <language key="icon" locale="en">icon-complaint-access</language>
+      </level>
+      <language key="description" locale="en">How would your customers weigh each factor shown when selecting a materials supplier with regard to product / transaction issues and problems?</language>
+      <language key="displayname" locale="en">When selecting a supplier, how much importance do your customers place on the following factors?</language>
+      <language key="group" locale="en" />
+      <language key="instructions" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the elements shown.</language>
+      <language key="shortname.levels" locale="en">Product issues management</language>
+      <language key="shortname" locale="en">Product issues management</language>
+      <language key="leastpreferred" locale="en">Less Important</language>
+      <language key="mostpreferred" locale="en">More Important</language>
+    </attribute>
+    <attribute name="Corporate reputation" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="Brand strength">
+        <language key="description" locale="en">The company is well recognized as having a leading market position and strong brand</language>
+        <language key="displayname" locale="en">Brand strength</language>
+        <language key="icon" locale="en">icon-corporate-brand</language>
+      </level>
+      <level value="Ethics">
+        <language key="description" locale="en">Company acts according to UN Global Compact principles like ethical labor standards and anti-corruption</language>
+        <language key="displayname" locale="en">Ethics</language>
+        <language key="icon" locale="en">icon-corporate-ethics</language>
+      </level>
+      <level value="Inclusion and diversity">
+        <language key="description" locale="en">Company takes actions to implement inclusion and diversity</language>
+        <language key="displayname" locale="en">Inclusion and diversity</language>
+        <language key="icon" locale="en">icon-corporate-inclusion</language>
+      </level>
+      <level value="Purpose and corporate social responsibility (CSR)">
+        <language key="description" locale="en">Purpose-driven brand, contributing its knowledge and other resources to social improvement</language>
+        <language key="displayname" locale="en">Purpose and corporate social responsibility (CSR)</language>
+        <language key="icon" locale="en">icon-corporate-responsibility</language>
+      </level>
+      <level value="Environmental health and safety compliance">
+        <language key="description" locale="en">EHS compliance track record, per local, regional and global regulations</language>
+        <language key="displayname" locale="en">Environmental health and safety (EH&amp;S) compliance</language>
+        <language key="icon" locale="en">icon-corporate-compliance</language>
+      </level>
+      <level value="Data privacy and cybersecurity">
+        <language key="description" locale="en">Company has a reputation for excellent data security and data management</language>
+        <language key="displayname" locale="en">Data privacy and cybersecurity</language>
+        <language key="icon" locale="en">icon-corporate-cybersecurity</language>
+      </level>
+      <language key="description" locale="en">How would your customers weigh each factor shown when selecting a materials supplier with regard to reputation and social responsibility?</language>
+      <language key="displayname" locale="en">When selecting a supplier, how much importance do your customers place on company reputation?</language>
+      <language key="group" locale="en" />
+      <language key="instructions" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the elements shown.</language>
+      <language key="shortname.levels" locale="en">Corporate reputation</language>
+      <language key="shortname" locale="en">Corporate reputation</language>
+      <language key="leastpreferred" locale="en">Less Important</language>
+      <language key="mostpreferred" locale="en">More Important</language>
+    </attribute>
+    <attribute name="Product offering focus" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="Product breadth and depth">
+        <language key="description" locale="en">Company offers comprehensive product portfolio, sufficient enough to meet your various product needs</language>
+        <language key="displayname" locale="en">Product breadth and depth</language>
+        <language key="icon" locale="en">icon-product-breadth</language>
+      </level>
+      <!-- <level value="Quality technical support">
+        <language key="description" locale="en">Solid technical product knowledge</language>
+        <language key="displayname" locale="en">Quality technical support</language>
+        <language key="icon" locale="en">icon-product-technical</language>
+      </level>-->
+      <level value="New product innovation">
+        <language key="description" locale="en">Company is recognized as the innovation leader in relevant markets</language>
+        <language key="displayname" locale="en">New product innovation</language>
+        <language key="icon" locale="en">icon-product-innovation</language>
+      </level>
+      <level value="Application development">
+        <language key="description" locale="en">Company has capabilities to adjust or customize product characteristics and grades for different processes or customers in the value chain</language>
+        <language key="displayname" locale="en">Application development</language>
+        <language key="icon" locale="en">icon-product-development</language>
+      </level>
+      <level value="Usage related pricing">
+        <language key="description" locale="en">Depending on the product, company offers pay per use (as opposed to pay for product ownership)</language>
+        <language key="displayname" locale="en">Usage-related pricing</language>
+        <language key="icon" locale="en">icon-product-pricing</language>
+      </level>
+      <language key="description" locale="en">How would your customers weigh each factor shown when selecting a materials supplier with regard to support beyond just providing the product?</language>
+      <language key="displayname" locale="en">When selecting a supplier, how much importance do your customers place on the following factors?</language>
+      <language key="group" locale="en" />
+      <language key="instructions" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the elements shown.</language>
+      <language key="shortname.levels" locale="en">Product offering focus</language>
+      <language key="shortname" locale="en">Product offering focus</language>
+      <language key="leastpreferred" locale="en">Less Important</language>
+      <language key="mostpreferred" locale="en">More Important</language>
+    </attribute>
+    <attribute name="Product delivery focus" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="Product and packaging customization">
+        <language key="description" locale="en">Company has capabilities to provide product in different form, material dimensions and packaging</language>
+        <language key="displayname" locale="en">Product and packaging customization</language>
+        <language key="icon" locale="en">icon-delivery-packaging</language>
+      </level>
+      <level value="Delivery responsiveness">
+        <language key="description" locale="en">Company offers express and/or flexible delivery options and/or windows of delivery</language>
+        <language key="displayname" locale="en">Delivery responsiveness</language>
+        <language key="icon" locale="en">icon-delivery-responsiveness</language>
+      </level>
+      <level value="Delivery tracking">
+        <language key="description" locale="en">Company has ability to provide real-time tracking of product delivery</language>
+        <language key="displayname" locale="en">Delivery tracking</language>
+        <language key="icon" locale="en">icon-delivery-tracking</language>
+      </level>
+      <language key="description" locale="en">How would your customers weigh each factor shown when selecting a materials supplier with regard to product / package form and delivery?</language>
+      <language key="displayname" locale="en">When selecting a supplier, how much importance do your customers place on the following factors?</language>
+      <language key="group" locale="en" />
+      <language key="instructions" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the elements shown.</language>
+      <language key="shortname.levels" locale="en">Product delivery focus</language>
+      <language key="shortname" locale="en">Product delivery focus</language>
+      <language key="leastpreferred" locale="en">Less Important</language>
+      <language key="mostpreferred" locale="en">More Important</language>
+    </attribute>
+    <attribute name="Services not related to products" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="Market intelligence">
+        <language key="description" locale="en">Company leverages and shares analytics to offer customized products of high relevance and interest to consumers</language>
+        <language key="displayname" locale="en">Market intelligence</language>
+        <language key="icon" locale="en">icon-service-market</language>
+      </level>
+      <level value="Pricing intelligence">
+        <language key="description" locale="en">Company shares knowledge regarding pricing trends (including those related to raw material and related price indices) and adjusts to buyers' needs (e.g., sales and rebate timing)</language>
+        <language key="displayname" locale="en">Pricing intelligence</language>
+        <language key="icon" locale="en">icon-service-pricing</language>
+      </level>
+      <level value="Value added services">
+        <language key="description" locale="en">Company provides other beneficial services, including but not limited to: subscription, maintenance, replacement / refilling, analytic insights, product usage monitoring</language>
+        <language key="displayname" locale="en">Value-added services</language>
+        <language key="icon" locale="en">icon-service-value-add</language>
+      </level>
+      <level value="Market development and penetration support">
+        <language key="description" locale="en">Company has capabilities to reduce lead times to market of new products</language>
+        <language key="displayname" locale="en">Market development and penetration support</language>
+        <language key="icon" locale="en">icon-service-penetration</language>
+      </level>
+      <level value="Business insights">
+        <language key="description" locale="en">Sales / service representatives have detailed insights and good understanding of consumers' needs</language>
+        <language key="displayname" locale="en">Business insights</language>
+        <language key="icon" locale="en">icon-service-business</language>
+      </level>
+      <language key="description" locale="en">How would your customers weigh each factor shown when selecting a materials supplier with regard to its assistance in helping make decisions and develop business?</language>
+      <language key="displayname" locale="en">When selecting a supplier, how much do your customers value a company's service offerings beyond products?</language>
+      <language key="group" locale="en" />
+      <language key="instructions" locale="en">Shift the sliders to indicate whether the elements shown are MORE or LESS valuable to you.</language>
+      <language key="shortname.levels" locale="en">Services not related to products</language>
+      <language key="shortname" locale="en">Services not related to products</language>
+      <language key="leastpreferred" locale="en">Less Valuable</language>
+      <language key="mostpreferred" locale="en">More Valuable</language>
+    </attribute>
+    <attribute name="Company culture and relationship" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="Working environment">
+        <language key="description" locale="en">Company presents its products in a creative and inspiring environment</language>
+        <language key="displayname" locale="en">Working environment</language>
+        <language key="icon" locale="en">icon-cultural-environment</language>
+      </level>
+      <level value="Working culture">
+        <language key="description" locale="en">Company presents a new and differentiated way of working that reflects its character and personality</language>
+        <language key="displayname" locale="en">Working culture</language>
+        <language key="icon" locale="en">icon-cultural-culture</language>
+      </level>
+      <level value="Access to new thinking">
+        <language key="description" locale="en">Company offers new ideas, demonstrating creative and innovative out-of-the-box thinking</language>
+        <language key="displayname" locale="en">Access to new thinking</language>
+        <language key="icon" locale="en">icon-cultural-new</language>
+      </level>
+      <level value="Relationship building">
+        <language key="description" locale="en">Company builds excellent individual relationships, showing it wants to make you "happy"</language>
+        <language key="displayname" locale="en">Relationship building</language>
+        <language key="icon" locale="en">icon-cultural-relationship</language>
+      </level>
+      <language key="description" locale="en">How would your customers weigh each factor shown when selecting a materials supplier with regard to intangible attributes relating to creativity, culture and relationship building?</language>
+      <language key="displayname" locale="en">When selecting a supplier, how much importance do your customers place on the following intangible "experience" factors?</language>
+      <language key="group" locale="en" />
+      <language key="instructions" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the elements shown.</language>
+      <language key="shortname.levels" locale="en">Company culture &amp; relationship</language>
+      <language key="shortname" locale="en">Company culture &amp; relationship</language>
+      <language key="leastpreferred" locale="en">Less Important</language>
+      <language key="mostpreferred" locale="en">More Important</language>
+    </attribute>
+    <attribute name="Green chemistry" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="Reduce waste">
+        <language key="description" locale="en">Company achieves measurable results regarding waste reduction during production and packaging</language>
+        <language key="displayname" locale="en">Reduce waste</language>
+        <language key="icon" locale="en">icon-green-reduce</language>
+      </level>
+      <level value="Safer materials">
+        <language key="description" locale="en">Company is trustworthy in exclusion of hazardous materials from its products and materials</language>
+        <language key="displayname" locale="en">Safer materials</language>
+        <language key="icon" locale="en">icon-green-materials</language>
+      </level>
+      <level value="Greenhouse gases (GHG)">
+        <language key="description" locale="en">Company is reducing GHG emissions associated with its business operations</language>
+        <language key="displayname" locale="en">Greenhouse gases (GHG)</language>
+        <language key="icon" locale="en">icon-green-greenhouse</language>
+      </level>
+      <level value="Carbon neutrality">
+        <language key="description" locale="en">Company offers carbon neutral products</language>
+        <language key="displayname" locale="en">Carbon neutrality</language>
+        <language key="icon" locale="en">icon-green-carbon</language>
+      </level>
+      <level value="Water efficiency">
+        <language key="description" locale="en">Company prioritizes efficient water usage</language>
+        <language key="displayname" locale="en">Water efficiency</language>
+        <language key="icon" locale="en">icon-green-water</language>
+      </level>
+      <level value="Renewable energy">
+        <language key="description" locale="en">Company is increasing its use of renewable energy (solar, wind, fuel cell, batteries) and decreasing its use of fossil-based energy (oil, gas, coal)</language>
+        <language key="displayname" locale="en">Renewable energy</language>
+        <language key="icon" locale="en">icon-green-renewable</language>
+      </level>
+      <level value="Track and trace">
+        <language key="description" locale="en">Company offers visibility into product value chain in terms of environmental footprint and material sources</language>
+        <language key="displayname" locale="en">Track and trace</language>
+        <language key="icon" locale="en">icon-green-trace</language>
+      </level>
+      <language key="description" locale="en">How would your customers weigh each factor shown when selecting a materials supplier with regard to environmental responsibility?</language>
+      <language key="displayname" locale="en">When selecting a supplier, how important is a focus on "green chemistry" to your customers?</language>
+      <language key="group" locale="en" />
+      <language key="instructions" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the elements shown.</language>
+      <language key="shortname.levels" locale="en">Green chemistry</language>
+      <language key="shortname" locale="en">Green chemistry</language>
+      <language key="leastpreferred" locale="en">Less Important</language>
+      <language key="mostpreferred" locale="en">More Important</language>
+    </attribute>
+    <attribute name="Circularity" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="Renewable based products">
+        <language key="description" locale="en">Product is based on renewables / bio-based materials, substituting fossil-based materials</language>
+        <language key="displayname" locale="en">Renewable-based products</language>
+        <language key="icon" locale="en">icon-circularity-renewable</language>
+      </level>
+      <level value="Carbon dioxide utilization">
+        <language key="description" locale="en">Company captures carbon dioxide (CO2) for beneficial use</language>
+        <language key="displayname" locale="en">Carbon dioxide utilization</language>
+        <language key="icon" locale="en">icon-circularity-carbon</language>
+      </level>
+      <level value="Degradable products">
+        <language key="description" locale="en">Product is able to breakdown, after original use, into non-harmful products in the environment or landfill</language>
+        <language key="displayname" locale="en">Degradable products</language>
+        <language key="icon" locale="en">icon-circularity-degradable</language>
+      </level>
+      <level value="Durable products">
+        <language key="description" locale="en">Product has the ability to be reused multiple times rather than being discarded / recycled after first use</language>
+        <language key="displayname" locale="en">Durable products</language>
+        <language key="icon" locale="en">icon-circularity-durable</language>
+      </level>
+      <level value="Recoverable / repurpose able products">
+        <language key="description" locale="en">Product can be reused in new applications after first usage in order to reduce landfill</language>
+        <language key="displayname" locale="en">Recoverable / repurpose-able products</language>
+        <language key="icon" locale="en">icon-circularity-recoverable</language>
+      </level>
+      <level value="Recyclable products">
+        <language key="description" locale="en">Product can be recycled by collection and processing into raw materials</language>
+        <language key="displayname" locale="en">Recyclable products</language>
+        <language key="icon" locale="en">icon-circularity-recyclable</language>
+      </level>
+      <level value="Company facilitates circulation">
+        <language key="description" locale="en">Company has a strong reputation on facilitating the re-circulation of products, reducing their environmental footprint</language>
+        <language key="displayname" locale="en">Company facilitates circulation</language>
+        <language key="icon" locale="en">icon-circularity-supplier</language>
+      </level>
+      <level value="Avoiding microplastics">
+        <language key="description" locale="en">Product does not include tiny pieces of plastic, less than 5 mm (0.2 inch), that occur in the environment either through product ingredient or degradation</language>
+        <language key="displayname" locale="en">Avoiding microplastics</language>
+        <language key="icon" locale="en">icon-circularity-micro</language>
+      </level>
+      <language key="description" locale="en">How would your customers weigh each factor shown when selecting a materials supplier with regard to its product's environmental footprint / impact?</language>
+      <language key="displayname" locale="en">When selecting a supplier, how relevant is a focus on circularity to your customers?</language>
+      <language key="group" locale="en" />
+      <language key="instructions" locale="en">Shift the sliders to indicate whether the elements shown are MORE or LESS valuable to you.</language>
+      <language key="shortname.levels" locale="en">Circularity</language>
+      <language key="shortname" locale="en">Circularity</language>
+      <language key="leastpreferred" locale="en">Less Valuable</language>
+      <language key="mostpreferred" locale="en">More Valuable</language>
+    </attribute>
+    <attribute name="Digital capabilities of company" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="Pioneer in digital transformation">
+        <language key="description" locale="en">Company has a leading reputation in the application of digital technologies along the value chain</language>
+        <language key="displayname" locale="en">Pioneer in digital transformation</language>
+        <language key="icon" locale="en">icon-digital-pioneer</language>
+      </level>
+      <level value="Increasing automation">
+        <language key="description" locale="en">Company fosters automation / robotics throughout its research, manufacturing and supply chain functions to increase speed, precision, quality, safety, etc.</language>
+        <language key="displayname" locale="en">Increasing automation</language>
+        <language key="icon" locale="en">icon-digital-automation</language>
+      </level>
+      <level value="Data analytics">
+        <language key="description" locale="en">Company leverages analytics to gain insights to improve precision, quality, product and production safety, efficiency, waste reduction, etc.</language>
+        <language key="displayname" locale="en">Data analytics</language>
+        <language key="icon" locale="en">icon-digital-data</language>
+      </level>
+      <level value="Seamless transactions">
+        <language key="description" locale="en">Company offers improved consumer interactions by offering touchless order, one-click purchasing, new payment methods, etc.</language>
+        <language key="displayname" locale="en">Seamless transactions</language>
+        <language key="icon" locale="en">icon-digital-transaction</language>
+      </level>
+      <level value="Digital interfaces and experiences">
+        <language key="description" locale="en">Company offers easy to use, intuitive methods to interact (e.g., virtual and/or augmented reality mobile apps, virtual assistance for support or product information)</language>
+        <language key="displayname" locale="en">Digital interfaces and experiences</language>
+        <language key="icon" locale="en">icon-digital-vr</language>
+      </level>
+      <level value="Artificial intelligence">
+        <language key="description" locale="en">Company pursues artificial intelligence and/or machine learning to gain new insights, speed up innovation, improve customer interactions, etc.</language>
+        <language key="displayname" locale="en">Artificial intelligence</language>
+        <language key="icon" locale="en">icon-digital-ai</language>
+      </level>
+      <level value="Modelling and simulation">
+        <language key="description" locale="en">Company has the ability to simulate production processes to speed up new product development and customized products</language>
+        <language key="displayname" locale="en">Modelling and simulation</language>
+        <language key="icon" locale="en">icon-digital-modelling</language>
+      </level>
+      <language key="description" locale="en">How would your customers weigh each factor shown when selecting a materials supplier with regard to its use of digital technologies?</language>
+      <language key="displayname" locale="en">When selecting a supplier, to what degree do your customers value digital adoption?</language>
+      <language key="group" locale="en" />
+      <language key="instructions" locale="en">Shift the sliders to indicate whether the elements shown are MORE or LESS valuable to you.</language>
+      <language key="shortname.levels" locale="en">Digital capabilities of company</language>
+      <language key="shortname" locale="en">Digital capabilities of company</language>
+      <language key="leastpreferred" locale="en">Less Valuable</language>
+      <language key="mostpreferred" locale="en">More Valuable</language>
+    </attribute>
+    <attribute name="Pricing strategy" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="Pricing 5% below average market price">
+        <language key="description" locale="en">Customers would consider paying 5% below average market price, even if all their product and service needs were completely met</language>
+        <language key="displayname" locale="en">Pricing 5% below average market price</language>
+        <language key="icon" locale="en">icon-price-below-small</language>
+      </level>
+      <level value="Pricing consistent with the market average">
+        <language key="description" locale="en">Customers would consider paying the average market price if all their product and service needs were completely met</language>
+        <language key="displayname" locale="en">Pricing consistent with the market average</language>
+        <language key="icon" locale="en">icon-price-average</language>
+      </level>
+      <level value="Pricing 5% above average market price">
+        <language key="description" locale="en">Customers would consider paying up to 5% above average market price if all their product and service needs were completely met</language>
+        <language key="displayname" locale="en">Pricing 5% above average market price</language>
+        <language key="icon" locale="en">icon-price-above-small</language>
+      </level>
+      <level value="Pricing 10% above average market price">
+        <language key="description" locale="en">Customers would consider paying up to 10% above average market price if all their product and service needs were completely met</language>
+        <language key="displayname" locale="en">Pricing 10% above average market price</language>
+        <language key="icon" locale="en">icon-price-above-medium</language>
+      </level>
+      <level value="Pricing more than 10% above average market price">
+        <language key="description" locale="en">Customers would consider paying more than 10% above average market price if all their product and service needs were completely met</language>
+        <language key="displayname" locale="en">Pricing &gt;10% above average market price</language>
+        <language key="icon" locale="en">icon-price-above-large</language>
+      </level>
+      <language key="description" locale="en">How much more would your customers be willing to pay for "ideal" products and services?</language>
+      <language key="displayname" locale="en">How much more would your customers be willing to pay if their product and service needs were completely met?</language>
+      <language key="group" locale="en" />
+      <language key="instructions" locale="en">Shift the sliders to indicate a GREATER or LESSER preference for the elements shown.</language>
+      <language key="shortname.levels" locale="en">Pricing strategy</language>
+      <language key="shortname" locale="en">Pricing strategy</language>
+      <language key="leastpreferred" locale="en">Prefer Less</language>
+      <language key="mostpreferred" locale="en">Prefer More</language>
+    </attribute>
+    <attribute name="Hidden Price" implicit="ascending" must-have-allowed="false" skip-allowed="false" type="price" unacceptables-allowed="false">
+      <level value="0">
+        <language key="description" locale="en">0</language>
+        <language key="displayname" locale="en">0</language>
+      </level>
+      <level value="1">
+        <language key="description" locale="en">1</language>
+        <language key="displayname" locale="en">1</language>
+      </level>
+      <language key="description" locale="en">Hidden Price</language>
+      <language key="displayname" locale="en">Hidden Price</language>
+      <language key="group" locale="en" />
+      <profile key="hidden" value="true" />
+    </attribute>
+    <attribute name="Share of wallet" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="No change">
+        <language key="description" locale="en">The company would buy the same amount from me as originally planned</language>
+        <language key="displayname" locale="en">No change</language>
+        <language key="icon" locale="en">icon-value-sole</language>
+      </level>
+      <level value="Buy up to 10% more">
+        <language key="description" locale="en">The company would buy up to 10% more from me if all its product and service needs were completely met</language>
+        <language key="displayname" locale="en">Customers may buy up to 10% more</language>
+        <language key="icon" locale="en">icon-value-up-to-10</language>
+      </level>
+      <level value="Buy up to 30% more">
+        <language key="description" locale="en">The company would buy up to 30% more from me if all its product and service needs were completely met</language>
+        <language key="displayname" locale="en">Customers may buy up to 30% more</language>
+        <language key="icon" locale="en">icon-value-up-to-30</language>
+      </level>
+      <level value="Buy up to 50% more">
+        <language key="description" locale="en">The company would buy up to 50% more from me if all its product and service needs were completely met</language>
+        <language key="displayname" locale="en">Customers may buy up to 50% more</language>
+        <language key="icon" locale="en">icon-value-up-to-50</language>
+      </level>
+      <level value="Buy over 50% more">
+        <language key="description" locale="en">The company would buy more than 50% more from me if all its product and service needs were completely met</language>
+        <language key="displayname" locale="en">Customers may buy over 50% more</language>
+        <language key="icon" locale="en">icon-value-above-50</language>
+      </level>
+      <level value="Move to sole company">
+        <language key="description" locale="en">The company would move all of its business to me if all its product and service needs were completely met</language>
+        <language key="displayname" locale="en">Move to sole company</language>
+        <language key="icon" locale="en">icon-value-all</language>
+      </level>
+      <language key="description" locale="en">How would your market share change if you offered your customers "ideal" products and services?</language>
+      <language key="displayname" locale="en">How much business would you gain from your customers if their product and service needs were completely met?</language>
+      <language key="group" locale="en" />
+      <language key="instructions" locale="en">Shift the sliders to indicate a GREATER or LESSER preference for the elements shown.</language>
+      <language key="shortname.levels" locale="en">Share of wallet</language>
+      <language key="shortname" locale="en">Share of wallet</language>
+      <language key="leastpreferred" locale="en">Prefer Less</language>
+      <language key="mostpreferred" locale="en">Prefer More</language>
+    </attribute>
+    <!-- Restricted Pairs -->
+    <restricted-set name="1">
+      <restricted-attribute name="Reliability">
+        <restricted-level value="Product performance" />
+        <restricted-level value="Differentiability" />
+        <restricted-level value="Product consistency" />
+        <restricted-level value="Asset footprint" />
+        <restricted-level value="Logistics reliability" />
+      </restricted-attribute>
+      <restricted-attribute name="Pricing strategy">
+        <restricted-level value="Pricing 5% below average market price" />
+        <restricted-level value="Pricing 10% above average market price" />
+        <restricted-level value="Pricing 5% above average market price" />
+        <restricted-level value="Pricing consistent with the market average" />
+        <restricted-level value="Pricing more than 10% above average market price" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="2">
+      <restricted-attribute name="Reliability">
+        <restricted-level value="Product performance" />
+        <restricted-level value="Differentiability" />
+        <restricted-level value="Product consistency" />
+        <restricted-level value="Asset footprint" />
+        <restricted-level value="Logistics reliability" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="3">
+      <restricted-attribute name="Reliability">
+        <restricted-level value="Product performance" />
+        <restricted-level value="Differentiability" />
+        <restricted-level value="Product consistency" />
+        <restricted-level value="Asset footprint" />
+        <restricted-level value="Logistics reliability" />
+      </restricted-attribute>
+      <restricted-attribute name="Share of wallet">
+        <restricted-level value="No change" />
+        <restricted-level value="Buy over 50% more" />
+        <restricted-level value="Buy up to 50% more" />
+        <restricted-level value="Move to sole company" />
+        <restricted-level value="Buy up to 30% more" />
+        <restricted-level value="Buy up to 10% more" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="4">
+      <restricted-attribute name="Product support">
+        <restricted-level value="Quality and knowledge of sales team" />
+        <restricted-level value="Quality technical support" />
+        <restricted-level value="Product selection and support" />
+        <restricted-level value="Easy access to product information" />
+        <restricted-level value="Product sampling / trials" />
+        <restricted-level value="Regulatory support" />
+      </restricted-attribute>
+      <restricted-attribute name="Pricing strategy">
+        <restricted-level value="Pricing 5% below average market price" />
+        <restricted-level value="Pricing 10% above average market price" />
+        <restricted-level value="Pricing 5% above average market price" />
+        <restricted-level value="Pricing consistent with the market average" />
+        <restricted-level value="Pricing more than 10% above average market price" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="5">
+      <restricted-attribute name="Product support">
+        <restricted-level value="Quality and knowledge of sales team" />
+        <restricted-level value="Quality technical support" />
+        <restricted-level value="Product selection and support" />
+        <restricted-level value="Easy access to product information" />
+        <restricted-level value="Product sampling / trials" />
+        <restricted-level value="Regulatory support" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="6">
+      <restricted-attribute name="Product support">
+        <restricted-level value="Quality and knowledge of sales team" />
+        <restricted-level value="Quality technical support" />
+        <restricted-level value="Product selection and support" />
+        <restricted-level value="Easy access to product information" />
+        <restricted-level value="Product sampling / trials" />
+        <restricted-level value="Regulatory support" />
+      </restricted-attribute>
+      <restricted-attribute name="Share of wallet">
+        <restricted-level value="No change" />
+        <restricted-level value="Buy over 50% more" />
+        <restricted-level value="Buy up to 50% more" />
+        <restricted-level value="Move to sole company" />
+        <restricted-level value="Buy up to 30% more" />
+        <restricted-level value="Buy up to 10% more" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="7">
+      <restricted-attribute name="Order process focus">
+        <restricted-level value="Single point of order" />
+        <restricted-level value="Order placement" />
+        <restricted-level value="Order flexibility" />
+        <restricted-level value="Order tracking" />
+        <restricted-level value="Customized payment terms" />
+      </restricted-attribute>
+      <restricted-attribute name="Pricing strategy">
+        <restricted-level value="Pricing 5% below average market price" />
+        <restricted-level value="Pricing 10% above average market price" />
+        <restricted-level value="Pricing 5% above average market price" />
+        <restricted-level value="Pricing consistent with the market average" />
+        <restricted-level value="Pricing more than 10% above average market price" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="8">
+      <restricted-attribute name="Order process focus">
+        <restricted-level value="Single point of order" />
+        <restricted-level value="Order placement" />
+        <restricted-level value="Order flexibility" />
+        <restricted-level value="Order tracking" />
+        <restricted-level value="Customized payment terms" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="9">
+      <restricted-attribute name="Order process focus">
+        <restricted-level value="Single point of order" />
+        <restricted-level value="Order placement" />
+        <restricted-level value="Order flexibility" />
+        <restricted-level value="Order tracking" />
+        <restricted-level value="Customized payment terms" />
+      </restricted-attribute>
+      <restricted-attribute name="Share of wallet">
+        <restricted-level value="No change" />
+        <restricted-level value="Buy over 50% more" />
+        <restricted-level value="Buy up to 50% more" />
+        <restricted-level value="Move to sole company" />
+        <restricted-level value="Buy up to 30% more" />
+        <restricted-level value="Buy up to 10% more" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="10">
+      <restricted-attribute name="Product issues management">
+        <restricted-level value="Complaint resolution" />
+        <restricted-level value="Ease of returns" />
+        <restricted-level value="24/7 access" />
+      </restricted-attribute>
+      <restricted-attribute name="Pricing strategy">
+        <restricted-level value="Pricing 5% below average market price" />
+        <restricted-level value="Pricing 10% above average market price" />
+        <restricted-level value="Pricing 5% above average market price" />
+        <restricted-level value="Pricing consistent with the market average" />
+        <restricted-level value="Pricing more than 10% above average market price" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="11">
+      <restricted-attribute name="Product issues management">
+        <restricted-level value="Complaint resolution" />
+        <restricted-level value="Ease of returns" />
+        <restricted-level value="24/7 access" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="12">
+      <restricted-attribute name="Product issues management">
+        <restricted-level value="Complaint resolution" />
+        <restricted-level value="Ease of returns" />
+        <restricted-level value="24/7 access" />
+      </restricted-attribute>
+      <restricted-attribute name="Share of wallet">
+        <restricted-level value="No change" />
+        <restricted-level value="Buy over 50% more" />
+        <restricted-level value="Buy up to 50% more" />
+        <restricted-level value="Move to sole company" />
+        <restricted-level value="Buy up to 30% more" />
+        <restricted-level value="Buy up to 10% more" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="13">
+      <restricted-attribute name="Corporate reputation">
+        <restricted-level value="Ethics" />
+        <restricted-level value="Brand strength" />
+        <restricted-level value="Inclusion and diversity" />
+        <restricted-level value="Data privacy and cybersecurity" />
+        <restricted-level value="Environmental health and safety compliance" />
+        <restricted-level value="Purpose and corporate social responsibility (CSR)" />
+      </restricted-attribute>
+      <restricted-attribute name="Pricing strategy">
+        <restricted-level value="Pricing 5% below average market price" />
+        <restricted-level value="Pricing 10% above average market price" />
+        <restricted-level value="Pricing 5% above average market price" />
+        <restricted-level value="Pricing consistent with the market average" />
+        <restricted-level value="Pricing more than 10% above average market price" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="14">
+      <restricted-attribute name="Corporate reputation">
+        <restricted-level value="Ethics" />
+        <restricted-level value="Brand strength" />
+        <restricted-level value="Inclusion and diversity" />
+        <restricted-level value="Data privacy and cybersecurity" />
+        <restricted-level value="Environmental health and safety compliance" />
+        <restricted-level value="Purpose and corporate social responsibility (CSR)" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="15">
+      <restricted-attribute name="Corporate reputation">
+        <restricted-level value="Ethics" />
+        <restricted-level value="Brand strength" />
+        <restricted-level value="Inclusion and diversity" />
+        <restricted-level value="Data privacy and cybersecurity" />
+        <restricted-level value="Environmental health and safety compliance" />
+        <restricted-level value="Purpose and corporate social responsibility (CSR)" />
+      </restricted-attribute>
+      <restricted-attribute name="Share of wallet">
+        <restricted-level value="No change" />
+        <restricted-level value="Buy over 50% more" />
+        <restricted-level value="Buy up to 50% more" />
+        <restricted-level value="Move to sole company" />
+        <restricted-level value="Buy up to 30% more" />
+        <restricted-level value="Buy up to 10% more" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="16">
+      <restricted-attribute name="Product offering focus">
+        <restricted-level value="New product innovation" />
+        <restricted-level value="Application development" />
+        <restricted-level value="Usage related pricing" />
+        <restricted-level value="Product breadth and depth" />
+      </restricted-attribute>
+      <restricted-attribute name="Pricing strategy">
+        <restricted-level value="Pricing 5% below average market price" />
+        <restricted-level value="Pricing 10% above average market price" />
+        <restricted-level value="Pricing 5% above average market price" />
+        <restricted-level value="Pricing consistent with the market average" />
+        <restricted-level value="Pricing more than 10% above average market price" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="17">
+      <restricted-attribute name="Product offering focus">
+        <restricted-level value="New product innovation" />
+        <restricted-level value="Application development" />
+        <restricted-level value="Usage related pricing" />
+        <restricted-level value="Product breadth and depth" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="18">
+      <restricted-attribute name="Product offering focus">
+        <restricted-level value="New product innovation" />
+        <restricted-level value="Application development" />
+        <restricted-level value="Usage related pricing" />
+        <restricted-level value="Product breadth and depth" />
+      </restricted-attribute>
+      <restricted-attribute name="Share of wallet">
+        <restricted-level value="No change" />
+        <restricted-level value="Buy over 50% more" />
+        <restricted-level value="Buy up to 50% more" />
+        <restricted-level value="Move to sole company" />
+        <restricted-level value="Buy up to 30% more" />
+        <restricted-level value="Buy up to 10% more" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="19">
+      <restricted-attribute name="Product delivery focus">
+        <restricted-level value="Delivery responsiveness" />
+        <restricted-level value="Product and packaging customization" />
+        <restricted-level value="Delivery tracking" />
+      </restricted-attribute>
+      <restricted-attribute name="Pricing strategy">
+        <restricted-level value="Pricing 5% below average market price" />
+        <restricted-level value="Pricing 10% above average market price" />
+        <restricted-level value="Pricing 5% above average market price" />
+        <restricted-level value="Pricing consistent with the market average" />
+        <restricted-level value="Pricing more than 10% above average market price" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="20">
+      <restricted-attribute name="Product delivery focus">
+        <restricted-level value="Delivery responsiveness" />
+        <restricted-level value="Product and packaging customization" />
+        <restricted-level value="Delivery tracking" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="21">
+      <restricted-attribute name="Product delivery focus">
+        <restricted-level value="Delivery responsiveness" />
+        <restricted-level value="Product and packaging customization" />
+        <restricted-level value="Delivery tracking" />
+      </restricted-attribute>
+      <restricted-attribute name="Share of wallet">
+        <restricted-level value="No change" />
+        <restricted-level value="Buy over 50% more" />
+        <restricted-level value="Buy up to 50% more" />
+        <restricted-level value="Move to sole company" />
+        <restricted-level value="Buy up to 30% more" />
+        <restricted-level value="Buy up to 10% more" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="22">
+      <restricted-attribute name="Services not related to products">
+        <restricted-level value="Value added services" />
+        <restricted-level value="Market intelligence" />
+        <restricted-level value="Pricing intelligence" />
+        <restricted-level value="Business insights" />
+        <restricted-level value="Market development and penetration support" />
+      </restricted-attribute>
+      <restricted-attribute name="Pricing strategy">
+        <restricted-level value="Pricing 5% below average market price" />
+        <restricted-level value="Pricing 10% above average market price" />
+        <restricted-level value="Pricing 5% above average market price" />
+        <restricted-level value="Pricing consistent with the market average" />
+        <restricted-level value="Pricing more than 10% above average market price" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="23">
+      <restricted-attribute name="Services not related to products">
+        <restricted-level value="Value added services" />
+        <restricted-level value="Market intelligence" />
+        <restricted-level value="Pricing intelligence" />
+        <restricted-level value="Business insights" />
+        <restricted-level value="Market development and penetration support" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="24">
+      <restricted-attribute name="Services not related to products">
+        <restricted-level value="Value added services" />
+        <restricted-level value="Market intelligence" />
+        <restricted-level value="Pricing intelligence" />
+        <restricted-level value="Business insights" />
+        <restricted-level value="Market development and penetration support" />
+      </restricted-attribute>
+      <restricted-attribute name="Share of wallet">
+        <restricted-level value="No change" />
+        <restricted-level value="Buy over 50% more" />
+        <restricted-level value="Buy up to 50% more" />
+        <restricted-level value="Move to sole company" />
+        <restricted-level value="Buy up to 30% more" />
+        <restricted-level value="Buy up to 10% more" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="25">
+      <restricted-attribute name="Company culture and relationship">
+        <restricted-level value="Relationship building" />
+        <restricted-level value="Working culture" />
+        <restricted-level value="Working environment" />
+        <restricted-level value="Access to new thinking" />
+      </restricted-attribute>
+      <restricted-attribute name="Pricing strategy">
+        <restricted-level value="Pricing 5% below average market price" />
+        <restricted-level value="Pricing 10% above average market price" />
+        <restricted-level value="Pricing 5% above average market price" />
+        <restricted-level value="Pricing consistent with the market average" />
+        <restricted-level value="Pricing more than 10% above average market price" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="26">
+      <restricted-attribute name="Company culture and relationship">
+        <restricted-level value="Relationship building" />
+        <restricted-level value="Working culture" />
+        <restricted-level value="Working environment" />
+        <restricted-level value="Access to new thinking" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="27">
+      <restricted-attribute name="Company culture and relationship">
+        <restricted-level value="Relationship building" />
+        <restricted-level value="Working culture" />
+        <restricted-level value="Working environment" />
+        <restricted-level value="Access to new thinking" />
+      </restricted-attribute>
+      <restricted-attribute name="Share of wallet">
+        <restricted-level value="No change" />
+        <restricted-level value="Buy over 50% more" />
+        <restricted-level value="Buy up to 50% more" />
+        <restricted-level value="Move to sole company" />
+        <restricted-level value="Buy up to 30% more" />
+        <restricted-level value="Buy up to 10% more" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="28">
+      <restricted-attribute name="Green chemistry">
+        <restricted-level value="Greenhouse gases (GHG)" />
+        <restricted-level value="Water efficiency" />
+        <restricted-level value="Carbon neutrality" />
+        <restricted-level value="Renewable energy" />
+        <restricted-level value="Track and trace" />
+        <restricted-level value="Reduce waste" />
+        <restricted-level value="Safer materials" />
+      </restricted-attribute>
+      <restricted-attribute name="Pricing strategy">
+        <restricted-level value="Pricing 5% below average market price" />
+        <restricted-level value="Pricing 10% above average market price" />
+        <restricted-level value="Pricing 5% above average market price" />
+        <restricted-level value="Pricing consistent with the market average" />
+        <restricted-level value="Pricing more than 10% above average market price" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="29">
+      <restricted-attribute name="Green chemistry">
+        <restricted-level value="Greenhouse gases (GHG)" />
+        <restricted-level value="Water efficiency" />
+        <restricted-level value="Carbon neutrality" />
+        <restricted-level value="Renewable energy" />
+        <restricted-level value="Track and trace" />
+        <restricted-level value="Reduce waste" />
+        <restricted-level value="Safer materials" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="30">
+      <restricted-attribute name="Green chemistry">
+        <restricted-level value="Greenhouse gases (GHG)" />
+        <restricted-level value="Water efficiency" />
+        <restricted-level value="Carbon neutrality" />
+        <restricted-level value="Renewable energy" />
+        <restricted-level value="Track and trace" />
+        <restricted-level value="Reduce waste" />
+        <restricted-level value="Safer materials" />
+      </restricted-attribute>
+      <restricted-attribute name="Share of wallet">
+        <restricted-level value="No change" />
+        <restricted-level value="Buy over 50% more" />
+        <restricted-level value="Buy up to 50% more" />
+        <restricted-level value="Move to sole company" />
+        <restricted-level value="Buy up to 30% more" />
+        <restricted-level value="Buy up to 10% more" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="31">
+      <restricted-attribute name="Circularity">
+        <restricted-level value="Company facilitates circulation" />
+        <restricted-level value="Degradable products" />
+        <restricted-level value="Recoverable / repurpose able products" />
+        <restricted-level value="Durable products" />
+        <restricted-level value="Carbon dioxide utilization" />
+        <restricted-level value="Recyclable products" />
+        <restricted-level value="Avoiding microplastics" />
+        <restricted-level value="Renewable based products" />
+      </restricted-attribute>
+      <restricted-attribute name="Pricing strategy">
+        <restricted-level value="Pricing 5% below average market price" />
+        <restricted-level value="Pricing 10% above average market price" />
+        <restricted-level value="Pricing 5% above average market price" />
+        <restricted-level value="Pricing consistent with the market average" />
+        <restricted-level value="Pricing more than 10% above average market price" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="32">
+      <restricted-attribute name="Circularity">
+        <restricted-level value="Company facilitates circulation" />
+        <restricted-level value="Degradable products" />
+        <restricted-level value="Recoverable / repurpose able products" />
+        <restricted-level value="Durable products" />
+        <restricted-level value="Carbon dioxide utilization" />
+        <restricted-level value="Recyclable products" />
+        <restricted-level value="Avoiding microplastics" />
+        <restricted-level value="Renewable based products" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="33">
+      <restricted-attribute name="Circularity">
+        <restricted-level value="Company facilitates circulation" />
+        <restricted-level value="Degradable products" />
+        <restricted-level value="Recoverable / repurpose able products" />
+        <restricted-level value="Durable products" />
+        <restricted-level value="Carbon dioxide utilization" />
+        <restricted-level value="Recyclable products" />
+        <restricted-level value="Avoiding microplastics" />
+        <restricted-level value="Renewable based products" />
+      </restricted-attribute>
+      <restricted-attribute name="Share of wallet">
+        <restricted-level value="No change" />
+        <restricted-level value="Buy over 50% more" />
+        <restricted-level value="Buy up to 50% more" />
+        <restricted-level value="Move to sole company" />
+        <restricted-level value="Buy up to 30% more" />
+        <restricted-level value="Buy up to 10% more" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="34">
+      <restricted-attribute name="Digital capabilities of company">
+        <restricted-level value="Digital interfaces and experiences" />
+        <restricted-level value="Pioneer in digital transformation" />
+        <restricted-level value="Modelling and simulation" />
+        <restricted-level value="Data analytics" />
+        <restricted-level value="Increasing automation" />
+        <restricted-level value="Artificial intelligence" />
+        <restricted-level value="Seamless transactions" />
+      </restricted-attribute>
+      <restricted-attribute name="Pricing strategy">
+        <restricted-level value="Pricing 5% below average market price" />
+        <restricted-level value="Pricing 10% above average market price" />
+        <restricted-level value="Pricing 5% above average market price" />
+        <restricted-level value="Pricing consistent with the market average" />
+        <restricted-level value="Pricing more than 10% above average market price" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="35">
+      <restricted-attribute name="Digital capabilities of company">
+        <restricted-level value="Digital interfaces and experiences" />
+        <restricted-level value="Pioneer in digital transformation" />
+        <restricted-level value="Modelling and simulation" />
+        <restricted-level value="Data analytics" />
+        <restricted-level value="Increasing automation" />
+        <restricted-level value="Artificial intelligence" />
+        <restricted-level value="Seamless transactions" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="36">
+      <restricted-attribute name="Digital capabilities of company">
+        <restricted-level value="Digital interfaces and experiences" />
+        <restricted-level value="Pioneer in digital transformation" />
+        <restricted-level value="Modelling and simulation" />
+        <restricted-level value="Data analytics" />
+        <restricted-level value="Increasing automation" />
+        <restricted-level value="Artificial intelligence" />
+        <restricted-level value="Seamless transactions" />
+      </restricted-attribute>
+      <restricted-attribute name="Share of wallet">
+        <restricted-level value="No change" />
+        <restricted-level value="Buy over 50% more" />
+        <restricted-level value="Buy up to 50% more" />
+        <restricted-level value="Move to sole company" />
+        <restricted-level value="Buy up to 30% more" />
+        <restricted-level value="Buy up to 10% more" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="37">
+      <restricted-attribute name="Pricing strategy">
+        <restricted-level value="Pricing 5% below average market price" />
+        <restricted-level value="Pricing 10% above average market price" />
+        <restricted-level value="Pricing 5% above average market price" />
+        <restricted-level value="Pricing consistent with the market average" />
+        <restricted-level value="Pricing more than 10% above average market price" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="38">
+      <restricted-attribute name="Pricing strategy">
+        <restricted-level value="Pricing 5% below average market price" />
+        <restricted-level value="Pricing 10% above average market price" />
+        <restricted-level value="Pricing 5% above average market price" />
+        <restricted-level value="Pricing consistent with the market average" />
+        <restricted-level value="Pricing more than 10% above average market price" />
+      </restricted-attribute>
+      <restricted-attribute name="Share of wallet">
+        <restricted-level value="No change" />
+        <restricted-level value="Buy over 50% more" />
+        <restricted-level value="Buy up to 50% more" />
+        <restricted-level value="Move to sole company" />
+        <restricted-level value="Buy up to 30% more" />
+        <restricted-level value="Buy up to 10% more" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="39">
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+      <restricted-attribute name="Share of wallet">
+        <restricted-level value="No change" />
+        <restricted-level value="Buy over 50% more" />
+        <restricted-level value="Buy up to 50% more" />
+        <restricted-level value="Move to sole company" />
+        <restricted-level value="Buy up to 30% more" />
+        <restricted-level value="Buy up to 10% more" />
+      </restricted-attribute>
+    </restricted-set>
+    <!-- Subgame -->
+    <subgame name="ACNCNRBVSupplier" version-label="0">
+      <subgame-attribute name="Reliability">
+        <subgame-level value="Product performance" />
+        <subgame-level value="Differentiability" />
+        <subgame-level value="Product consistency" />
+        <subgame-level value="Asset footprint" />
+        <!-- <subgame-level value="Raw materials flexibility" />-->
+        <subgame-level value="Logistics reliability" />
+      </subgame-attribute>
+      <subgame-attribute name="Product support">
+        <subgame-level value="Product selection and support" />
+        <subgame-level value="Easy access to product information" />
+        <subgame-level value="Product sampling / trials" />
+        <subgame-level value="Regulatory support" />
+        <subgame-level value="Quality and knowledge of sales team" />
+        <subgame-level value="Quality technical support" />
+      </subgame-attribute>
+      <subgame-attribute name="Order process focus">
+        <subgame-level value="Order placement" />
+        <subgame-level value="Single point of order" />
+        <subgame-level value="Order tracking" />
+        <subgame-level value="Order flexibility" />
+        <subgame-level value="Customized payment terms" />
+      </subgame-attribute>
+      <subgame-attribute name="Product issues management">
+        <subgame-level value="Complaint resolution" />
+        <subgame-level value="Ease of returns" />
+        <subgame-level value="24/7 access" />
+      </subgame-attribute>
+      <subgame-attribute name="Corporate reputation">
+        <subgame-level value="Brand strength" />
+        <subgame-level value="Ethics" />
+        <subgame-level value="Inclusion and diversity" />
+        <subgame-level value="Purpose and corporate social responsibility (CSR)" />
+        <subgame-level value="Environmental health and safety compliance" />
+        <subgame-level value="Data privacy and cybersecurity" />
+      </subgame-attribute>
+      <subgame-attribute name="Product offering focus">
+        <subgame-level value="Product breadth and depth" />
+        <!-- <subgame-level value="Quality technical support" />-->
+        <subgame-level value="New product innovation" />
+        <subgame-level value="Application development" />
+        <subgame-level value="Usage related pricing" />
+      </subgame-attribute>
+      <subgame-attribute name="Product delivery focus">
+        <subgame-level value="Product and packaging customization" />
+        <subgame-level value="Delivery responsiveness" />
+        <subgame-level value="Delivery tracking" />
+      </subgame-attribute>
+      <subgame-attribute name="Services not related to products">
+        <subgame-level value="Market intelligence" />
+        <subgame-level value="Pricing intelligence" />
+        <subgame-level value="Value added services" />
+        <subgame-level value="Market development and penetration support" />
+        <subgame-level value="Business insights" />
+      </subgame-attribute>
+      <subgame-attribute name="Company culture and relationship">
+        <subgame-level value="Working environment" />
+        <subgame-level value="Working culture" />
+        <subgame-level value="Access to new thinking" />
+        <subgame-level value="Relationship building" />
+      </subgame-attribute>
+      <subgame-attribute name="Green chemistry">
+        <subgame-level value="Reduce waste" />
+        <subgame-level value="Safer materials" />
+        <subgame-level value="Greenhouse gases (GHG)" />
+        <subgame-level value="Carbon neutrality" />
+        <subgame-level value="Water efficiency" />
+        <subgame-level value="Renewable energy" />
+        <subgame-level value="Track and trace" />
+      </subgame-attribute>
+      <subgame-attribute name="Circularity">
+        <subgame-level value="Renewable based products" />
+        <subgame-level value="Carbon dioxide utilization" />
+        <subgame-level value="Degradable products" />
+        <subgame-level value="Durable products" />
+        <subgame-level value="Recoverable / repurpose able products" />
+        <subgame-level value="Recyclable products" />
+        <subgame-level value="Company facilitates circulation" />
+        <subgame-level value="Avoiding microplastics" />
+      </subgame-attribute>
+      <subgame-attribute name="Digital capabilities of company">
+        <subgame-level value="Pioneer in digital transformation" />
+        <subgame-level value="Increasing automation" />
+        <subgame-level value="Data analytics" />
+        <subgame-level value="Seamless transactions" />
+        <subgame-level value="Digital interfaces and experiences" />
+        <subgame-level value="Artificial intelligence" />
+        <subgame-level value="Modelling and simulation" />
+      </subgame-attribute>
+      <subgame-attribute name="Pricing strategy">
+        <subgame-level value="Pricing 5% below average market price" />
+        <subgame-level value="Pricing consistent with the market average" />
+        <subgame-level value="Pricing 5% above average market price" />
+        <subgame-level value="Pricing 10% above average market price" />
+        <subgame-level value="Pricing more than 10% above average market price" />
+      </subgame-attribute>
+      <subgame-attribute name="Hidden Price">
+        <subgame-level value="0" />
+        <subgame-level value="1" />
+      </subgame-attribute>
+      <subgame-attribute name="Share of wallet">
+        <subgame-level value="No change" />
+        <subgame-level value="Buy up to 10% more" />
+        <subgame-level value="Buy up to 30% more" />
+        <subgame-level value="Buy up to 50% more" />
+        <subgame-level value="Buy over 50% more" />
+        <subgame-level value="Move to sole company" />
+      </subgame-attribute>
+      <naming owner="[Client]ACNCNRBVSupplier/[Game]ACNCNRBVSupplier" name="ACNCNRBVSupplier" type="bfd.domain.game.Game" by-owner="true" />
+    </subgame>
+    <!-- Misc Client Files -->
+    <resource name="main" value="truechoice/app/clients/accenture/cnrchem/0.1.4/">
+      <language locale="en" key="browserTitle">CNR Supplier BV Study</language>
+    </resource>
+    <!-- game description -->
+    <resource name="system">
+      <language key="moveup" locale="en">Move Up</language>
+      <language key="movedown" locale="en">Move Down</language>
+      <language key="title.warning" locale="en">Warning</language>
+      <language key="title.attention" locale="en">Attention</language>
+      <language key="error.helpdeskemail.title" locale="en">Attention</language>
+      <language key="error.helpdeskemail.message" locale="en">Your last request failed because of a communications problem with our servers.&lt;br&gt;&lt;br&gt;Please restart by refreshing this webpage.  We apologize for the inconvenience.&lt;br&gt;&lt;br&gt;Before you try again, please make sure your network connection is active and reconfirm that you are connected to the internet.&lt;br&gt;&lt;br&gt;For further assistance, please email</language>
+      <language key="error.helpdeskemail.reference" locale="en">Reference</language>
+      <language key="retry" locale="en">Retry</language>
+      <language key="title.error" locale="en">Error</language>
+      <language key="error.system.title" locale="en">System Error</language>
+      <language key="error.timeout.message" locale="en">The system has not responded in an appropriate amount of time. Please try again in a few moments. If the problem persists, please contact the administrator.</language>
+      <language key="notatallimportant" locale="en">Strongly Disagree</language>
+      <language key="extremelyImportant" locale="en">Strongly Agree</language>
+      <language key="button.moveup" locale="en">Move Up</language>
+      <language key="button.movedown" locale="en">Move Down</language>
+      <language key="error.emailinvalid.title" locale="en">Invalid Email</language>
+      <language key="error.emailinvalid.message" locale="en">Please verify that your email address is correct and try again.</language>
+      <language key="devicenotsupported.body" locale="en">Your screen resolution is insufficient to view this application. Must be at least 1024x768.&lt;br&gt;&lt;br&gt;Please try on a device with a larger screen.</language>
+      <language key="devicenotsupported.footer" locale="en">Should you require assistance, please contact us at &lt;a href=&quot;mailto:helpdesk@truechoicesolutions.com?subject=Device%20Support&quot;&gt;helpdesk@truechoicesolutions.com&lt;/a&gt;</language>
+      <language key="next" locale="en">Next</language>
+      <language key="back" locale="en">Back</language>
+      <language key="skip" locale="en">SKIP</language>
+      <language key="helpbutton" locale="en">Help</language>
+      <language key="alert.button.close" locale="en">Close</language>
+      <language key="alert.button.ok" locale="en">Ok</language>
+      <language key="alert.button.yes" locale="en">Yes</language>
+      <language key="alert.button.no" locale="en">No</language>
+      <language key="levelscalemoveenablesnext" locale="en">false</language>
+      <language key="leastpreferred" locale="en">Least</language>
+      <language key="mostpreferred" locale="en">Most</language>
+      <language key="disclaimer" locale="en">Copyright &#169; 2020 TrueChoice Solutions, Inc.    | <![CDATA[<a href="//www.truechoicesolutions.com/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>]]>.</language>
+      <language key="loading" locale="en">Loading...</language>
+      <language key="assets.main.loading" locale="en">assets/main/loading.gif</language>
+      <language key="error.director.title" locale="en">Response required</language>
+      <language key="error.director.message" locale="en">To proceed further, please select an option and click or tap &quot;Next&quot; to continue.</language>
+      <language key="restart.title" locale="en">ATTENTION - You are about to return to the start of the survey.</language>
+      <language key="restart.message" locale="en">Hey! Testing restart alert popup and restart application feature. Click &quot;Yes&quot; to restart the application. Click on &quot;No&quot; to remain in this stage.</language>
+      <language key="welcome.button.label" locale="en">Begin</language>
+      <language key="help.button.label" locale="en">Close</language>
+      <language key="disclosure.title" locale="en">Information</language>
+      <language key="disclosure.body" locale="en">Disclosure content goes here.</language>
+      <language key="disclosure.gotit" locale="en">Close</language>
+      <language key="error.mustscale.message" locale="en">Please select or change the value of at least one of the options. Not all of the selections can be set at the same value.</language>
+      <language key="attributes.leastpreferred" locale="en">Less Important</language>
+      <language key="attributes.mostpreferred" locale="en">More Important</language>
+      <language key="error.scrollbarnotmoved.message" locale="en">Are you sure you have scrolled down to answer all of the questions? The scroll bar is located on the right side of your screen. Click 'yes' to continue or 'no' to modify your answers.</language>
+      <language key="preference.importance.labels" locale="en">NOT IMPORTANT||SOMEWHAT IMPORTANT||IMPORTANT||VERY IMPORTANT||EXTREMELY IMPORTANT</language>
+      <language key="tradeoffs.vs" locale="en">or</language>
+      <language key="tradeoffs.offer1" locale="en">Option 1</language>
+      <language key="tradeoffs.offer2" locale="en">Option 2</language>
+      <language key="tradeoffs.preference.labels" locale="en">Greatly Prefer Option 1||Prefer Option 1||Slightly Prefer Option 1||Indifferent||Slightly Prefer Option 2||Prefer Option 2||Greatly Prefer Option 2</language>
+      <language key="error.requiredinput.label" locale="en">Your Answer Is Invalid</language>
+      <language key="error.missingrequired.title" locale="en">Questions Not Answered</language>
+      <language key="error.missingrequired.message" locale="en">You have not answered the mandated question(s) on this screen. Please make sure any question marked with an asterisk (*) has been answered.</language>
+      <language key="animateicons" locale="en">false</language>
+      <language key="warning.leavingapp.message" locale="en">Warning! You are about to leave the app and lose all data</language>
+      <profile key="app.templateversion" value="2" />
+      <profile key="app.templatesubversion" value="a" />
+      <profile key="usethumbstates" value="true" />
+      <profile key="devicenotsupported" value="false" />
+      <profile key="instance-attribute-requestprocessor" value="averaging" />
+      <profile key="usedynamicbreadcrumbs" value="true" />
+      <profile key="notificationbar.timeout" value="4000" />
+    </resource>
+    <resource name="controls">
+      <!-- <resource-element value="welcome" />-->
+      <resource-element value="intro" />
+      <resource-element value="onboardintro" />
+      <resource-element value="prepart1" />
+      <resource-element value="part1" />
+      <resource-element value="prepart2" />
+      <resource-element value="part2" />
+      <resource-element value="prepart3" />
+      <resource-element value="part3" />
+      <resource-element value="thankyou" />
+    </resource>
+    <!-- stage description -->
+    <!-- <resource name="welcome" value="display">
+      <language key="header" locale="en">What matters to you?</language>
+      <language key="title" locale="en">Share your preferences and perspectives regarding this study.</language>
+      <language key="time.image.text" locale="en">It takes less than 10 minutes</language>
+      <language key="next" locale="en">Begin</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Welcome&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-welcome</language>
+      <language key="templateurl" locale="en">welcome-2.tpl.html</language>
+    </resource>-->
+    <resource name="intro" value="display">
+      <language key="title" locale="en">Let's get started!</language>
+      <language key="body" locale="en">&lt;b&gt;The purpose of this application is to understand what you prefer and value most from the options offered to you.&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Your responses are private and confidential - there is no risk in being totally honest.&lt;br&gt;&lt;br&gt;Please Note:&lt;/b&gt;&lt;br&gt;&lt;br&gt;&#8226; This exercise needs to be finished in one session. You can't save your work, come back, and complete it later.&lt;br&gt;&lt;br&gt;&#8226; This tool will time out after 30 minutes of inactivity. If that happens, you will have to start over from the beginning.</language>
+      <!-- <language key="footer" locale="en">&lt;br/&gt;</language>-->
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Introduction&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-welcome</language>
+      <language key="templateurl" locale="en">display-2.tpl.html</language>
+    </resource>
+    <resource name="onboardintro" value="display">
+      <language key="title" locale="en">Here's what's coming up.</language>
+      <language key="content.note.text" locale="en">&lt;b&gt;Important Tip!&lt;/b&gt; Click on the "i" symbol &lt;span class="tooltip-indicator-no-pointer"&gt;&lt;/span&gt; for more info. You'll see it on every page on the icons. Just click to learn more whenever you have a question.</language>
+      <language key="header" locale="en">The core part of this tool is divided into three sections:</language>
+      <!-- <language key="footer" locale="en">&lt;b&gt;If you need help, click or tap on the &lt;span class=&quot;tooltip-indicator-no-pointer&quot;&gt;&lt;/span&gt; icons.&lt;/b&gt;</language>-->
+      <language key="content.block1.image" locale="en">assets/stages/display/onboardIntro/content/part1.gif</language>
+      <language key="content.block1small.image" locale="en">assets/stages/display/onboardIntro/content/part1_320.gif</language>
+      <language key="content.block1.image.alt" locale="en">Content image</language>
+	  <language key="content.block1.header" locale="en">1. What options do you prefer?</language>
+	  <language key="content.block1.text" locale="en">For each offering, share your preferences for options within a number of categories.</language>
+      <language key="content.block2.image" locale="en">assets/stages/display/onboardIntro/content/part2.gif</language>
+      <language key="content.block2small.image" locale="en">assets/stages/display/onboardIntro/content/part2_320.gif</language>
+      <language key="content.block2.image.alt" locale="en">Content image</language>
+	  <language key="content.block2.header" locale="en">2. How important is each category?</language>
+	  <language key="content.block2.text" locale="en">Rate the importance of each category relative to the others.</language>
+      <language key="content.block3.image" locale="en">assets/stages/display/onboardIntro/content/part3.gif</language>
+      <language key="content.block3.image.alt" locale="en">Content image</language>
+	  <language key="content.block3.header" locale="en">3. How would you trade off options?</language>
+	  <language key="content.block3.text" locale="en">For pairs of offerings, tell us how much you prefer one over the other.</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Introduction&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-welcome</language>
+      <language key="templateurl" locale="en">onboard-intro-gif-note-icon.tpl.html</language>
+      <!-- <language key="templateurl" locale="en">onboard-intro-gif.tpl.html</language>-->
+    </resource>
+    <resource name="prepart1" value="display">
+      <language key="title" locale="en">Part 1:</language>
+      <language key="messagetitle" locale="en">What do you value?</language>
+      <language key="messageimage" locale="en">icon-prestage-1</language>
+      <language key="body" locale="en">&lt;b&gt;We are going to ask you about your preferences for options within a number of categories.&lt;/b&gt; For each option shown, select a value between 0 and 10. The lower the number, the less you prefer an option. The higher the number, the more you prefer the option.</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Part 1&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-level</language>
+      <language key="templateurl" locale="en">display-2.tpl.html</language>
+    </resource>
+    <resource name="part1" value="level">
+      <language key="title" locale="en">Rate Your Preferences</language>
+      <language key="instructions.unordered" locale="en">Rate your preferences by selecting a value between 0 and 10. A higher value indicates more important and a lower value indicates less important. Be sure to change the value of at least one slider in order to move to the next page.</language>
+      <language key="instructions.ordered" locale="en">Moving a slider UP means the option is MORE important. Moving a slider DOWN means the option is LESS important. The sliders have been pre-set in order of generally accepted preferences. Therefore, you cannot move a slider above the one to its right or lower than the one to its left.</language>
+      <language key="instructions.skip" locale="en">&lt;font&gt;&lt;b&gt;If this characteristic is irrelevant to you, click Next and you will not be asked about it again.&lt;/b&gt;&lt;/font&gt;</language>
+      <language key="mostpreferred" locale="en">Most Important</language>
+      <language key="leastpreferred" locale="en">Least Important</language>
+      <language key="learnmore" locale="en">More Information</language>
+      <language key="help.title" locale="en">What are we asking you to do here?</language>
+      <language key="help.body" locale="en">This question is asking you to state your preferences across a range of items.&lt;br&gt;&lt;br&gt;Please indicate how much you prefer or value each item - in relation to the others - by moving the slider to a GREATER or LESSER preference or value for each of the elements shown. How far you move the slider depends on how strongly you feel about the item.&lt;br&gt;&lt;br&gt;You cannot have the same preference value for all the choices shown.</language>
+      <language key="help.gotit" locale="en">Got it!</language>
+      <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+      <language key="help.assets.image.alt" locale="en">Help content image</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Part 1:&lt;/b&gt; Question || of ||</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-level</language>
+      <profile key="notificationbar.timeout" value="5000" />
+      <profile key="implicit.min" value="4.8" />
+      <profile key="implicit.max" value="5.2" />
+      <profile key="help" value="true" />
+      <profile key="widget" value="level-scale" />
+      <profile key="groupwidget.hideleastmost" value="true" />
+    </resource>
+    <resource name="prepart2" value="preattribute">
+      <language key="title" locale="en">Part 2:</language>
+      <language key="messagetitle" locale="en">Congratulations! You're halfway done.</language>
+      <language key="messageimage" locale="en">icon-prestage-2</language>
+      <language key="body" locale="en">In Part 1, you rated the importance of options &lt;b&gt;&lt;i&gt;within&lt;/i&gt;&lt;/b&gt; each of a number of categories. &lt;b&gt;Now it's time to rate the importance of each category &lt;i&gt;relative to the others&lt;/i&gt;.&lt;/b&gt;</language>
+      <language key="instructions.mobile" locale="en">Scroll down to see all of the categories you will be rating:</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Part 2&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-attribute</language>
+      <language key="templateurl" locale="en">pre-attribute.tpl.html</language>
+    </resource>
+    <resource name="part2" value="attribute">
+      <language key="title" locale="en">What's more important to you?</language>
+      <language key="leastpreferred" locale="en">Least Important</language>
+      <language key="mostpreferred" locale="en">Most Important</language>
+      <language key="infodisplay.header" locale="en">Your Choices from Part 1:</language>
+      <language key="infodisplay.header.topchoice" locale="en">Your Top Choice from Part 1:</language>
+      <language key="infodisplay.leastpreferred" locale="en">Least Preferred</language>
+      <language key="infodisplay.mostpreferred" locale="en">Most Preferred</language>
+      <!-- <language key="infodisplay.vs" locale="en">vs</language>-->
+      <language key="infodisplay.rating.header" locale="en">Your Rating for this Attribute</language>
+      <language key="infodisplay.mostpreferred.mobile" locale="en">Most Preferred From Part 1:</language>
+      <language key="infodisplay.leastpreferred.mobile" locale="en">Least Preferred From Part 1:</language>
+      <language key="instructions" locale="en">For each of the categories below, indicate its importance &lt;b&gt;relative to the others&lt;/b&gt; by moving the slider towards the right (more important) or towards the left (less important).</language>
+      <language key="help.title" locale="en">What are we asking you to do here?</language>
+      <language key="help.body" locale="en">This screen lists the categories we asked you about in the first part of this application. Now, we'd like to understand how important each of these categories are relative to one another. &lt;br/&gt;&lt;br/&gt; As you consider each category, your most and least preferred choices from Part 1 appear to remind you of your earlier responses.</language>
+      <language key="help.label" locale="en">Close</language>
+      <language key="help.gotit" locale="en">Got it!</language>
+      <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+      <language key="help.assets.image.alt" locale="en">Help content image</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Part 2&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-attribute</language>
+      <profile key="help" value="true" />
+      <profile key="widget" value="attribute-scale" />
+    </resource>
+    <resource name="prepart3" value="display">
+      <language key="title" locale="en">Part 3:</language>
+      <language key="messagetitle" locale="en">Generated Tradeoffs</language>
+      <language key="messageimage" locale="en">icon-prestage-3</language>
+      <language key="body" locale="en">Using what you told us in Parts 1 and 2, we've built personalized, hypothetical offerings for you to compare. &lt;b&gt;Now it's time to weigh their appeal relative to one another.&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Part 3&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-tradeoff</language>
+      <language key="templateurl" locale="en">display-2.tpl.html</language>
+    </resource>
+    <resource name="part3" value="tradeoff">
+      <language key="title" locale="en">Which option do you prefer?</language>
+      <language key="instructions" locale="en">Assume all your choices are identical in every way except for the features shown. Based on the strength of your preference, move the slider towards the combination you prefer.</language>
+      <language key="mostpreferred" locale="en">Most Preferred</language>
+      <language key="leastpreferred" locale="en">Least Preferred</language>
+      <language key="help.title" locale="en">What are we asking you to do here?</language>
+      <language key="help.body" locale="en">Assume all your choices are identical except for the features shown. Based on the strength of your preference, move the slider towards the combination you prefer. &lt;br/&gt;&lt;br/&gt; We don't just want to know which option you prefer; we want to know how much you prefer it. We'll use this information to refine our understanding of your preferences.</language>
+      <language key="help.label" locale="en">Close</language>
+      <language key="help.gotit" locale="en">Got it!</language>
+      <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+      <language key="help.assets.image.alt" locale="en">Help content image</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Part 3:&lt;/b&gt; Question || of ||</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-tradeoff</language>
+      <profile key="help" value="true" />
+      <profile key="numtradeoffs" value="4" />
+      <profile key="widget" value="tradeoff-scale" />
+      <profile key="widget.showvaluefromzerototen" value="true" />
+    </resource>
+    <resource name="thankyou" value="output">
+      <language key="header" locale="en">Thank you!</language>
+      <!-- <language key="title" locale="en">We have received your feedback.</language>-->
+      <language key="body" locale="en">&lt;font size="4"&gt;&lt;b&gt;We have received your feedback.&lt;/b&gt;&lt;/font&gt;&lt;br&gt;You will be redirected in 10 seconds to answer a few final questions. If not, please click the "Next" button below to complete this study.</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Thank You&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-output</language>
+      <!-- <language key="footer" locale="en">&lt;font size='4'&gt;You will be redirected in 10 seconds. If not, please click the "Exit the study" button above to complete this study.&lt;/font&gt;</language>-->
+      <language key="preferenceprofile.title" locale="en">Your Preference Profile</language>
+      <language key="preferenceprofile.preferencekey" locale="en">Your Preferences</language>
+      <language key="preferenceprofile.peerkey" locale="en">Your Peers</language>
+      <language key="button1.label" locale="en">Next</language>
+      <language key="button1.urltarget" locale="en">_self</language>
+	  <language key="button1.url" locale="en"><![CDATA[https://survey.us.confirmit.com/wix/p3094780269.aspx?__goto=return&t=0&]]></language>
+	  <language key="redirect.auto.url" locale="en"><![CDATA[https://survey.us.confirmit.com/wix/p3094780269.aspx?__goto=return&t=0&]]></language>
+      <!-- <language key="button1.url" locale="en">https://survey.us.confirmit.com/wix/p3094780269.aspx?__goto=return</language>-->
+	  <!-- <language key="redirect.auto.url" locale="en">https://survey.us.confirmit.com/wix/p3094780269.aspx?__goto=return</language>-->
+      <language key="templateurl" locale="en">thank-you.tpl.html</language>
+	  <profile key="redirect.auto.url.addqueryparams" value="true" />
+	  <profile key="redirect.auto.enabled" value="true" />
+	  <profile key="redirect.auto.delaytime" value="10000" />
+      <profile key="showpreferenceprofile" value="true" />
+      <profile key="isproductbased" value="false" />
+      <profile key="persistjsondata" value="false" />
+    </resource>
+    <!-- UID passed in from URL -->
+    <resource name="url">
+      <resource-element value="uid" />
+      <resource-element value="r"/>
+      <resource-element value="s"/>
+      <resource-element value="t"/>
+    </resource>
+    <!-- Demographic Resources -->
+    <naming name="ACNCNRBVSupplier" owner="[Client]ACNCNRBVSupplier/[Game]ACNCNRBVSupplier" type="bfd.domain.game.Game" by-owner="true" />
+    <!-- Demographic Profile Keys -->
+    <!-- UID profile key passed in from URL -->
+    <profile-key key="uid" required="false">
+      <naming name="ACNCNRBVSupplierUid" />
+    </profile-key>
+    <profile-key key="r" required="false">
+      <naming name="ACNCNRBVSupplierR" />
+    </profile-key>
+    <profile-key key="s" required="false">
+      <naming name="ACNCNRBVSupplierS" />
+    </profile-key>
+    <profile-key key="t" required="false">
+      <naming name="ACNCNRBVSupplierT" />
+    </profile-key>
+  </game>
+</client>
+

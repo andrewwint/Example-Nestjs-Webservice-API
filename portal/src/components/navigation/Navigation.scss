@@ -1,0 +1,43 @@
+.bg-dark {
+  background-color: #184572 !important;
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: #184572;
+}
+
+.dropdown-item {
+  color: #e9ecef;
+}
+
+.navbar-light .navbar-brand {
+  color: #e9ecef;
+}
+
+.navbar-light:hover .navbar-brand:hover {
+  color: #e9ecef;
+}
+
+/*
+ * Overwrite bootstrap color for nav type
+ */
+.navbar-light .navbar-nav .nav-link {
+  color: #d4e9ff;
+}
+
+.navbar-light:hover .navbar-nav:hover .nav-link:hover {
+  color: #eaebc7;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #f1f1cf;
+}
+
+.bi-person-circle,
+.bi-shield-lock {
+  margin-top: -5px;
+  margin-right: 3px;
+}

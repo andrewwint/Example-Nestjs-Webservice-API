@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<!DOCTYPE client SYSTEM "object.dtd">
+<client name="prototype_feature">
+  <game name="prototype_feature" fixed="false">
+
+    <attribute name="Hidden Price" implicit="descending" must-have-allowed="false" skip-allowed="false" type="price" unacceptables-allowed="false">
+      <level value="0">
+        <language key="icon" locale="en"/>
+        <language key="description" locale="en">0</language>
+        <language key="displayname" locale="en">0</language>
+      </level>
+      <level value="1">
+        <language key="icon" locale="en"/>
+        <language key="description" locale="en">1</language>
+        <language key="displayname" locale="en">1</language>
+      </level>
+      <language key="group" locale="en"/>
+      <language key="description" locale="en">Hidden Price</language>
+      <language key="displayname" locale="en">Hidden Price</language>
+      <profile key="hidden" value="true"/>
+    </attribute>
+    <subgame name="prototype_feature" version-label="0">
+      <subgame-attribute name="color">
+        <subgame-level value="red"/>
+        <subgame-level value="orange"/>
+        <subgame-level value="yellow"/>
+        <subgame-level value="green"/>
+        <subgame-level value="gray"/>
+        <subgame-level value="blue"/>
+        <subgame-level value="purple"/>
+        <subgame-level value="black"/>
+        <subgame-level value="maroon"/>
+      </subgame-attribute>
+      <subgame-attribute name="basepay">
+        <subgame-level value="0"/>
+        <subgame-level value=".5"/>
+        <subgame-level value="1"/>
+        <subgame-level value="1.5"/>
+        <subgame-level value="2"/>
+        <subgame-level value="2.5"/>
+        <subgame-level value="3"/>
+        <subgame-level value="3.5"/>
+        <subgame-level value="4"/>
+        <subgame-level value="5"/>
+      </subgame-attribute>
+      <subgame-attribute name="size">
+        <subgame-level value="small"/>
+        <subgame-level value="medium"/>
+        <subgame-level value="large"/>
+        <subgame-level value="xlarge"/>
+      </subgame-attribute>
+      <subgame-attribute name="weight">
+        <subgame-level value="0"/>
+        <subgame-level value="5"/>
+        <subgame-level value="10"/>
+        <subgame-level value="15"/>
+      </subgame-attribute>
+      <subgame-attribute name="intuition">
+        <subgame-level value="completely intuitive"/>
+        <subgame-level value="grade school"/>
+        <subgame-level value="junior high school"/>
+        <subgame-level value="high school"/>
+        <subgame-level value="college"/>
+        <subgame-level value="graduate degree"/>
+        <subgame-level value="doctorate"/>
+      </subgame-attribute>
+      <subgame-attribute name="delivery">
+        <subgame-level value="same day"/>
+        <subgame-level value="next day"/>
+        <subgame-level value="3 days"/>
+        <subgame-level value="5 days"/>
+        <subgame-level value="7 days"/>
+      </subgame-attribute>
+      <subgame-attribute name="price">
+        <subgame-level value="0"/>
+        <subgame-level value="25"/>
+        <subgame-level value="50"/>
+        <subgame-level value="75"/>
+        <subgame-level value="100"/>
+        <subgame-level value="125"/>
+        <subgame-level value="150"/>
+        <subgame-level value="175"/>
+        <subgame-level value="200"/>
+      </subgame-attribute>
+      <subgame-attribute name="Hidden Price">
+        <subgame-level value="0"/>
+        <subgame-level value="1"/>
+      </subgame-attribute>
+      <naming name="prototype_feature" by-owner="true" type="bfd.domain.game.Game" owner="[Client]prototype_feature/[Game]prototype_feature"/>
+    </subgame>
+    <resource name="main" value="/truechoice/app/clients/prototype/TCSFOUR-4013-pinata/">
+      <language locale="en" key="browserTitle">prototype_feature</language>
+    </resource>
+  
+    <resource name="output" value="output">
+      <language key="emailpopup.error.invalidfromemail" locale="en">Please enter a valid FROM Email address.</language>
+      <language key="socialbutton2.url" locale="en">http://www.truechoicesolutions.com</language>
+      <language key="footer" locale="en">You can now close your browser</language>
+      <language key="button6.url" locale="en">restart</language>
+      <language key="title" locale="en">Here's some personalized information about your product that is most interesting. You have a great chance for success!</language>
+      <language key="emailpopup.error.invalidtoemail" locale="en">Please enter a valid TO Email address.</language>
+      <language key="button4.url" locale="en">emailafriend</language>
+      <language key="button5.url" locale="en">http://www.ign.com</language>
+      <language key="emailpopup.close" locale="en">Close</language>
+      <language key="button2.url" locale="en">http://www.yahoo.com</language>
+      <language key="assets.content.image" locale="en">assets/stages/output/content/image.jpg</language>
+      <language key="emailpopup.title" locale="en">Email results</language>
+      <language key="preferenceprofile.title" locale="en">Your Preference Profile</language>
+      <language key="button1.label" locale="en">Contact</language>
+      <language key="link2.label" locale="en">Link to Yahoo - Click here if you would like to visit the Yahoo! website!</language>
+      <language key="preferenceprofile.preferencekey" locale="en">Your Preferences</language>
+      <language key="emailpopup.send" locale="en">SUBMIT</language>
+      <language key="breadcrumbdisplay.message" locale="en">Output</language>
+      <language key="tab2.label" locale="en">Alternative</language>
+      <language key="link1.label" locale="en">Link to TCS - Click here if you would like to visit the TCS website!</language>
+      <language key="link3.label" locale="en">Link to Google - Click here if you would like to visit the Google website!</language>
+      <language key="emailpopup.error.invalidallemails" locale="en">Please enter valid TO/FROM Email addresses.</language>
+      <language key="link2.url" locale="en">//www.yahoo.com</language>
+      <language key="socialbutton2.label" locale="en">Twitter</language>
+      <language key="specificationstitle.label" locale="en">Specifications:</language>
+      <language key="socialbutton1.url" locale="en">http://www.truechoicesolutions.com</language>
+      <language key="button3.label" locale="en">Google</language>
+      <language key="templateurl" locale="en">output.mb.tpl.html</language>
+      <language key="button2.label" locale="en">Yahoo</language>
+      <language key="link1.url" locale="en">//www.truechoicesolutions.com</language>
+      <language key="button3.url" locale="en">http://www.google.com</language>
+      <language key="subtitle1" locale="en">Below are specific things that will be helpful to you going forward.</language>
+      <language key="tab1.label" locale="en">Your Best Choice</language>
+      <language key="link3.url" locale="en">//www.google.com</language>
+      <language key="button5.label" locale="en">Game Stuff</language>
+      <language key="socialbutton1.label" locale="en">Facebook</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-output</language>
+      <language key="preferenceprofile.peerkey" locale="en">Your Peers</language>
+      <language key="button1.url" locale="en">http://www.truechoicesolutions.com</language>
+      <language key="assets.content.image.alt" locale="en">Content image</language>
+      <language key="links.title" locale="en">Helpful links:</language>
+      <language key="button4.label" locale="en">Email a friend</language>
+      <language key="subtitle2" locale="en">Go ahead and see if we aren't spot on based on your selections.</language>
+      <language key="productfeaturestitle" locale="en">Product Features Title: Lorem Ipsum Dolor etc</language>
+      <language key="button6.label" locale="en">Restart</language>
+      <language key="cfm.url" locale="en">data/mb/cfm.xml</language>
+      <profile key="levelmessagekeyorder" value="name||image||title||description"/>
+      <profile key="restart.prettyurl.param.loc" value="prototype_director"/>
+      <profile key="persistjsondata" value="false"/>
+      <profile key="isproductbased" value="false"/>
+      <profile key="restart.directurl.param.game" value="prototype_director"/>
+      <profile key="emailquestions" value="emailto||emailfrom||emailnote"/>
+    </resource>
+    <resource name="url">
+      <resource-element value="uid"/>
+    </resource>
+    <naming name="prototype_feature" owner="[Client]prototype_feature/[Game]prototype_feature" type="bfd.domain.game.Game" by-owner="true"/>
+    <profile-key key="uid" required="false">
+      <naming name="prototype_featureUid"/>
+    </profile-key>
+  </game>
+</client>

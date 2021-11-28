@@ -1,0 +1,5 @@
+ <attribute name="Attribute 1 System Name" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="number" unacceptables-allowed="false">
+  
+      <language key="leastpreferred" locale="en">Less important</language>
+      <language key="mostpreferred" locale="en">More important</language>
+    </attribute>

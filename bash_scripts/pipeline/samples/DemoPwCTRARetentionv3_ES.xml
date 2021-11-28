@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE client SYSTEM "object.dtd">
+
+<!--  ES - Spanish -->
+
+<client name="DemoPwCTRARetentionv3_ES">
+  <game name="DemoPwCTRARetentionv3_ES" fixed="false">
+    <attribute name="Retirement Plan" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="Eliminate the company match">
+        <language key="description" locale="en">The company would eliminate the 401(k) match.</language>
+        <language key="description" locale="es">La compañía dejaría de igualar la aportación del empleado.</language>
+        <language key="displayname" locale="en">Eliminate the company match</language>
+        <language key="displayname" locale="es">Eliminar la igualación en la aportación de la compañía</language>
+        <language key="icon" locale="en">icon-retirement-eliminate</language>
+        <language key="icon" locale="es">icon-retirement-eliminate</language>
+      </level>
+      <level value="No change: maximum company match of 1.5% of your pay">
+        <language key="description" locale="en">The company would continue to match 25% of the first 6% of your contributions, i.e., a maximum company contribution of 1.5% if you defer 6%.</language>
+        <language key="description" locale="es">La compañía continuaría aportando el 25% del primer 6% de tus contribuciones, ej: una contribución máxima de la compañía del 1,5% si tú aportas el 6%.</language>
+        <language key="displayname" locale="en">No change - maximum company match of 1.5% of your pay</language>
+        <language key="displayname" locale="es">Sin cambios - aportación máxima del 1,5% de tu salario</language>
+        <language key="icon" locale="en">icon-retirement-no-change</language>
+        <language key="icon" locale="es">icon-retirement-no-change</language>
+      </level>
+      <level value="Increase the company match to a maximum of 3% of your pay">
+        <language key="description" locale="en">The company would match 50% of the first 6% of your contributions, i.e., a maximum company contribution of 3% if you defer 6%.</language>
+        <language key="description" locale="es">La compañía aportaría el 50% del primer 6% de tu contribución, ej: una contribución máxima del 3% si tú aportas el 6%.</language>
+        <language key="displayname" locale="en">Increase the company match to a maximum of 3% of your pay</language>
+        <language key="displayname" locale="es">Aumentar la aportación de la compañía a un máximo del 3% del salario</language>
+        <language key="icon" locale="en">icon-retirement-increase-1</language>
+        <language key="icon" locale="es">icon-retirement-increase-1</language>
+      </level>
+      <level value="Increase the company match to a maximum of 4% of your pay">
+        <language key="description" locale="en">The company would match 66.67% of the first 6% of your contributions, i.e., a maximum company contribution of 4% if you defer 6%.</language>
+        <language key="description" locale="es">La compañía aportaría el 66,67% del primer 6% de tu contribución, ej: una contribución máxima de la compañía de un 4% si aportas el 6%.</language>
+        <language key="displayname" locale="en">Increase the company match to a maximum of 4% of your pay</language>
+        <language key="displayname" locale="es">Aumentar la aportación de la compañía a un máximo del 4% del salario</language>
+        <language key="icon" locale="en">icon-retirement-increase-2</language>
+        <language key="icon" locale="es">icon-retirement-increase-2</language>
+      </level>
+      <language key="description" locale="en">The company would like to receive your feedback on the company-provided 401(k) match amount contributed to your retirement account.</language>
+      <language key="description" locale="es">A la compañía le gustaría saber tu opinión sobre la aportación  que realiza en tu plan de pensiones/jubilación.</language>
+      <language key="displayname" locale="en">How would you compare the following changes to the 401(k) match that the company provides into your retirement account?</language>
+      <language key="displayname" locale="es">¿Cómo compararías los siguientes cambios en la aportación que la compañía realiza en tu plan de pensiones/jubilación?</language>
+      <language key="group" locale="en" />
+      <language key="group" locale="es" />
+      <language key="instructions" locale="en">Shift the sliders to indicate a GREATER or LESSER preference for the elements shown.</language>
+      <language key="instructions" locale="es">Desliza el marcador de MAYOR a MENOR preferencia para los elementos mostrados.</language>
+      <language key="shortname.levels" locale="en">Retirement Plan</language>
+      <language key="shortname.levels" locale="es">Plan de Pensiones / Jubilación</language>
+      <language key="shortname" locale="en">Retirement Plan</language>
+      <language key="shortname" locale="es">Plan de Pensiones / Jubilación</language>
+      <language key="leastpreferred" locale="en">Prefer Less</language>
+      <language key="leastpreferred" locale="es">Menor Preferencia</language>
+      <language key="mostpreferred" locale="en">Prefer More</language>
+      <language key="mostpreferred" locale="es">Mayor Preferencia</language>
+    </attribute>
+    <attribute name="Vacation" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="No change my vacation needs are currently fulfilled">
+        <language key="description" locale="en">No changes to paid time off policies are required.</language>
+        <language key="description" locale="es">No se requieren cambios en las políticas de permisos retribuidos.</language>
+        <language key="displayname" locale="en">No change: my vacation needs are currently fulfilled</language>
+        <language key="displayname" locale="es">Sin cambios: mis necesidades de vacaciones están satisfechas ahora</language>
+        <language key="icon" locale="en">icon-vacation-nochange</language>
+        <language key="icon" locale="es">icon-vacation-nochange</language>
+      </level>
+      <level value="Company wide expectation to take longer vacation periods (e.g. up to two weeks at a time)">
+        <language key="description" locale="en">Your team leader would be encouraged to allow you to take vacation over an extended period of time for up to two weeks.</language>
+        <language key="description" locale="es">Al líder de tu equipo se le animaría a permitirte coger más vacaciones en un periodo extendido de hasta dos semanas.</language>
+        <language key="displayname" locale="en">Company-wide expectation to take longer vacation periods (e.g. up to two weeks at a time)</language>
+        <language key="displayname" locale="es">La compañía espera que cojas periodos de vacaciones más largos (ej: hasta dos semanas juntas)</language>
+        <language key="icon" locale="en">icon-vacation-longer</language>
+        <language key="icon" locale="es">icon-vacation-longer</language>
+      </level>
+      <level value="Ability to buy more sell back unused vacation hours">
+        <language key="description" locale="en">The company would allow you to receive pay for any unused vacation days and allow you to purchase additional paid time off hours.</language>
+        <language key="description" locale="es">La compañía te permitiría recibir dinero por los días de vacaciones sin consumir o comprar más horas de permiso.</language>
+        <language key="displayname" locale="en">Ability to buy more / sell back unused vacation hours</language>
+        <language key="displayname" locale="es">Posibilidad de comprar / vender horas de vacaciones sin consumir</language>
+        <language key="icon" locale="en">icon-vacation-unused</language>
+        <language key="icon" locale="es">icon-vacation-unused</language>
+      </level>
+      <level value="Move to an unlimited vacation policy">
+        <language key="description" locale="en">The company would not set a limit to the number of paid time off days permissible throughout the year.</language>
+        <language key="description" locale="es">La compañía no fijaría un número de horas de permiso anuales.</language>
+        <language key="displayname" locale="en">Move to an unlimited vacation policy (i.e. there are no set maximum number of annual vacation days)</language>
+        <language key="displayname" locale="es">Pasar a una política de vacaciones ilimitadas (ej: no hay un número máximo de días anuales fijados)</language>
+        <language key="icon" locale="en">icon-vacation-unlimited</language>
+        <language key="icon" locale="es">icon-vacation-unlimited</language>
+      </level>
+      <language key="description" locale="en">Please select from the following options on ways the company can improve the company's policy regarding vacation days, therefore increasing the likelihood that you will take your allotted paid time off.</language>
+      <language key="description" locale="es">Por favor, seleciona de las siguientes opciones las maneras en las que la compañía puede mejorar sus políticas de vacaciones, aumentando por lo tanto la posibilidad de que uses tu tiempo de permiso asignado.</language>
+      <language key="displayname" locale="en">How would you compare the following changes regarding vacation days?</language>
+      <language key="displayname" locale="es">¿Cómo compararías los siguientes cambios en los días de vacaciones?</language>
+      <language key="instructions" locale="en">Shift each slider to indicate which ones you value MORE or value LESS for the elements shown. All may be equally important to you, however, please do your best to indicate which ones you value more or value less.</language>
+      <language key="instructions" locale="es">Desliza el marcador para indicar cuáles valoras MÁS o MENOS para los elementos mostrados. Quizás todos sean iguales para ti, te pedimos por favor que intentes indicar la gradación entre ellos.</language>
+      <language key="group" locale="en" />
+      <language key="group" locale="es" />
+      <language key="shortname.levels" locale="en">Vacation</language>
+      <language key="shortname.levels" locale="es">Vacaciones</language>
+      <language key="shortname" locale="en">Vacation</language>
+      <language key="shortname" locale="es">Vacaciones</language>
+      <language key="leastpreferred" locale="en">Prefer Less</language>
+      <language key="leastpreferred" locale="es">Menor Preferencia</language>
+      <language key="mostpreferred" locale="en">Prefer More</language>
+      <language key="mostpreferred" locale="es">Mayor Preferencia</language>
+    </attribute>
+    <attribute name="Personal Development Allowance Amount" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="$0">
+        <language key="description" locale="en">The company does not currently provide a personal development benefit and this practice would continue.</language>
+        <language key="description" locale="es">La compañía no provee actualmente ningún complemento salarial para el desarrollo personal, esta política se mantendría.</language>
+        <language key="displayname" locale="en">$0</language>
+        <language key="displayname" locale="es">0€</language>
+        <language key="icon" locale="en">icon-amount-0</language>
+        <language key="icon" locale="es">icon-amount-0</language>
+      </level>
+      <level value="$600">
+        <language key="description" locale="en">The company would offer you the option of $600 annually for use among a selection of personal development options.</language>
+        <language key="description" locale="es">La compañía ofrecería la opción de 600€ anuales para utilizar en una selección de opciones de desarrollo personal.</language>
+        <language key="displayname" locale="en">$600</language>
+        <language key="displayname" locale="es">600€</language>
+        <language key="icon" locale="en">icon-amount-600</language>
+        <language key="icon" locale="es">icon-amount-600</language>
+      </level>
+      <level value="$1,200">
+        <language key="description" locale="en">The company would offer you the option of $1,200 annually for use among a selection of personal development options.</language>
+        <language key="description" locale="es">La compañía ofrecería la opción de 1.200€ anuales para utilizar en una selección de opciones de desarrollo personal.</language>
+        <language key="displayname" locale="en">$1,200</language>
+        <language key="displayname" locale="es">1.200€</language>
+        <language key="icon" locale="en">icon-amount-1200</language>
+        <language key="icon" locale="es">icon-amount-1200</language>
+      </level>
+      <level value="$1,800">
+        <language key="description" locale="en">The company would offer you the option of $1,800 annually for use among a selection of personal development options.</language>
+        <language key="description" locale="es">La compañía ofrecería la opción de 1.800€ anuales para utilizar en una selección de opciones de desarrollo personal.</language>
+        <language key="displayname" locale="en">$1,800</language>
+        <language key="displayname" locale="es">1.800€</language>
+        <language key="icon" locale="en">icon-amount-1800</language>
+        <language key="icon" locale="es">icon-amount-1800</language>
+      </level>
+      <language key="description" locale="en">The company would provide a fixed annual dollar amount, which could be used for a variety of personal development options such as college savings, wellness activity courses (e.g., gym membership), coding courses, etc. and would like to know what dollar amount would make this benefit meaningful for you.</language>
+      <language key="description" locale="es">La compañía proveería una cantidad anual fija que podría ser utilizada para diferentes opciones de desarrollo personal como ahorro para cursos/cualificaciones posgrado, actividades de bienestar (ej: gimnasio), cursos de desarrollo de código/tecnología etc. Le gustaría saber la cantidad que haría este beneficio interesante para ti.</language>
+      <language key="displayname" locale="en">If the company provided you an annual allowance to spend on a predetermined list of items or experiences related to personal development / well-being / conveniences,  how would you compare the following annual allowance amounts?</language>
+      <language key="displayname" locale="es">Si la compañía te diera un complemento salarial para gastar en una lista determinada de artículos o experiencias relacionados con el desarrollo personal/ el bienestar/ las facilidades. ¿Cómo lo compararías con los siguientes complementos salariales?</language>
+      <language key="instructions" locale="en">Shift each slider to indicate which ones you value MORE or value LESS for the elements shown. All may be equally important to you, however, please do your best to indicate which ones you value more or value less.</language>
+      <language key="instructions" locale="es">Desliza el marcador para indicar cuáles valoras MÁS o MENOS para los elementos mostrados. Quizás todos sean iguales para ti, te pedimos por favor que intentes indicar la gradación entre ellos.</language>
+      <language key="group" locale="en" />
+      <language key="group" locale="es" />
+      <language key="shortname.levels" locale="en">Personal Development Allowance Amount</language>
+      <language key="shortname.levels" locale="es">Complemento Salarial para Desarrollo Personal</language>
+      <language key="shortname" locale="en">Personal Development Allowance Amount</language>
+      <language key="shortname" locale="es">Complemento Salarial para Desarrollo Personal</language>
+      <language key="leastpreferred" locale="en">Prefer Less</language>
+      <language key="leastpreferred" locale="es">Menor Preferencia</language>
+      <language key="mostpreferred" locale="en">Prefer More</language>
+      <language key="mostpreferred" locale="es">Mayor Preferencia</language>
+    </attribute>
+    <attribute name="Base Earnings" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="No change to base earnings">
+        <language key="description" locale="en">There would be no change to your base earnings.</language>
+        <language key="description" locale="es">No habría cambios en tu salario base.</language>
+        <language key="displayname" locale="en">No change to base earnings</language>
+        <language key="displayname" locale="es">Sin cambios en el salario base</language>
+        <language key="icon" locale="en">icon-basepay-no-change</language>
+        <language key="icon" locale="es">icon-basepay-no-change</language>
+      </level>
+      <level value="Increase of 1%">
+        <language key="description" locale="en">Your base earnings amount would increase by 1%.</language>
+        <language key="description" locale="es">Tu salario base aumentaría en un 1%.</language>
+        <language key="displayname" locale="en">Increase of 1%</language>
+        <language key="displayname" locale="es">Aumento del 1%</language>
+        <language key="icon" locale="en">icon-basepay-increase-1</language>
+        <language key="icon" locale="es">icon-basepay-increase-1</language>
+      </level>
+      <level value="Increase of 3%">
+        <language key="description" locale="en">Your base earnings amount would increase by 3%.</language>
+        <language key="description" locale="es">Tu salario base aumentaría en un 3%.</language>
+        <language key="displayname" locale="en">Increase of 3%</language>
+        <language key="displayname" locale="es">Aumento del 3%</language>
+        <language key="icon" locale="en">icon-basepay-increase-2</language>
+        <language key="icon" locale="es">icon-basepay-increase-2</language>
+      </level>
+      <level value="Increase of 5%">
+        <language key="description" locale="en">Your base earnings amount would increase by 5%.</language>
+        <language key="description" locale="es">Tu salario base aumentaría en un 5%.</language>
+        <language key="displayname" locale="en">Increase of 5%</language>
+        <language key="displayname" locale="es">Aumento del 5%</language>
+        <language key="icon" locale="en">icon-basepay-increase-3</language>
+        <language key="icon" locale="es">icon-basepay-increase-3</language>
+      </level>
+      <language key="description" locale="en">The company would make a permanent adjustment to your base earnings amount.</language>
+      <language key="description" locale="es">La compañía haría un ajuste de tu salario base.</language>
+      <language key="displayname" locale="en">How would you value the following adjustments to your base earnings?</language>
+      <language key="displayname" locale="es">¿Cómo valorarías los siguientes ajustes del salario base?</language>
+      <language key="group" locale="en" />
+      <language key="group" locale="es" />
+      <language key="instructions" locale="en">Shift the sliders to indicate whether the elements shown are MORE or LESS valuable to you.</language>
+      <language key="instructions" locale="es">Desliza el marcador para indicar si valoras MÁS o MENOS los elementos indicados.</language>
+      <language key="shortname.levels" locale="en">Base Earnings</language>
+      <language key="shortname.levels" locale="es">Salario Base</language>
+      <language key="shortname" locale="en">Base Earnings</language>
+      <language key="shortname" locale="es">Salario Base</language>
+      <language key="leastpreferred" locale="en">Less Valuable</language>
+      <language key="leastpreferred" locale="es">Menos Valor</language>
+      <language key="mostpreferred" locale="en">More Valuable</language>
+      <language key="mostpreferred" locale="es">Más Valor</language>
+      <language key="whyguy.text" locale="en">&lt;b&gt;Why am I being asked this question in this way?&lt;/b&gt;</language>
+      <language key="whyguy.text" locale="es">&lt;b&gt;¿Por qué me preguntan esto así?&lt;/b&gt;</language>
+      <language key="whyguy.tooltip" locale="en">We do not just want to know what you most prefer. We want to understand your preferences for all of the hypothetical options between the two extremes.</language>
+      <language key="whyguy.tooltip" locale="es">No solo queremos saber qué es lo que prefieres. Queremos entender tus preferencias entre todas las hipótesis de los extremos.</language>
+      <profile key="whyguytoggle" value="true" />
+    </attribute>
+    <attribute name="Learning / Digital Upskilling" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="No change to current efforts">
+        <language key="description" locale="en">The company will not change the current practice.</language>
+        <language key="description" locale="es">La compañía no cambiaría su política actual.</language>
+        <language key="displayname" locale="en">No change to current efforts</language>
+        <language key="displayname" locale="es">Sin cambios en los esfuerzos actuales</language>
+        <language key="icon" locale="en">icon-digital-nochange</language>
+        <language key="icon" locale="es">icon-digital-nochange</language>
+      </level>
+      <level value="Encourage dedicated protected time of two hours per week for upskilling">
+        <language key="description" locale="en">The company would provide up to two hours per week for team members to upskill.</language>
+        <language key="description" locale="es">La compañía ofrecería dos horas semanales a los equipos para formarse.</language>
+        <language key="displayname" locale="en">Encourage dedicated protected time of two hours per week for upskilling</language>
+        <language key="displayname" locale="es">Incentivar dos horas semanales de dedicación para la formación y upskilling</language>
+        <language key="icon" locale="en">icon-digital-time</language>
+        <language key="icon" locale="es">icon-digital-time</language>
+      </level>
+      <level value="Provide additional virtual learning opportunities for upskilling">
+        <language key="description" locale="en">Additional virtual training would be made available, based on relevant needs and interest.</language>
+        <language key="description" locale="es">Habría formación virtual adicional disponible, se basaría en las necesidades y las áreas de interés más relevantes.</language>
+        <language key="displayname" locale="en">Provide additional virtual learning opportunities for upskilling</language>
+        <language key="displayname" locale="es">Ofrecer oportunidades formativas virtuales adicionales</language>
+        <language key="icon" locale="en">icon-digital-training</language>
+        <language key="icon" locale="es">icon-digital-training</language>
+      </level>
+      <level value="Monetary allowance for you to invest in all upskilling">
+        <language key="description" locale="en">The company would provide a monetary allowance to purchase upskilling materials / additional learning opportunities outside of the company.</language>
+        <language key="description" locale="es">La compañía otorgaría un complemento salarial para adquirir material formativo/oportunidades adicionales de formación fuera de la empresa.</language>
+        <language key="displayname" locale="en">A monetary allowance for you to invest in all upskilling</language>
+        <language key="displayname" locale="es">Complemento salarial para invertir en formación y upskilling</language>
+        <language key="icon" locale="en">icon-digital-purchase</language>
+        <language key="icon" locale="es">icon-digital-purchase</language>
+      </level>
+      <level value="One on one tutoring with a digitally savvy employee who has the skills you desire to improve">
+        <language key="description" locale="en">The company would provide access to a personal tutor to help you improve your digital skills.</language>
+        <language key="description" locale="es">La compañía ofrecería acceso a un tutor personal que te ayudaría a mejorar tus aptitudes digitales.</language>
+        <language key="displayname" locale="en">One-on-one tutoring with a digitally savvy employee who has the skills you desire to improve</language>
+        <language key="displayname" locale="es">Tutorías individuales con empleados expertos en digitalización sobre aptitudes que desees mejorar</language>
+        <language key="icon" locale="en">icon-digital-tutoring</language>
+        <language key="icon" locale="es">icon-digital-tutoring</language>
+      </level>
+      <language key="description" locale="en">The company would continue offering tools and opportunities to upskill. Please provide your preferences for related activities.</language>
+      <language key="description" locale="es">La compañía continuaría ofreciendo herramientas y oportunidades de formación para tu upskilling. Por favor, indica tus preferencias sobre las actividades.</language>
+      <language key="displayname" locale="en">What is your preference for ways the company can continue to support your overall upskilling?</language>
+      <language key="displayname" locale="es">¿Cuáles son tus preferencias para las canales y formas con los que la compañía continúe apoyándote en tu formación?</language>
+      <language key="instructions" locale="en">Shift each slider to indicate which ones you value MORE or value LESS for the elements shown. All may be equally important to you, however, please do your best to indicate which ones you value more or value less.</language>
+      <language key="instructions" locale="es">Desliza el marcador para indicar cuáles valoras MÁS o MENOS para los elementos mostrados. Quizás todos sean iguales para ti, te pedimos por favor que intentes indicar la gradación entre ellos.</language>
+      <language key="group" locale="en" />
+      <language key="group" locale="es" />
+      <language key="shortname.levels" locale="en">Learning / Digital Upskilling</language>
+      <language key="shortname.levels" locale="es">Formación/  Digital Upskilling</language>
+      <language key="shortname" locale="en">Learning / Digital Upskilling</language>
+      <language key="shortname" locale="es">Formación/  Digital Upskilling</language>
+      <language key="leastpreferred" locale="en">Prefer Less</language>
+      <language key="leastpreferred" locale="es">Menor Preferencia</language>
+      <language key="mostpreferred" locale="en">Prefer More</language>
+      <language key="mostpreferred" locale="es">Mayor Preferencia</language>
+    </attribute>
+    <attribute name="Medical Deductible" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="$500 / $1,000 increase for individual / family">
+        <language key="description" locale="en">The individual / family deductible would increase from your current deductible by $500 / $1,000.</language>
+        <language key="description" locale="es">La cantidad desgravable individual/familiar aumentaría en 500€/1.000€ con respecto a la actual.</language>
+        <language key="displayname" locale="en">$500 / $1,000 increase for individual / family</language>
+        <language key="displayname" locale="es">Aumento de 500€ /1.000€ por persona/familia</language>
+        <language key="icon" locale="en">icon-medical-deductible-500-1000-increase</language>
+        <language key="icon" locale="es">icon-medical-deductible-500-1000-increase</language>
+      </level>
+      <level value="$250 / $500 increase for individual / family">
+        <language key="description" locale="en">The individual / family deductible would increase from your current deductible by $250 / $500.</language>
+        <language key="description" locale="es">La cantidad desgravable individual/familiar aumentaría en 250€/500€ con respecto a la actual.</language>
+        <language key="displayname" locale="en">$250 / $500 increase for individual / family</language>
+        <language key="displayname" locale="es">Aumento de 250€ /500€ por persona/familia</language>
+        <language key="icon" locale="en">icon-medical-deductible-250-500-increase</language>
+        <language key="icon" locale="es">icon-medical-deductible-250-500-increase</language>
+      </level>
+      <level value="No change to medical deductible">
+        <language key="description" locale="en">There would be no change in your deductible.</language>
+        <language key="description" locale="es">No se realizará cambio alguno en la cantidad desgravable.</language>
+        <language key="displayname" locale="en">No change to medical deductible</language>
+        <language key="displayname" locale="es">Sin cambio en la cantidad desgravable</language>
+        <language key="icon" locale="en">icon-medical-deductible-no</language>
+        <language key="icon" locale="es">icon-medical-deductible-no</language>
+      </level>
+      <level value="$250 / $500 decrease for individual / family">
+        <language key="description" locale="en">The individual / family deductible would decrease from your current deductible by $250 / $500.</language>
+        <language key="description" locale="es">La cantidad desgravable individual/familiar descendería en 250€/500€ con respecto a la actual.</language>
+        <language key="displayname" locale="en">$250 / $500 decrease for individual / family</language>
+        <language key="displayname" locale="es">Descenso de 250€ /500€ por persona/familia</language>
+        <language key="icon" locale="en">icon-medical-deductible-250-500-decrease</language>
+        <language key="icon" locale="es">icon-medical-deductible-250-500-decrease</language>
+      </level>
+      <level value="$500 / $1,000 decrease for individual / family">
+        <language key="description" locale="en">The individual / family deductible would decrease from your current deductible by $500 / $1,000.</language>
+        <language key="description" locale="es">La cantidad desgravable individual/familiar descendería en 500€/1.000€ con respecto a la actual.</language>
+        <language key="displayname" locale="en">$500 / $1,000 decrease for individual / family</language>
+        <language key="displayname" locale="es">Descenso de 500€ /1.000€ por persona/familia</language>
+        <language key="icon" locale="en">icon-medical-deductible-500-1000-decrease</language>
+        <language key="icon" locale="es">icon-medical-deductible-500-1000-decrease</language>
+      </level>
+      <language key="description" locale="en">Your medical plan deductible is the amount you and each covered dependent (if any) must satisfy in a calendar year before the plan pays for services that are subject to coinsurance (and not flat dollar copays).</language>
+      <language key="description" locale="es">La cantidad desgravable de tu seguro médico es la cantidad que tú y cada persona dependiente tuya asegurada (en caso de haberla) debe satisfacer en un año, a partir de ella el seguro paga los servicios a los que esté sujeto.</language>
+      <language key="displayname" locale="en">What is your preference relating to your medical plan deductible?</language>
+      <language key="displayname" locale="es">¿Cuál es tu preferencia en tu seguro médico?</language>
+      <language key="instructions" locale="en">Shift the sliders to indicate a GREATER or LESSER preference for the elements shown.</language>
+      <language key="instructions" locale="es">Desliza el marcador de MAYOR a MENOR preferencia para los elementos mostrados.</language>
+      <language key="group" locale="en" />
+      <language key="group" locale="es" />
+      <language key="shortname.levels" locale="en">Medical Deductible</language>
+      <language key="shortname.levels" locale="es">Seguro Médico</language>
+      <language key="shortname" locale="en">Medical Deductible</language>
+      <language key="shortname" locale="es">Seguro Médico</language>
+      <language key="leastpreferred" locale="en">Prefer Less</language>
+      <language key="leastpreferred" locale="es">Menor Preferencia</language>
+      <language key="mostpreferred" locale="en">Prefer More</language>
+      <language key="mostpreferred" locale="es">Mayor Preferencia</language>
+    </attribute>
+    <attribute name="Hidden Price" implicit="ascending" must-have-allowed="false" skip-allowed="false" type="price" unacceptables-allowed="false">
+      <level value="0">
+        <language key="description" locale="en">0</language>
+        <language key="description" locale="es">0</language>
+        <language key="displayname" locale="en">0</language>
+        <language key="displayname" locale="es">0</language>
+      </level>
+      <level value="1">
+        <language key="description" locale="en">1</language>
+        <language key="description" locale="es">1</language>
+        <language key="displayname" locale="en">1</language>
+        <language key="displayname" locale="es">1</language>
+      </level>
+      <language key="description" locale="en">Hidden Price</language>
+      <language key="description" locale="es">Hidden Price</language>
+      <language key="displayname" locale="en">Hidden Price</language>
+      <language key="displayname" locale="es">Hidden Price</language>
+      <language key="group" locale="en" />
+      <language key="group" locale="es" />
+      <profile key="hidden" value="true" />
+    </attribute>
+    <attribute name="Incentive Compensation: Bonus Plan Structure" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="None of your bonus would be based on your own individual performance metrics">
+        <language key="description" locale="en">Your bonus would be entirely based on the company's performance.</language>
+        <language key="description" locale="es">Tu bonus se basaría enteramente en los resultados de la compañía</language>
+        <language key="displayname" locale="en">None of your bonus would be based on your own individual performance metrics</language>
+        <language key="displayname" locale="es">Ninguna proporción de tu bonus estaría basada en tu desempeño individual</language>
+        <language key="icon" locale="en">icon-bonus-plan-none</language>
+        <language key="icon" locale="es">icon-bonus-plan-none</language>
+      </level>
+      <level value="Up to a third of your bonus would be based on your own individual performance metrics">
+        <language key="description" locale="en">Up to one-third of your bonus would be based on your own individual performance metrics with the remainder based on the company's performance.</language>
+        <language key="description" locale="es">Hasta un tercio de tu bonus se basaría en tu desempeño individual, el resto vendría del resultado de la empresa.</language>
+        <language key="displayname" locale="en">Up to one-third of your bonus would be based on your own individual performance metrics</language>
+        <language key="displayname" locale="es">Hasta un tercio de tu bonus se basaría en tu desempeño individual</language>
+        <language key="icon" locale="en">icon-bonus-plan-one-third</language>
+        <language key="icon" locale="es">icon-bonus-plan-one-third</language>
+      </level>
+      <level value="Up to two thirds of your bonus would be based on your own individual performance metrics">
+        <language key="description" locale="en">Up to two-thirds of your bonus would be based on your own individual performance metrics with the remainder based on the company's performance.</language>
+        <language key="description" locale="es">Hasta dos tercios de tu bonus se basarían en tu desempeño individual, el resto vendría del resultado de la empresa.</language>
+        <language key="displayname" locale="en">Up to two-thirds of your bonus would be based on your own individual performance metrics</language>
+        <language key="displayname" locale="es">Hasta dos tercios de tu bonus se basaría en tu desempeño individual</language>
+        <language key="icon" locale="en">icon-bonus-plan-two-third</language>
+        <language key="icon" locale="es">icon-bonus-plan-two-third</language>
+      </level>
+      <level value="All of your bonus would be based on your own individual performance metrics">
+        <language key="description" locale="en">Your bonus would be entirely based on your own individual performance metrics.</language>
+        <language key="description" locale="es">La suma total del bonus se basaría únicamente en tu desempeño individual.</language>
+        <language key="displayname" locale="en">All of your bonus would be based on your own individual performance metrics</language>
+        <language key="displayname" locale="es">Todo tu bonus estaría basado en tu desempeño individual</language>
+        <language key="icon" locale="en">icon-bonus-plan-all</language>
+        <language key="icon" locale="es">icon-bonus-plan-all</language>
+      </level>
+      <language key="description" locale="en">Today, any bonus you receive from the company is generally based on the company's performance and not your individual performance metrics.</language>
+      <language key="description" locale="es">A día de hoy, el bonus que recibes está generalmente basado en el resultado de la compañía y no en los resultados individuales.</language>
+      <language key="displayname" locale="en">How do the following potential changes in your bonus plan structure compare?</language>
+      <language key="displayname" locale="es">¿Cómo comparas los siguientes cambios potenciales en la estructura de tu plan de bonus?</language>
+      <language key="instructions" locale="en">Shift the sliders to indicate a GREATER or LESSER preference for the elements shown.</language>
+      <language key="instructions" locale="es">Desliza el marcador de MAYOR a MENOR preferencia para los elementos mostrados.</language>
+      <language key="group" locale="en" />
+      <language key="group" locale="es" />
+      <language key="shortname.levels" locale="en">Incentive Compensation: Bonus Plan Structure</language>
+      <language key="shortname.levels" locale="es">Incentivos de Compensación: Estructura del Plan de Bonus</language>
+      <language key="shortname" locale="en">Incentive Compensation: Bonus Plan Structure</language>
+      <language key="shortname" locale="es">Incentivos de Compensación: Estructura del Plan de Bonus</language>
+      <language key="leastpreferred" locale="en">Prefer Less</language>
+      <language key="leastpreferred" locale="es">Menor Preferencia</language>
+      <language key="mostpreferred" locale="en">Prefer More</language>
+      <language key="mostpreferred" locale="es">Mayor Preferencia</language>
+    </attribute>
+    <!-- Restricted Pairs -->
+    <restricted-set name="1">
+      <restricted-attribute name="Retirement Plan">
+        <restricted-level value="Increase the company match to a maximum of 3% of your pay" />
+        <restricted-level value="No change: maximum company match of 1.5% of your pay" />
+        <restricted-level value="Increase the company match to a maximum of 4% of your pay" />
+        <restricted-level value="Eliminate the company match" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="2">
+      <restricted-attribute name="Vacation">
+        <restricted-level value="No change my vacation needs are currently fulfilled" />
+        <restricted-level value="Company wide expectation to take longer vacation periods (e.g. up to two weeks at a time)" />
+        <restricted-level value="Ability to buy more sell back unused vacation hours" />
+        <restricted-level value="Move to an unlimited vacation policy" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="3">
+      <restricted-attribute name="Personal Development Allowance Amount">
+        <restricted-level value="$0" />
+        <restricted-level value="$600" />
+        <restricted-level value="$1,200" />
+        <restricted-level value="$1,800" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="4">
+      <restricted-attribute name="Retirement Plan">
+        <restricted-level value="Increase the company match to a maximum of 3% of your pay" />
+        <restricted-level value="No change: maximum company match of 1.5% of your pay" />
+        <restricted-level value="Increase the company match to a maximum of 4% of your pay" />
+        <restricted-level value="Eliminate the company match" />
+      </restricted-attribute>
+      <restricted-attribute name="Base Earnings">
+        <restricted-level value="No change to base earnings" />
+        <restricted-level value="Increase of 5%" />
+        <restricted-level value="Increase of 3%" />
+        <restricted-level value="Increase of 1%" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="5">
+      <restricted-attribute name="Base Earnings">
+        <restricted-level value="No change to base earnings" />
+        <restricted-level value="Increase of 5%" />
+        <restricted-level value="Increase of 3%" />
+        <restricted-level value="Increase of 1%" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="6">
+      <restricted-attribute name="Learning / Digital Upskilling">
+        <restricted-level value="No change to current efforts" />
+        <restricted-level value="Encourage dedicated protected time of two hours per week for upskilling" />
+        <restricted-level value="Provide additional virtual learning opportunities for upskilling" />
+        <restricted-level value="Monetary allowance for you to invest in all upskilling" />
+        <restricted-level value="One on one tutoring with a digitally savvy employee who has the skills you desire to improve" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="7">
+      <restricted-attribute name="Medical Deductible">
+        <restricted-level value="$250 / $500 decrease for individual / family" />
+        <restricted-level value="No change to medical deductible" />
+        <restricted-level value="$500 / $1,000 decrease for individual / family" />
+        <restricted-level value="$500 / $1,000 increase for individual / family" />
+        <restricted-level value="$250 / $500 increase for individual / family" />
+      </restricted-attribute>
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+    </restricted-set>
+    <restricted-set name="8">
+      <restricted-attribute name="Hidden Price">
+        <restricted-level value="0" />
+        <restricted-level value="1" />
+      </restricted-attribute>
+      <restricted-attribute name="Incentive Compensation: Bonus Plan Structure">
+        <restricted-level value="None of your bonus would be based on your own individual performance metrics" />
+        <restricted-level value="All of your bonus would be based on your own individual performance metrics" />
+        <restricted-level value="Up to a third of your bonus would be based on your own individual performance metrics" />
+        <restricted-level value="Up to two thirds of your bonus would be based on your own individual performance metrics" />
+      </restricted-attribute>
+    </restricted-set>
+    <!-- Subgame -->
+    <subgame name="DemoPwCTRARetentionv3_ES" version-label="0">
+      <subgame-attribute name="Retirement Plan">
+        <subgame-level value="Eliminate the company match" />
+        <subgame-level value="No change: maximum company match of 1.5% of your pay" />
+        <subgame-level value="Increase the company match to a maximum of 3% of your pay" />
+        <subgame-level value="Increase the company match to a maximum of 4% of your pay" />
+      </subgame-attribute>
+      <subgame-attribute name="Vacation">
+        <subgame-level value="No change my vacation needs are currently fulfilled" />
+        <!-- <subgame-level value="Support from team leaders and colleagues to assist in pre and post vacation transition of work"/>-->
+        <subgame-level value="Company wide expectation to take longer vacation periods (e.g. up to two weeks at a time)" />
+        <!-- <subgame-level value="Company wide expectation to take shorter, more frequent vacation periods"/>-->
+        <!-- <subgame-level value="Company wide expectation focused on refraining from working during vacation periods"/>-->
+        <subgame-level value="Ability to buy more sell back unused vacation hours" />
+        <subgame-level value="Move to an unlimited vacation policy" />
+      </subgame-attribute>
+      <subgame-attribute name="Personal Development Allowance Amount">
+        <subgame-level value="$0" />
+        <subgame-level value="$600" />
+        <subgame-level value="$1,200" />
+        <subgame-level value="$1,800" />
+      </subgame-attribute>
+      <subgame-attribute name="Base Earnings">
+        <subgame-level value="No change to base earnings" />
+        <subgame-level value="Increase of 1%" />
+        <subgame-level value="Increase of 3%" />
+        <subgame-level value="Increase of 5%" />
+      </subgame-attribute>
+      <subgame-attribute name="Learning / Digital Upskilling">
+        <subgame-level value="No change to current efforts" />
+        <subgame-level value="Encourage dedicated protected time of two hours per week for upskilling" />
+        <subgame-level value="Provide additional virtual learning opportunities for upskilling" />
+        <subgame-level value="Monetary allowance for you to invest in all upskilling" />
+        <!-- <subgame-level value="Provide additional virtual learning opportunities for digital upskilling"/>-->
+        <subgame-level value="One on one tutoring with a digitally savvy employee who has the skills you desire to improve" />
+      </subgame-attribute>
+      <subgame-attribute name="Medical Deductible">
+        <subgame-level value="$500 / $1,000 increase for individual / family" />
+        <subgame-level value="$250 / $500 increase for individual / family" />
+        <subgame-level value="No change to medical deductible" />
+        <subgame-level value="$250 / $500 decrease for individual / family" />
+        <subgame-level value="$500 / $1,000 decrease for individual / family" />
+      </subgame-attribute>
+      <subgame-attribute name="Hidden Price">
+        <subgame-level value="0" />
+        <subgame-level value="1" />
+      </subgame-attribute>
+      <subgame-attribute name="Incentive Compensation: Bonus Plan Structure">
+        <subgame-level value="None of your bonus would be based on your own individual performance metrics" />
+        <subgame-level value="Up to a third of your bonus would be based on your own individual performance metrics" />
+        <subgame-level value="Up to two thirds of your bonus would be based on your own individual performance metrics" />
+        <subgame-level value="All of your bonus would be based on your own individual performance metrics" />
+      </subgame-attribute>
+      <naming owner="[Client]DemoPwCTRARetentionv3_ES/[Game]DemoPwCTRARetentionv3_ES" name="DemoPwCTRARetentionv3_ES" type="bfd.domain.game.Game" by-owner="true" />
+    </subgame>
+    <!-- Misc Client Files -->
+    <resource name="main" value="/truechoice/app/clients/demo/pwc/tra/retention/2.0.0/">
+      <language key="browserTitle" locale="en">Demo PwC TRA</language>
+      <language key="browserTitle" locale="es">Demo PwC TRA</language>
+    </resource>
+    <!-- game description -->
+    <resource name="system">
+      <!-- English System Messages -->
+      <language key="moveup" locale="en">Move Up</language>
+      <language key="moveup" locale="es">Subir</language>
+      <language key="movedown" locale="en">Move Down</language>
+      <language key="movedown" locale="es">Bajar</language>
+      <language key="title.warning" locale="en">Warning</language>
+      <language key="title.warning" locale="es">Advertencia</language>
+      <language key="title.attention" locale="en">Attention</language>
+      <language key="title.attention" locale="es">Atención</language>
+      <language key="error.helpdeskemail.title" locale="en">Attention</language>
+      <language key="error.helpdeskemail.title" locale="es">Atención</language>
+      <language key="error.helpdeskemail.message" locale="en">Your last request failed because of a communications problem with our servers.&lt;br&gt;&lt;br&gt;Please restart by refreshing this webpage.  We apologize for the inconvenience.&lt;br&gt;&lt;br&gt;Before you try again, please make sure your network connection is active and reconfirm that you are connected to the internet.&lt;br&gt;&lt;br&gt;For further assistance, please email</language>
+      <language key="error.helpdeskemail.message" locale="es">Tu última solicitud ha fallado por un problema en la comunicación con nuestros servidores&lt;br&gt;&lt;br&gt;Por favor, vuelve a empezar reiniciando esta página. Disculpa las molestias&lt;br&gt;&lt;br&gt;Antes de intentarlo de nuevo, por favor, asegúrate de que tu conexión a la red está activada y verifica que tienes acceso a internet&lt;br&gt;&lt;br&gt;Para más información, por favor escribe a</language>
+      <language key="error.helpdeskemail.reference" locale="en">Reference</language>
+      <language key="error.helpdeskemail.reference" locale="es">Referencia</language>
+      <language key="retry" locale="en">Retry</language>
+      <language key="retry" locale="es">Reintentar</language>
+      <language key="title.error" locale="en">Error</language>
+      <language key="title.error" locale="es">Error</language>
+      <language key="error.system.title" locale="en">System Error</language>
+      <language key="error.system.title" locale="es">Error del sistema</language>
+      <language key="error.timeout.message" locale="en">The system has not responded in an appropriate amount of time. Please try again in a few moments. If the problem persists, please contact the administrator.</language>
+      <language key="error.timeout.message" locale="es">El sistema no ha respondido en el tiempo apropiado. Por favor, inténtalo de nuevo en unos instantes. Si el problema persiste, contacta con el administrador.</language>
+      <language key="notatallimportant" locale="en">Strongly Disagree</language>
+      <language key="notatallimportant" locale="es">Muy en desacuerdo</language>
+      <language key="extremelyImportant" locale="en">Strongly Agree</language>
+      <language key="extremelyImportant" locale="es">Muy de acuerdo</language>
+      <language key="button.moveup" locale="en">Move Up</language>
+      <language key="button.moveup" locale="es">Subir</language>
+      <language key="button.movedown" locale="en">Move Down</language>
+      <language key="button.movedown" locale="es">Bajar</language>
+      <language key="error.emailinvalid.title" locale="en">Invalid Email</language>
+      <language key="error.emailinvalid.title" locale="es">Email no válido</language>
+      <language key="error.emailinvalid.message" locale="en">Please verify that your email address is correct and try again.</language>
+      <language key="error.emailinvalid.message" locale="es">Por favor, comprueba que tu dirección email es correcta e inténtalo de nuevo.</language>
+      <language key="devicenotsupported.body" locale="en">Your screen resolution is insufficient to view this application. Must be at least 1024x768.&lt;br&gt;&lt;br&gt;Please try on a device with a larger screen.</language>
+      <language key="devicenotsupported.body" locale="es">La resolución de tu pantalla es insuficiente para visualizar esta apliación. Debe ser al menos de 1024x768.&lt;br&gt;&lt;br&gt;Por favor, inténtalo en un dispositivo con una pantalla mayor.</language>
+      <language key="devicenotsupported.footer" locale="en">Should you require assistance, please contact us at &lt;a href="mailto:helpdesk@truechoicesolutions.com?subject=Device%20Support"&gt;helpdesk@truechoicesolutions.com&lt;/a&gt;</language>
+      <language key="devicenotsupported.footer" locale="es">Si necesitas ayuda, por favor, escríbenos a &lt;a href="mailto:helpdesk@truechoicesolutions.com?subject=Device%20Support"&gt;helpdesk@truechoicesolutions.com&lt;/a&gt;</language>
+      <!-- General -->
+      <language key="next" locale="en">Next</language>
+      <language key="next" locale="es">Siguiente</language>
+      <language key="back" locale="en">Back</language>
+      <language key="back" locale="es">Atrás</language>
+      <!-- "help" language key not needed since it uses an icon -->
+      <!-- However, it still supports text -->
+      <!-- This means that if text is added, then icon will not be used -->
+      <!-- <language key="help" locale="en"></language> -->
+      <language key="skip" locale="en">This is not important</language>
+      <language key="skip" locale="es">No es importante</language>
+      <language key="helpbutton" locale="en">Help</language>
+      <language key="helpbutton" locale="es">Ayuda</language>
+      <language key="alert.button.close" locale="en">Close</language>
+      <language key="alert.button.close" locale="es">Cerrar</language>
+      <language key="alert.button.ok" locale="en">Ok</language>
+      <language key="alert.button.ok" locale="es">De acuerdo</language>
+      <language key="alert.button.yes" locale="en">Yes</language>
+      <language key="alert.button.yes" locale="es">Sí</language>
+      <language key="alert.button.no" locale="en">No</language>
+      <language key="alert.button.no" locale="es">No</language>
+      <language key="levelscalemoveenablesnext" locale="en">false</language>
+      <language key="levelscalemoveenablesnext" locale="es">false</language>
+      <language key="leastpreferred" locale="en">Least</language>
+      <language key="leastpreferred" locale="es">El menos</language>
+      <language key="mostpreferred" locale="en">Most</language>
+      <language key="mostpreferred" locale="es">El más</language>
+      <language key="disclaimer" locale="en">Copyright &#169; 2020 TrueChoice Solutions, Inc.    | <![CDATA[<a href="//www.truechoicesolutions.com/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>]]>.</language>
+      <language key="disclaimer" locale="es">Copyright &#169; 2020 TrueChoice Solutions, Inc.    | &lt;a href="//www.truechoicesolutions.com/privacy-policy" target="_blank" rel="noopener noreferrer"&gt;Política de Privacidad&lt;/a&gt;.</language>
+      <language key="loading" locale="en">Loading...</language>
+      <language key="loading" locale="es">Cargando…</language>
+      <language key="assets.main.loading" locale="en">assets/main/loading.gif</language>
+      <language key="assets.main.loading" locale="es">assets/main/loading.gif</language>
+      <!-- Director alert -->
+      <language key="error.director.title" locale="en">Response required</language>
+      <language key="error.director.title" locale="es">Respuesta requerida</language>
+      <language key="error.director.message" locale="en">To proceed further, please select an option and click or tap "Next" to continue.</language>
+      <language key="error.director.message" locale="es">Para seguir, por favor selecciona una opción y pincha en "Siguiente" para continuar.</language>
+      <!-- Restart Alert -->
+      <language key="restart.title" locale="en">ATTENTION - You are about to return to the start of the survey.</language>
+      <language key="restart.title" locale="es">ATENCIÓN - Estás a punto de volver al inicio de la encuesta.</language>
+      <language key="restart.message" locale="en">Hey! Testing restart alert popup and restart application feature. Click "Yes" to restart the application. Click on "No" to remain in this stage.</language>
+      <language key="restart.message" locale="es">Hey! Testing restart alert popup and restart application feature. Click "Yes" to restart the application. Click on "No" to remain in this stage.</language>
+      <!-- Welcome -->
+      <language key="welcome.button.label" locale="en">Begin</language>
+      <language key="welcome.button.label" locale="es">Empecemos</language>
+      <!-- Help -->
+      <language key="help.button.label" locale="en">Close</language>
+      <language key="help.button.label" locale="es">Cerrar</language>
+      <!-- Disclosure Popup -->
+      <language key="disclosure.title" locale="en">Information</language>
+      <language key="disclosure.title" locale="es">Información</language>
+      <language key="disclosure.body" locale="en">Disclosure content goes here.</language>
+      <language key="disclosure.body" locale="es">Disclosure content goes here.</language>
+      <language key="disclosure.gotit" locale="en">Close</language>
+      <language key="disclosure.gotit" locale="es">Cerrar</language>
+      <!-- Stage 1 -->
+      <language key="error.mustscale.message" locale="en">Please select or change the value of at least one of the options. Not all of the selections can be set at the same value.</language>
+      <language key="error.mustscale.message" locale="es">Por favor, selecciona o cambia el valor de al menos una opción. Las selecciones no pueden tener el mismo valor.</language>
+      <!-- Stage 2 -->
+      <language key="attributes.leastpreferred" locale="en">Less Important</language>
+      <language key="attributes.leastpreferred" locale="es">Menos importante</language>
+      <language key="attributes.mostpreferred" locale="en">More Important</language>
+      <language key="attributes.mostpreferred" locale="es">Más importante</language>
+      <language key="error.scrollbarnotmoved.message" locale="en">Are you sure you have scrolled down to answer all of the questions? The scroll bar is located on the right side of your screen. Click 'yes' to continue or 'no' to modify your answers.</language>
+      <language key="error.scrollbarnotmoved.message" locale="es">¿Estás seguro de haber ido hasta el final de la página para contestar todas las preguntas? La barra de navegción se encuentra en el lado derecho de tu pantalla. Pincha "Sí" para continuar o "No" para modificar las respuestas.</language>
+      <!-- Stage 2 and Importance Meter Preference Labels -->
+      <language key="preference.importance.labels" locale="en">NOT IMPORTANT||SOMEWHAT IMPORTANT||IMPORTANT||VERY IMPORTANT||EXTREMELY IMPORTANT</language>
+      <language key="preference.importance.labels" locale="es">SIN IMPORTANCIA||ALGO IMPORTANTE||IMPORTANTE||MUY IMPORTANTE||EXTREMAMENTE IMPORTANTE</language>
+      <!-- Stage 3 -->
+      <language key="tradeoffs.vs" locale="en">or</language>
+      <language key="tradeoffs.vs" locale="es">o</language>
+      <language key="tradeoffs.offer1" locale="en">Option 1</language>
+      <language key="tradeoffs.offer1" locale="es">Opción 1</language>
+      <language key="tradeoffs.offer2" locale="en">Option 2</language>
+      <language key="tradeoffs.offer2" locale="es">Opción 2</language>
+      <language key="tradeoffs.preference.labels" locale="en">Greatly Prefer Option 1||Prefer Option 1||Slightly Prefer Option 1||Indifferent||Slightly Prefer Option 2||Prefer Option 2||Greatly Prefer Option 2</language>
+      <language key="tradeoffs.preference.labels" locale="es">Prefiero claramente la Opción 1||Prefiero la Opción 1||Prefiero levemente la Opción 1||Indiferente||Prefiero levemente la Opción 2||Prefiero la Opción 2||Prefiero claramente la Opción 2</language>
+      <!-- Stage 4 -->
+      <language key="error.requiredinput.label" locale="en">Your Answer Is Invalid</language>
+      <language key="error.requiredinput.label" locale="es">La respuesta no es válida</language>
+      <language key="error.missingrequired.title" locale="en">Questions Not Answered</language>
+      <language key="error.missingrequired.title" locale="es">Pregunta sin contestar</language>
+      <language key="error.missingrequired.message" locale="en">You have not answered the mandated question(s) on this screen. Please make sure any question marked with an asterisk (*) has been answered.</language>
+      <language key="error.missingrequired.message" locale="es">No has contestado alguna de las preguntas obligatorias de esta pantalla. Por favor, asegúrate de que has contestado toda pregunta con un asterisco (*).</language>
+      <!-- Percent Allocation -->
+      <language key="percentmeter.totalmaxalert" locale="en">Maximum of 100% has been reached</language>
+      <language key="percentmeter.totalmaxalert" locale="es">El máximo del 100% ha sido alcanzado</language>
+      <language key="percentmeter.valuedisplaytext" locale="en">/ 100%</language>
+      <language key="percentmeter.valuedisplaytext" locale="es">/ 100%</language>
+      <language key="error.sumvaluesinvalid.title" locale="en">Invalid sum</language>
+      <language key="error.sumvaluesinvalid.title" locale="es">Cantidad inválida</language>
+      <language key="error.sumvaluesinvalid.message" locale="en">Values must equate to 100</language>
+      <language key="error.sumvaluesinvalid.message" locale="es">Los valores deben igualar a 100</language>
+      <!-- Set flag to true to animate the icons -->
+      <language key="animateicons" locale="en">false</language>
+      <language key="animateicons" locale="es">false</language>
+      <!-- Warning to user to confirm navigating away from app -->
+      <language key="warning.leavingapp.message" locale="en">Warning! You are about to leave the app and lose all data</language>
+      <language key="warning.leavingapp.message" locale="es">¡Atención! Estás abandonando la aplicación y se perderán todos los datos.</language>
+      <!-- App Template -->
+      <profile key="app.templateversion" value="2" />
+      <profile key="app.templatesubversion" value="a" />
+      <!-- Widget Thumb States -->
+      <profile key="usethumbstates" value="true" />
+      <!-- tracking -->
+      <!-- Start facebook tracking-->
+      <!-- NOTE ID is for TCS test account -->
+      <!-- Need "true" and valid "ID" -->
+      <!-- if "false" or not provided, then will be turned off-->
+      <!-- <profile key="externalanalytics.fb" value="false"/>
+			<profile key="externalanalytics.fb.id" value="1609058966064965"/> -->
+      <!-- End facebook tracking-->
+      <!-- Optimize for PC and Tablets: true/false -->
+      <profile key="devicenotsupported" value="false" />
+      <!-- Peer Comparisons -->
+      <!-- <profile key="instance-attribute-requestprocessor" value="averaging"/>-->
+      <!-- To use dynamic breadcrumbs or not: true|false -->
+      <profile key="usedynamicbreadcrumbs" value="true" />
+      <!-- Notification Bar Timeout -->
+      <profile key="notificationbar.timeout" value="4000" />
+    </resource>
+    <resource name="controls">
+      <resource-element value="welcome" />
+      <resource-element value="intro" />
+      <resource-element value="onboardintro" />
+      <resource-element value="prepart1" />
+      <resource-element value="part1" />
+      <resource-element value="prepart2" />
+      <resource-element value="part2" />
+      <resource-element value="prepart3" />
+      <resource-element value="part3" />
+      <resource-element value="page1" />
+      <resource-element value="thankyou" />
+    </resource>
+    <!-- stage description -->
+    <resource name="welcome" value="display">
+      <language key="next" locale="en">Begin</language>
+      <language key="next" locale="es">Empecemos</language>
+      <language key="header" locale="en">What matters to you?</language>
+      <language key="header" locale="es">¿Qué es lo que te importa?</language>
+      <language key="title" locale="en">Share your preferences and perspectives regarding various rewards, benefits and opportunities.</language>
+      <language key="title" locale="es">Comparte tus preferencias y perspectivas sobre diferentes incentivos, beneficios y oportunidades.</language>
+      <language key="time.image.text" locale="en">It takes less than 5 minutes</language>
+      <language key="time.image.text" locale="es">Serán menos de 5 minutos</language>
+      <language key="disclaimer" locale="en">Copyright &#169; 2020 TrueChoice Solutions, Inc.    | <![CDATA[<a href="//www.truechoicesolutions.com/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>]]></language>
+      <language key="disclaimer" locale="es">Copyright &#169; 2020 TrueChoice Solutions, Inc.    | &lt;a href="//www.truechoicesolutions.com/privacy-policy" target="_blank" rel="noopener noreferrer"&gt;Política de Privacidad&lt;/a&gt;</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Welcome&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.message" locale="es">&lt;b&gt;Bienvenido&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-welcome</language>
+      <language key="breadcrumbdisplay.cssclass" locale="es">breadcrumb-welcome</language>
+      <language key="templateurl" locale="en">welcome-1.tpl.html</language>
+      <language key="templateurl" locale="es">welcome-1.tpl.html</language>
+    </resource>
+    <resource name="intro" value="display">
+      <language key="title" locale="en">Let's get started!</language>
+      <language key="title" locale="es">¡Empecemos!</language>
+      <language key="body" locale="en">&lt;b&gt;The purpose of this application is to understand what you prefer and value most from the benefits currently offered to you, as well as potential new benefits.&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Your responses are private and confidential - there is no risk in being totally honest.&lt;br&gt;&lt;br&gt;Please Note:&lt;/b&gt;&lt;br&gt;&lt;br&gt;• This exercise needs to be finished in one session. You can't save your work, come back, and complete it later.&lt;br&gt;&lt;br&gt;• This tool will time out after 30 minutes of inactivity. If that happens, you will have to start over from the beginning.</language>
+      <language key="body" locale="es">&lt;b&gt;La finalidad de esta aplicación es entender lo que prefieres y valoras más de los beneficios que la compañía te ofrece actualmente, así como los nuevos beneficios potenciales.&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Tus respuestas son confidenciales - no dudes en ser sincero.&lt;br&gt;&lt;br&gt; Por favor ten en cuenta:&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Esta encuesta debe completarse en una única sesión. No podrás guardar tu progreso para completarlo después.&lt;br&gt;&lt;br&gt;• La herramienta expirará después de 30 minutos de inactividad. Si esto ocurre, tendrás que volver a empezar desde el principio.</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Introduction&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.message" locale="es">&lt;b&gt;Introducción&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-welcome</language>
+      <language key="breadcrumbdisplay.cssclass" locale="es">breadcrumb-welcome</language>
+      <language key="templateurl" locale="en">display-2.tpl.html</language>
+      <language key="templateurl" locale="es">display-2.tpl.html</language>
+    </resource>
+    <resource name="onboardintro" value="display">
+      <language key="title" locale="en">Here's what's coming up.</language>
+      <language key="title" locale="es">Esto es lo que va a pasar.</language>
+      <language key="header" locale="en">The core part of this tool is divided into three sections:</language>
+      <language key="header" locale="es">El núcleo de la herramienta se divide en tres secciones:</language>
+      <language key="body" locale="en" />
+      <language key="body" locale="es" />
+      <language key="footer" locale="en">&lt;b&gt;If you need help, click or tap on the &lt;span class="tooltip-indicator-no-pointer"&gt;&lt;/span&gt; icons.&lt;/b&gt;</language>
+      <language key="footer" locale="es">&lt;b&gt;Si necesitas ayuda, pincha en el icono&lt;span class="tooltip-indicator-no-pointer"&gt;&lt;/span&gt;&lt;/b&gt;</language>
+      <language key="note" locale="en" />
+      <language key="note" locale="es" />
+      <language key="content.block1.image" locale="en">assets/stages/display/onboardIntro/content/part1.gif</language>
+      <language key="content.block1.image" locale="es">assets/stages/display/onboardIntro/content/part1.gif</language>
+      <language key="content.block1small.image" locale="en">assets/stages/display/onboardIntro/content/part1_320.gif</language>
+      <language key="content.block1small.image" locale="es">assets/stages/display/onboardIntro/content/part1_320.gif</language>
+      <language key="content.block1.image.alt" locale="en">Content image</language>
+      <language key="content.block1.image.alt" locale="es">Content image</language>
+      <language key="content.block1.header" locale="en">1. What options do you prefer?</language>
+      <language key="content.block1.header" locale="es">1. ¿Qué opciones prefieres?</language>
+      <language key="content.block1.text" locale="en">Share your preferences across a range of offerings within each category.</language>
+      <language key="content.block1.text" locale="es">Comparte tus preferencias entre el conjunto de opciones de cada categoría.</language>
+      <language key="content.block2.image" locale="en">assets/stages/display/onboardIntro/content/part2.gif</language>
+      <language key="content.block2.image" locale="es">assets/stages/display/onboardIntro/content/part2.gif</language>
+      <language key="content.block2small.image" locale="en">assets/stages/display/onboardIntro/content/part2_320.gif</language>
+      <language key="content.block2small.image" locale="es">assets/stages/display/onboardIntro/content/part2_320.gif</language>
+      <language key="content.block2.image.alt" locale="en">Content image</language>
+      <language key="content.block2.image.alt" locale="es">Content image</language>
+      <language key="content.block2.header" locale="en">2. How important is each category?</language>
+      <language key="content.block2.header" locale="es">2. ¿Cómo de importante es cada categoría?</language>
+      <language key="content.block2.text" locale="en">Rate the importance of each category relative to the others.</language>
+      <language key="content.block2.text" locale="es">Ordena la importancia de cada categoría con relación a las otras.</language>
+      <language key="content.block3.image" locale="en">assets/stages/display/onboardIntro/content/part3.gif</language>
+      <language key="content.block3.image" locale="es">assets/stages/display/onboardIntro/content/part3.gif</language>
+      <language key="content.block3.image.alt" locale="en">Content image</language>
+      <language key="content.block3.image.alt" locale="es">Content image</language>
+      <language key="content.block3.header" locale="en">3. How would you trade off options?</language>
+      <language key="content.block3.header" locale="es">3. ¿De qué manera renunciarías a alguna de las opciones?</language>
+      <language key="content.block3.text" locale="en">For pairs of options, tell us how much you prefer one over the other.</language>
+      <language key="content.block3.text" locale="es">Por parejas de opciones, indícanos cuánto prefieres una con respecto a otra.</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Introduction&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.message" locale="es">&lt;b&gt;Introducción&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-welcome</language>
+      <language key="breadcrumbdisplay.cssclass" locale="es">breadcrumb-welcome</language>
+      <language key="templateurl" locale="en">onboard-intro-gif.tpl.html</language>
+      <language key="templateurl" locale="es">onboard-intro-gif.tpl.html</language>
+    </resource>
+    <resource name="prepart1" value="display">
+      <language key="title" locale="en">Part 1:</language>
+      <language key="title" locale="es">Parte 1:</language>
+      <language key="messagetitle" locale="en">What reward options do you prefer?</language>
+      <language key="messagetitle" locale="es">¿Qué opción retributiva prefieres?</language>
+      <language key="body" locale="en">&lt;b&gt;We are going to ask you about your preferences for options within a number of categories.&lt;/b&gt; For each option shown, select a value between 0 and 10. The lower the number, the less you prefer an option. The higher the number, the more you prefer the option.</language>
+      <language key="body" locale="es">&lt;b&gt;Te vamos a preguntar sobre tus preferencias sobre opciones dentro de un número de categorías.&lt;/b&gt; Para cada opción posible, selecciona un valor entre 0 y 10. Indicarás que prefieres menos la opción cuanto más bajo sea el número que le des. Las opciones más preferidas serán las que tengan los números más altos.</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Part 1&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.message" locale="es">&lt;b&gt;Parte 1&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-level</language>
+      <language key="breadcrumbdisplay.cssclass" locale="es">breadcrumb-level</language>
+      <language key="messageimage" locale="en">icon-prestage-1</language>
+      <language key="messageimage" locale="es">icon-prestage-1</language>
+      <language key="templateurl" locale="en">display-2.tpl.html</language>
+      <language key="templateurl" locale="es">display-2.tpl.html</language>
+    </resource>
+    <resource name="part1" value="level">
+      <language key="title" locale="en">Rate Your Preferences</language>
+      <language key="title" locale="es">Puntúa tus preferencias</language>
+      <language key="instructions.unordered" locale="en">Rate your preferences by selecting a value between 0 and 10. A higher value indicates more important and a lower value indicates less important. Be sure to change the value of at least one slider in order to move to the next page.</language>
+      <language key="instructions.unordered" locale="es">Puntúa tus preferencias seleccionando un valor entre 0 y 10. Un valor elevado indica mayor importancia, un valor más bajo indica menor importancia. Asegúrate de cambiar el valor de al menos un marcador para poder pasar a la siguiente página.</language>
+      <language key="instructions.ordered" locale="en">Moving a slider UP means the option is MORE important. Moving a slider DOWN means the option is LESS important. The sliders have been pre-set in order of generally accepted preferences. Therefore, you cannot move a slider above the one to its right or lower than the one to its left.</language>
+      <language key="instructions.ordered" locale="es">Deslizar el marcador hacia ARRIBA indica que la opción es MÁS importante. Arrastrar el marcador hacia ABAJO señala que la opción es MENOS importante. Los marcadores han sido prefijados en el orden de preferencia generalmente aceptado. Por ello, no puedes llevar el marcador por encima del de su derecha ni por debajo del de la izquierda.</language>
+      <language key="instructions.skip" locale="en">&lt;font&gt;&lt;b&gt;If this characteristic is irrelevant to you, click Next and you will not be asked about it again.&lt;/b&gt;&lt;/font&gt;</language>
+      <language key="instructions.skip" locale="es">&lt;font&gt;&lt;b&gt;Si esta característica es irrelevante para ti, pincha "Siguiente" y no se te preguntará de nuevo. &lt;/b&gt;&lt;/font&gt;</language>
+      <language key="mostpreferred" locale="en">Most Important</language>
+      <language key="mostpreferred" locale="es">El más importante</language>
+      <language key="leastpreferred" locale="en">Least Important</language>
+      <language key="leastpreferred" locale="es">El menos importante</language>
+      <language key="learnmore" locale="en">More Information</language>
+      <language key="learnmore" locale="es">Más información</language>
+      <language key="help.title" locale="en">What are we asking you to do here?</language>
+      <language key="help.title" locale="es">¿Qué te estamos pidiendo que hagas aquí?</language>
+      <language key="help.body" locale="en">This question is asking you to state your preferences across a range of items.&lt;br&gt;&lt;br&gt;Please indicate how much you prefer or value each item - in relation to the others - by moving the slider to a GREATER or LESSER preference or value for each of the elements shown. How far you move the slider depends on how strongly you feel about the item.&lt;br&gt;&lt;br&gt;You cannot have the same preference value for all the choices shown.</language>
+      <language key="help.body" locale="es">Este cuestionario te pide que expreses tus preferencias sobre un conjunto de elementos.&lt;br&gt;&lt;br&gt;Por favor indica cuánto prefieres o valoras cada elemento -en relación con los otros- desplazando el marcador a una MAYOR o MENOR preferencia o valoración para cada uno de ellos. Lo que muevas el marcador dependerá de lo afectado que te sientas por el elemento.&lt;br&gt;&lt;br&gt;No puedes tener la misma preferencia para todas las elecciones.</language>
+      <language key="help.gotit" locale="en">Got it!</language>
+      <language key="help.gotit" locale="es">¡Entendido!</language>
+      <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+      <language key="help.assets.image" locale="es">assets/popups/content/image.jpg</language>
+      <language key="help.assets.image.alt" locale="en">Help content image</language>
+      <language key="help.assets.image.alt" locale="es">Help content image</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Part 1:&lt;/b&gt; Question || of ||</language>
+      <language key="breadcrumbdisplay.message" locale="es">&lt;b&gt;Parte 1:&lt;/b&gt; Pregunta || de ||</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-level</language>
+      <language key="breadcrumbdisplay.cssclass" locale="es">breadcrumb-level</language>
+      <!-- Use the notification bar timeout profile key in levels to override the system value -->
+      <profile key="notificationbar.timeout" value="5000" />
+      <profile key="implicit.min" value="4.8" />
+      <profile key="implicit.max" value="5.2" />
+      <profile key="help" value="true" />
+      <profile key="widget" value="level-scale" />
+      <profile key="groupwidget.hideleastmost" value="true" />
+    </resource>
+    <resource name="prepart2" value="preattribute">
+      <language key="title" locale="en">Part 2:</language>
+      <language key="title" locale="es">Parte 2:</language>
+      <language key="messagetitle" locale="en">Congratulations! You're halfway done.</language>
+      <language key="messagetitle" locale="es">¡Enhorabuena! Estás a mitad del camino.</language>
+      <language key="body" locale="en">In Part 1, you rated the importance of options &lt;b&gt;&lt;i&gt;within&lt;/i&gt;&lt;/b&gt; each of a number of categories. &lt;b&gt;Now it's time to rate the importance of each category &lt;i&gt;relative to the others&lt;/i&gt;.</language>
+      <language key="body" locale="es">En la Parte 1 puntuaste la importancia de las opciones &lt;b&gt;&lt;i&gt;en&lt;/i&gt;&lt;/b&gt; cada una de las categorías. &lt;b&gt;Ahora tienes que puntuar la importancia de cada catergoría &lt;i&gt;en relación con las otras&lt;/i&gt;.</language>
+      <language key="instructions.mobile" locale="en">Scroll down to see all of the categories you will be rating:</language>
+      <language key="instructions.mobile" locale="es">Navega hacia el final de la página para ver todas las categorías por puntuar:</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Part 2&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.message" locale="es">&lt;b&gt;Parte 2&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-attribute</language>
+      <language key="breadcrumbdisplay.cssclass" locale="es">breadcrumb-attribute</language>
+      <language key="messageimage" locale="en">icon-prestage-2</language>
+      <language key="messageimage" locale="es">icon-prestage-2</language>
+      <language key="templateurl" locale="en">pre-attribute.tpl.html</language>
+      <language key="templateurl" locale="es">pre-attribute.tpl.html</language>
+    </resource>
+    <resource name="part2" value="attribute">
+      <language key="title" locale="en">What's more important to you?</language>
+      <language key="title" locale="es">¿Qué es lo más importante para ti?</language>
+      <language key="instructions" locale="en">For each of the categories below, indicate its importance &lt;b&gt;relative to the others&lt;/b&gt; by moving the slider towards the right (more important) or towards the left (less important).</language>
+      <language key="instructions" locale="es">Para cada una de las siguientes categorías, indica su importancia &lt;b&gt;en relación con las otras&lt;/b&gt; moviendo el marcador hacia la derecha (más importante) o hacia la izquierda (menos importante).</language>
+      <language key="leastpreferred" locale="en">Least Important</language>
+      <language key="leastpreferred" locale="es">El menos importante</language>
+      <language key="mostpreferred" locale="en">Most Important</language>
+      <language key="mostpreferred" locale="es">El más importante</language>
+      <language key="infodisplay.header" locale="en">Your Choices from Part 1:</language>
+      <language key="infodisplay.header" locale="es">Tus elecciones en la Parte 1:</language>
+      <language key="infodisplay.header.topchoice" locale="en">Your Top Choice from Part 1:</language>
+      <language key="infodisplay.header.topchoice" locale="es">Tus elecciones más importantes en la Parte 1:</language>
+      <language key="infodisplay.leastpreferred" locale="en">Least Preferred</language>
+      <language key="infodisplay.leastpreferred" locale="es">Menos Preferida</language>
+      <language key="infodisplay.mostpreferred" locale="en">Most Preferred</language>
+      <language key="infodisplay.mostpreferred" locale="es">Más Preferida</language>
+      <language key="infodisplay.vs" locale="en">vs</language>
+      <language key="infodisplay.vs" locale="es">frente a</language>
+      <language key="infodisplay.rating.header" locale="en">Your Rating for this Cateory</language>
+      <language key="infodisplay.rating.header" locale="es">Tu puntuación para esta categoría</language>
+      <language key="help.title" locale="en">What are we asking you to do here?</language>
+      <language key="help.title" locale="es">¿Qué te estamos pidiendo que hagas aquí?</language>
+      <language key="help.body" locale="en">This screen lists the categories we asked you about in the first part of this application. Now, we'd like to understand how important each of these categories are relative to one another.</language>
+      <language key="help.body" locale="es">Esta pantalla muestra las categorías sobre las que te preguntamos en la primera parte de la aplicación. Ahora nos gustaría entender cómo de importantes son cada una de ellas respecto a las otras.</language>
+      <language key="help.label" locale="en">Close</language>
+      <language key="help.label" locale="es">Cerrar</language>
+      <language key="help.gotit" locale="en">Got it!</language>
+      <language key="help.gotit" locale="es">¡Entendido!</language>
+      <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+      <language key="help.assets.image" locale="es">assets/popups/content/image.jpg</language>
+      <language key="help.assets.image.alt" locale="en">Help content image</language>
+      <language key="help.assets.image.alt" locale="es">Help content image</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Part 2&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.message" locale="es">&lt;b&gt;Parte 2&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-attribute</language>
+      <language key="breadcrumbdisplay.cssclass" locale="es">breadcrumb-attribute</language>
+      <profile key="help" value="true" />
+      <profile key="widget" value="attribute-scale" />
+    </resource>
+    <resource name="prepart3" value="display">
+      <language key="title" locale="en">Part 3:</language>
+      <language key="title" locale="es">Parte 3:</language>
+      <language key="messagetitle" locale="en">How would you trade off rewards?</language>
+      <language key="messagetitle" locale="es">¿Cómo renunciarías a los incentivos?</language>
+      <language key="body" locale="en">Using what you told us in Parts 1 and 2, we've built personalized, hypothetical offerings for you to compare. &lt;b&gt;Now it's time to weigh their appeal relative to one another.&lt;/b&gt;</language>
+      <language key="body" locale="es">Utilizando lo que nos respondiste en las Partes 1 y 2, hemos construido ofertas personalizadas e hipotéticas para comparar. &lt;b&gt;Es momento de sopesar el atractivo que tienen para ti.&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Part 3&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.message" locale="es">&lt;b&gt;Parte 3&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-tradeoff</language>
+      <language key="breadcrumbdisplay.cssclass" locale="es">breadcrumb-tradeoff</language>
+      <language key="messageimage" locale="en">icon-prestage-3</language>
+      <language key="messageimage" locale="es">icon-prestage-3</language>
+      <language key="templateurl" locale="en">display-2.tpl.html</language>
+      <language key="templateurl" locale="es">display-2.tpl.html</language>
+    </resource>
+    <resource name="part3" value="tradeoff">
+      <language key="title" locale="en">Which option do you prefer?</language>
+      <language key="title" locale="es">¿Qué opción prefieres?</language>
+      <language key="instructions" locale="en">Assume all your choices are identical in every way except for the features shown. Based on the strength of your preference, move the slider towards the combination you prefer.</language>
+      <language key="instructions" locale="es">Considera que todas tus elecciones son idénticas menos en los elementos mostrados. Basándote en la importancia de tu preferencia, desliza el marcador hacia la opción que prefieres.</language>
+      <language key="mostpreferred" locale="en">Most Preferred</language>
+      <language key="mostpreferred" locale="es">Más Preferida</language>
+      <language key="leastpreferred" locale="en">Least Preferred</language>
+      <language key="leastpreferred" locale="es">Menos Preferida</language>
+      <language key="help.title" locale="en">What are we asking you to do here?</language>
+      <language key="help.title" locale="es">¿Qué te estamos pidiendo que hagas aquí?</language>
+      <language key="help.body" locale="en">Assume all your choices are identical except for the features shown. Based on the strength of your preference, move the slider towards the combination you prefer.&lt;br&gt;&lt;br&gt;We don't just want to know which option you prefer; we want to know how much you prefer it. We'll use this information to refine our understanding of your preferences.</language>
+      <language key="help.body" locale="es">Considera que todas tus elecciones son idénticas menos en los elementos mostrados. Basándote en la importancia de tu preferencia, desliza el marcador hacia la opción que prefieres.&lt;br&gt;&lt;br&gt;No solo queremos saber qué opción prefieres; queremos saber cuánto la prefieres. Utilizaremos esta información para mejorar nuestra forma de entender tus preferencias.</language>
+      <language key="help.label" locale="en">Close</language>
+      <language key="help.label" locale="es">Cerrar</language>
+      <language key="help.gotit" locale="en">Got it!</language>
+      <language key="help.gotit" locale="es">¡Entendido!</language>
+      <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+      <language key="help.assets.image" locale="es">assets/popups/content/image.jpg</language>
+      <language key="help.assets.image.alt" locale="en">Help content image</language>
+      <language key="help.assets.image.alt" locale="es">Help content image</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Part 3:&lt;/b&gt; Question || of ||</language>
+      <language key="breadcrumbdisplay.message" locale="es">&lt;b&gt;Parte 3:&lt;/b&gt; Pregunta || of ||</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-tradeoff</language>
+      <language key="breadcrumbdisplay.cssclass" locale="es">breadcrumb-tradeoff</language>
+      <profile key="help" value="true" />
+      <profile key="numtradeoffs" value="2" />
+      <profile key="widget" value="tradeoff-scale" />
+      <profile key="widget.showvaluefromzerototen" value="true" />
+    </resource>
+    <resource name="page1" value="survey">
+      <resource-element value="Managing my debt / student loan, credit card, mortgage Question" />
+      <resource-element value="My ability to retire Question" />
+      <resource-element value="Lack of time in the day to spend on things that are important to me Question" />
+      <resource-element value="Tuition / education for my children Question" />
+      <resource-element value="Paying for medical care Question" />
+      <resource-element value="Ability to purchase a home Question" />
+      <resource-element value="Child / Elder care Question" />
+      <language key="title" locale="en">What day-to-day financial and other challenges are most concerning for you?&lt;br&gt;&lt;font size="3"&gt;&lt;i&gt;Page 1 of 1&lt;/i&gt;&lt;/font&gt;</language>
+      <language key="title" locale="es">¿Qué retos financieros diarios o de otra índole te afectan más?&lt;br&gt;&lt;font size="3"&gt;&lt;i&gt;Página 1 de 1&lt;/i&gt;&lt;/font&gt;</language>
+      <language key="numberoflabels" locale="en">4</language>
+      <language key="numberoflabels" locale="es">4</language>
+      <language key="label1" locale="en">Not&lt;br&gt;Concerning</language>
+      <language key="label1" locale="es">No&lt;br&gt;afectado</language>
+      <language key="label2" locale="en">Slightly&lt;br&gt;Concerning</language>
+      <language key="label2" locale="es">Ligeramente&lt;br&gt;afectado</language>
+      <language key="label3" locale="en">Moderately&lt;br&gt;Concerning</language>
+      <language key="label3" locale="es">Relativamente &lt;br&gt;afectado</language>
+      <language key="label4" locale="en">Very&lt;br&gt;Concerning</language>
+      <language key="label4" locale="es">Muy&lt;br&gt;afectado</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Part 4:&lt;/b&gt; Page 1 of 1</language>
+      <language key="breadcrumbdisplay.message" locale="es">&lt;b&gt;Parte 4:&lt;/b&gt; Página 1de 1</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-survey</language>
+      <language key="breadcrumbdisplay.cssclass" locale="es">breadcrumb-survey</language>
+      <language key="templateurl" locale="en">survey-radio-group.tpl.html</language>
+      <language key="templateurl" locale="es">survey-radio-group.tpl.html</language>
+      <profile key="widget" value="radio-group" />
+      <profile key="widget.hasnotapplicableoption" value="false" />
+    </resource>
+    <resource name="thankyou" value="output">
+      <language key="header" locale="en">Thank you for participating!</language>
+      <language key="header" locale="es">¡Gracias por tu participación!</language>
+      <language key="body" locale="en">&lt;font size="4"&gt;&lt;b&gt;We have received your feedback.&lt;/b&gt;&lt;/font&gt;&lt;br&gt;Thank you for expressing your voice by participating in this study. Your feedback is helping us make informed decisions as we strive to further enhance your working experience.&lt;br&gt;&lt;br&gt;&lt;font color='#ca3830'&gt;&lt;b&gt;You may close your browser window.&lt;b&gt;</language>
+      <language key="body" locale="es">&lt;font size="4"&gt;&lt;b&gt;Hemos recibido tu feedback&lt;/b&gt;&lt;/font&gt;&lt;br&gt;Gracias por expresar tu visión en esta encuesta. Tu feedback nos ayuda a tomar decisiones informadas para la mejora de tu experiencia en el trabajo.&lt;br&gt;&lt;br&gt;&lt;font color='#ca3830'&gt;&lt;b&gt;Ya puedes cerrar la página&lt;b&gt;</language>
+      <language key="preferenceprofile.title" locale="en">Your Preference Profile</language>
+      <language key="preferenceprofile.title" locale="es">Tu Perfil de Preferencias</language>
+      <language key="preferenceprofile.preferencekey" locale="en">Your Preferences</language>
+      <language key="preferenceprofile.preferencekey" locale="es">Tus Preferencias</language>
+      <language key="preferenceprofile.peerkey" locale="en">Your Peers</language>
+      <language key="preferenceprofile.peerkey" locale="es">Tus Compañeros</language>
+      <!-- Product templates, cfm, and styles -->
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-output</language>
+      <language key="breadcrumbdisplay.cssclass" locale="es">breadcrumb-output</language>
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Thank You&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.message" locale="es">&lt;b&gt;Gracias&lt;/b&gt;</language>
+      <language key="templateurl" locale="en">thank-you.tpl.html</language>
+      <language key="templateurl" locale="es">thank-you.tpl.html</language>
+      <profile key="showpreferenceprofile" value="true" />
+      <profile key="isproductbased" value="false" />
+      <profile key="persistjsondata" value="false" />
+    </resource>
+    <!-- UID passed in from URL -->
+    <resource name="url">
+      <resource-element value="uid" />
+    </resource>
+    <!-- Demographic Resources -->
+    <!-- Page 1 Demographic Resources -->
+    <resource name="Managing my debt / student loan, credit card, mortgage Question" type="Alias" value="Managing my debt / student loan, credit card, mortgage">
+      <profile key="type" value="radiobutton" />
+    </resource>
+    <resource name="My ability to retire Question" type="Alias" value="My ability to retire">
+      <profile key="type" value="radiobutton" />
+    </resource>
+    <resource name="Lack of time in the day to spend on things that are important to me Question" type="Alias" value="Lack of time in the day to spend on things that are important to me">
+      <profile key="type" value="radiobutton" />
+    </resource>
+    <resource name="Tuition / education for my children Question" type="Alias" value="Tuition / education for my children">
+      <profile key="type" value="radiobutton" />
+    </resource>
+    <resource name="Paying for medical care Question" type="Alias" value="Paying for medical care">
+      <profile key="type" value="radiobutton" />
+    </resource>
+    <resource name="Ability to purchase a home Question" type="Alias" value="Ability to purchase a home">
+      <profile key="type" value="radiobutton" />
+    </resource>
+    <resource name="Child / Elder care Question" type="Alias" value="Child / Elder care">
+      <profile key="type" value="radiobutton" />
+    </resource>
+    <naming name="DemoPwCTRARetentionv3_ES" owner="[Client]DemoPwCTRARetentionv3_ES/[Game]DemoPwCTRARetentionv3_ES" type="bfd.domain.game.Game" by-owner="true" />
+    <!-- Demographic Profile Keys -->
+    <!-- Page 1 Demographic Profile Keys -->
+    <profile-key key="Managing my debt / student loan, credit card, mortgage" required="false">
+      <language key="displayname" locale="en">Managing my debt - student loan, credit card, mortgage</language>
+      <language key="displayname" locale="es">Gestionar mis deudas - préstamo de estudios, tarjetas de crédito, hipoteca</language>
+      <profile key="showoptiontext" type="String" value="true" />
+      <profile-value key="Not Concerning" value="Not Concerning">
+        <language key="displayname" locale="en">Not Concerning</language>
+        <language key="displayname" locale="es">No afectado</language>
+      </profile-value>
+      <profile-value key="Slightly Concerning" value="Slightly Concerning">
+        <language key="displayname" locale="en">Slightly Concerning</language>
+        <language key="displayname" locale="es">Ligeramente afectado</language>
+      </profile-value>
+      <profile-value key="Moderately Concerning" value="Moderately Concerning">
+        <language key="displayname" locale="en">Moderately Concerning</language>
+        <language key="displayname" locale="es">Relativamente afectado</language>
+      </profile-value>
+      <profile-value key="Very Concerning" value="Very Concerning">
+        <language key="displayname" locale="en">Very Concerning</language>
+        <language key="displayname" locale="es">Muy afectado</language>
+      </profile-value>
+    </profile-key>
+    <profile-key key="My ability to retire" required="false">
+      <language key="displayname" locale="en">My ability to retire</language>
+      <language key="displayname" locale="es">Mi capacidad para jubilarme</language>
+      <profile key="showoptiontext" type="String" value="true" />
+      <profile-value key="Not Concerning" value="Not Concerning">
+        <language key="displayname" locale="en">Not Concerning</language>
+        <language key="displayname" locale="es">No afectado</language>
+      </profile-value>
+      <profile-value key="Slightly Concerning" value="Slightly Concerning">
+        <language key="displayname" locale="en">Slightly Concerning</language>
+        <language key="displayname" locale="es">Ligeramente afectado</language>
+      </profile-value>
+      <profile-value key="Moderately Concerning" value="Moderately Concerning">
+        <language key="displayname" locale="en">Moderately Concerning</language>
+        <language key="displayname" locale="es">Relativamente afectado</language>
+      </profile-value>
+      <profile-value key="Very Concerning" value="Very Concerning">
+        <language key="displayname" locale="en">Very Concerning</language>
+        <language key="displayname" locale="es">Muy afectado</language>
+      </profile-value>
+    </profile-key>
+    <profile-key key="Lack of time in the day to spend on things that are important to me" required="false">
+      <language key="displayname" locale="en">Lack of time in the day to spend on things that are important to me</language>
+      <language key="displayname" locale="es">Falta de tiempo en el día para tareas importantes para mí</language>
+      <profile key="showoptiontext" type="String" value="true" />
+      <profile-value key="Not Concerning" value="Not Concerning">
+        <language key="displayname" locale="en">Not Concerning</language>
+        <language key="displayname" locale="es">No afectado</language>
+      </profile-value>
+      <profile-value key="Slightly Concerning" value="Slightly Concerning">
+        <language key="displayname" locale="en">Slightly Concerning</language>
+        <language key="displayname" locale="es">Ligeramente afectado</language>
+      </profile-value>
+      <profile-value key="Moderately Concerning" value="Moderately Concerning">
+        <language key="displayname" locale="en">Moderately Concerning</language>
+        <language key="displayname" locale="es">Relativamente afectado</language>
+      </profile-value>
+      <profile-value key="Very Concerning" value="Very Concerning">
+        <language key="displayname" locale="en">Very Concerning</language>
+        <language key="displayname" locale="es">Muy afectado</language>
+      </profile-value>
+    </profile-key>
+    <profile-key key="Tuition / education for my children" required="false">
+      <language key="displayname" locale="en">Tuition / education for my children</language>
+      <language key="displayname" locale="es">Tutela / educación de mis hijos</language>
+      <profile key="showoptiontext" type="String" value="true" />
+      <profile-value key="Not Concerning" value="Not Concerning">
+        <language key="displayname" locale="en">Not Concerning</language>
+        <language key="displayname" locale="es">No afectado</language>
+      </profile-value>
+      <profile-value key="Slightly Concerning" value="Slightly Concerning">
+        <language key="displayname" locale="en">Slightly Concerning</language>
+        <language key="displayname" locale="es">Ligeramente afectado</language>
+      </profile-value>
+      <profile-value key="Moderately Concerning" value="Moderately Concerning">
+        <language key="displayname" locale="en">Moderately Concerning</language>
+        <language key="displayname" locale="es">Relativamente afectado</language>
+      </profile-value>
+      <profile-value key="Very Concerning" value="Very Concerning">
+        <language key="displayname" locale="en">Very Concerning</language>
+        <language key="displayname" locale="es">Muy afectado</language>
+      </profile-value>
+    </profile-key>
+    <profile-key key="Paying for medical care" required="false">
+      <language key="displayname" locale="en">Paying for medical care</language>
+      <language key="displayname" locale="es">Pago de cobertura médica</language>
+      <profile key="showoptiontext" type="String" value="true" />
+      <profile-value key="Not Concerning" value="Not Concerning">
+        <language key="displayname" locale="en">Not Concerning</language>
+        <language key="displayname" locale="es">No afectado</language>
+      </profile-value>
+      <profile-value key="Slightly Concerning" value="Slightly Concerning">
+        <language key="displayname" locale="en">Slightly Concerning</language>
+        <language key="displayname" locale="es">Ligeramente afectado</language>
+      </profile-value>
+      <profile-value key="Moderately Concerning" value="Moderately Concerning">
+        <language key="displayname" locale="en">Moderately Concerning</language>
+        <language key="displayname" locale="es">Relativamente afectado</language>
+      </profile-value>
+      <profile-value key="Very Concerning" value="Very Concerning">
+        <language key="displayname" locale="en">Very Concerning</language>
+        <language key="displayname" locale="es">Muy afectado</language>
+      </profile-value>
+    </profile-key>
+    <profile-key key="Ability to purchase a home" required="false">
+      <language key="displayname" locale="en">Ability to purchase a home</language>
+      <language key="displayname" locale="es">Capacidad de adquirir una casa</language>
+      <profile key="showoptiontext" type="String" value="true" />
+      <profile-value key="Not Concerning" value="Not Concerning">
+        <language key="displayname" locale="en">Not Concerning</language>
+        <language key="displayname" locale="es">No afectado</language>
+      </profile-value>
+      <profile-value key="Slightly Concerning" value="Slightly Concerning">
+        <language key="displayname" locale="en">Slightly Concerning</language>
+        <language key="displayname" locale="es">Ligeramente afectado</language>
+      </profile-value>
+      <profile-value key="Moderately Concerning" value="Moderately Concerning">
+        <language key="displayname" locale="en">Moderately Concerning</language>
+        <language key="displayname" locale="es">Relativamente afectado</language>
+      </profile-value>
+      <profile-value key="Very Concerning" value="Very Concerning">
+        <language key="displayname" locale="en">Very Concerning</language>
+        <language key="displayname" locale="es">Muy afectado</language>
+      </profile-value>
+    </profile-key>
+    <profile-key key="Child / Elder care" required="false">
+      <language key="displayname" locale="en">Child / Elder care</language>
+      <language key="displayname" locale="es">Cuidado de hijos/mayores a mi cargo</language>
+      <profile key="showoptiontext" type="String" value="true" />
+      <profile-value key="Not Concerning" value="Not Concerning">
+        <language key="displayname" locale="en">Not Concerning</language>
+        <language key="displayname" locale="es">No afectado</language>
+      </profile-value>
+      <profile-value key="Slightly Concerning" value="Slightly Concerning">
+        <language key="displayname" locale="en">Slightly Concerning</language>
+        <language key="displayname" locale="es">Ligeramente afectado</language>
+      </profile-value>
+      <profile-value key="Moderately Concerning" value="Moderately Concerning">
+        <language key="displayname" locale="en">Moderately Concerning</language>
+        <language key="displayname" locale="es">Relativamente afectado</language>
+      </profile-value>
+      <profile-value key="Very Concerning" value="Very Concerning">
+        <language key="displayname" locale="en">Very Concerning</language>
+        <language key="displayname" locale="es">Muy afectado</language>
+      </profile-value>
+    </profile-key>
+    <!-- UID profile key passed in from URL -->
+    <profile-key key="uid" required="false">
+      <naming name="DemoPwCTRARetentionv3_ESUid" />
+    </profile-key>
+  </game>
+</client>
+

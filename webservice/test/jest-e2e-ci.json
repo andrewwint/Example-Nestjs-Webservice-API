@@ -1,0 +1,39 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "testPathIgnorePatterns":[
+    "xml-loader.e2e-spec.ts",
+    "stacks.e2e-spec.ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "truechoice/auth/(.*)": "<rootDir>/../libs/auth/src/$1",
+    "truechoice/auth": "<rootDir>/../libs/auth/src",
+    "@truechoice/notification/(.*)": "<rootDir>/../libs/notification/src/$1",
+    "@truechoice/notification": "<rootDir>/../libs/notification/src",
+    "@truechoice/users/(.*)": "<rootDir>/../libs/users/src/$1",
+    "@truechoice/users": "<rootDir>/../libs/users/src",
+    "@truechoice/ssm/(.*)": "<rootDir>/../libs/ssm/src/$1",
+    "@truechoice/ssm": "<rootDir>/../libs/ssm/src",
+    "@truechoice/stacks/(.*)": "<rootDir>/../libs/stacks/src/$1",
+    "@truechoice/stacks": "<rootDir>/../libs/stacks/src",
+    "@truechoice/aws/(.*)": "<rootDir>/../libs/aws/src/$1",
+    "@truechoice/aws": "<rootDir>/../libs/aws/src",
+    "@truechoice/xml-loader/(.*)": "<rootDir>/../libs/xml-loader/src/$1",
+    "@truechoice/xml-loader": "<rootDir>/../libs/xml-loader/src",
+    "@truechoice/helpers/(.*)": "<rootDir>/../libs/helpers/src/$1",
+    "@truechoice/helpers": "<rootDir>/../libs/helpers/src",
+    "@truechoice/installer/(.*)": "<rootDir>/../libs/installer/src/$1",
+    "@truechoice/installer": "<rootDir>/../libs/installer/src",
+    "@truechoice/status/(.*)": "<rootDir>/../libs/status/src/$1",
+    "@truechoice/status": "<rootDir>/../libs/status/src"
+  }
+}

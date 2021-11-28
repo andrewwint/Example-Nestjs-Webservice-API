@@ -1,0 +1,15 @@
+.prettierignore
+*.xml
+*.bat
+*.njk
+*.ngdoc
+*.groovy
+*.jenkinsfile
+*.txt
+examples/pages/**/*.md
+*.png 
+*.jpg
+*.gif
+*.ico
+package.json
+.gitignore

@@ -1,0 +1,82 @@
+version: '3.7'
+
+services:
+  db-mongo:
+    container_name: webserive_mongodb
+    env_file: .env # CHANGE MANUALLY BY ENV?
+    environment:
+      - MONGO_INITDB_DATABASE=${MONGO_DB}
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_USER}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_PASSWORD}
+      # the right hand side are loaded from .env
+    image: mongo:${MONGO_VER}
+    restart: always
+    networks:
+      - netty
+    ports:
+      - '27017:27017'
+    volumes:
+      # Can't do this on Docker for Mac - see Caveats: Where to Store Data [https://hub.docker.com/_/mongo]
+      # - ./mongo/data:/data/db #Helps to store MongoDB data in `./mongo/data`
+      # copies over the seed data into mongo container to initialize users and database
+      - ./docker-entrypoint-initdb.d/seed.js:/docker-entrypoint-initdb.d/seed.js:ro
+
+  db-mongo-admin:
+    container_name: webservice_mongoadmin
+    image: mongo-express
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=db-mongo
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=${MONGO_USER}
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=${MONGO_PASSWORD}
+      - ME_CONFIG_BASICAUTH_USERNAME=${MONGO_USER}
+      - ME_CONFIG_BASICAUTH_PASSWORD=${MONGO_PASSWORD}
+    ports:
+      - '8081:8081'
+    networks:
+      - netty
+    depends_on:
+      - db-mongo
+
+  java-backend:
+    container_name: backend_dev
+    image: anthonyneto/sshserver
+    ports:
+      - '22:22'
+      - '80:80'
+    hostname: backend-docker
+    networks:
+      - netty
+    depends_on:
+      - db-mongo
+
+  main:
+    # image is provided by docker build of local app using Dockerfile
+    container_name: webservice_app
+    restart: always
+    build:
+      context: .
+      # target: development
+    environment:
+      - APP_ENV=docker
+      - AWS_PEM_FILE=/efs/kp_aws_production.pem
+      - MONGO_HOST_PORT=db-mongo:27017
+    volumes:
+      - type: bind
+        source: ../../webserive_shared_secure
+        target: /efs
+    ports:
+      - 3400:3000 # DON'T CONFLICT WITH MAIN PROTEUS APP LOCALLY
+      - 9229:9229 # FOR DEBUG
+    command: node dist/src/main
+    env_file: .env # CHANGE MANUALLY BY ENV?
+    networks:
+      - netty
+    depends_on:
+      - db-mongo
+    logging:
+      options:
+        max-size: '10m'
+        max-file: '3'
+
+networks:
+  netty:

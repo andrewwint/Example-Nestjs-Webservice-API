@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE client SYSTEM "object.dtd">
+
+<!-- UR - Urdu -->
+
+<client name="PwCTRAADNOCUidUR_Director">
+  <game name="PwCTRAADNOCUidUR_Director" fixed="false">
+    <attribute name="Hidden Price" implicit="descending" must-have-allowed="false" skip-allowed="false" type="price" unacceptables-allowed="false">
+      <level value="0">
+        <language key="description" locale="en">0</language>
+        <language key="description" locale="ur">0</language>
+        <language key="displayname" locale="en">0</language>
+        <language key="displayname" locale="ur">0</language>
+        <language key="icon" locale="en" />
+        <language key="icon" locale="ur" />
+      </level>
+      <level value="1">
+        <language key="description" locale="en">1</language>
+        <language key="description" locale="ur">1</language>
+        <language key="displayname" locale="en">1</language>
+        <language key="displayname" locale="ur">1</language>
+        <language key="icon" locale="en" />
+        <language key="icon" locale="ur" />
+      </level>
+      <language key="description" locale="en">Hidden Price</language>
+      <language key="description" locale="ur">Hidden Price</language>
+      <language key="displayname" locale="en">Hidden Price</language>
+      <language key="displayname" locale="ur">Hidden Price</language>
+      <language key="group" locale="en" />
+      <language key="group" locale="ur" />
+      <profile key="hidden" value="true" />
+    </attribute>
+    <!--Subgame-->
+    <subgame name="PwCTRAADNOCUidUR_Director" version-label="0">
+      <subgame-attribute name="Hidden Price">
+        <subgame-level value="0" />
+        <subgame-level value="1" />
+      </subgame-attribute>
+      <naming name="PwCTRAADNOCUidUR_Director" by-owner="true" type="bfd.domain.game.Game" owner="[Client]PwCTRAADNOCUidUR_Director/[Game]PwCTRAADNOCUidUR_Director" />
+    </subgame>
+    <!-- Misc Client Files -->
+    <resource name="main" value="truechoice/app/clients/pwc/tra/adnoc/0.1.0/">
+      <language locale="en" key="browserTitle">ADNOC</language>
+      <language locale="ur" key="browserTitle">ADNOC</language>
+    </resource>
+    <!-- game description -->
+    <resource name="system">
+      <!-- English System Messages -->
+      <language key="moveup" locale="en">Move Up</language>
+      <language key="moveup" locale="ur">اوپر لے جائیں</language>
+      <language key="movedown" locale="en">Move Down</language>
+      <language key="movedown" locale="ur">نیچے لے جائیں</language>
+      <language key="title.warning" locale="en">Warning</language>
+      <language key="title.warning" locale="ur">انتباہ</language>
+      <language key="title.attention" locale="en">Attention</language>
+      <language key="title.attention" locale="ur">توجہ دیں</language>
+      <language key="error.director.title" locale="en">Questions Not Answered</language>
+      <language key="error.director.title" locale="ur">سوالوں کے جواب نہیں دیے گئے</language>
+      <language key="error.director.message" locale="en">You have not answered the mandated question(s) on this screen. Please make sure any question marked with an asterisk (*) has been answered.</language>
+      <language key="error.director.message" locale="ur">آپ نے اس اسکرین پر لازمی سوالوں کے جواب نہیں دیے۔ براہ کرم یقینی بنائیں کہ ستارہ (*) کے نشان والے کسی بھی سوال کا جواب دیا گیا ہے۔</language>
+      <language key="error.helpdeskemail.title" locale="en">Attention</language>
+      <language key="error.helpdeskemail.title" locale="ur">توجہ دیں</language>
+      <language key="error.helpdeskemail.message" locale="en">Your last request failed because of a communications problem with our servers.&lt;br&gt;&lt;br&gt;Please restart by refreshing this webpage.  We apologize for the inconvenience.&lt;br&gt;&lt;br&gt;Before you try again, please make sure your network connection is active and reconfirm that you are connected to the internet.&lt;br&gt;&lt;br&gt;For further assistance, please email</language>
+      <language key="error.helpdeskemail.message" locale="ur">ہمارے سرور کے ساتھ مواصلات کے مسئلے کی وجہ سے آپ کی پچھلی درخواست ناکام ہو گئی۔&lt;br&gt;&lt;br&gt;براہ کرم اس ویب صفحہ کو ریفریش کرکے دوبارہ شروع کریں۔  تکلیف کے لیے ہم معذرت خواہ ہیں۔&lt;br&gt;&lt;br&gt;دوبارہ کوشش کرنے سے پہلے، براہ کرم یقینی بنائیں کہ آپ کا نیٹ ورک کنکشن فعال ہے اور تصدیق کر لیں کہ آپ انٹرنیٹ سے مربوط ہیں۔&lt;br&gt;&lt;br&gt;مزید مدد کے لیے، براہ کرم ای میل کریں</language>
+      <language key="error.helpdeskemail.reference" locale="en">Reference</language>
+      <language key="error.helpdeskemail.reference" locale="ur">حوالہ</language>
+      <language key="retry" locale="en">Retry</language>
+      <language key="retry" locale="ur">دوبارہ کوشش کریں</language>
+      <language key="title.error" locale="en">Error</language>
+      <language key="title.error" locale="ur">خرابی</language>
+      <language key="error.system.title" locale="en">System Error</language>
+      <language key="error.system.title" locale="ur">سسٹم کی خرابی</language>
+      <language key="error.timeout.message" locale="en">The system has not responded in an appropriate amount of time. Please try again in a few moments. If the problem persists, please contact the administrator.</language>
+      <language key="error.timeout.message" locale="ur">سسٹم نے مناسب وقت کے اندر ردعمل نہیں کیا۔ براہ کرم چند لمحات میں دوبارہ کوشش کریں۔ اگر مسئلہ برقرار رہتا ہے، تو براہ کرم ایڈمنسٹریٹر سے رابطہ کریں۔</language>
+      <language key="notatallimportant" locale="en">Strongly Disagree</language>
+      <language key="notatallimportant" locale="ur">انتہائی غیر متفق</language>
+      <language key="extremelyImportant" locale="en">Strongly Agree</language>
+      <language key="extremelyImportant" locale="ur">انتہائی متفق</language>
+      <language key="button.moveup" locale="en">Move Up</language>
+      <language key="button.moveup" locale="ur">اوپر لے جائیں</language>
+      <language key="button.movedown" locale="en">Move Down</language>
+      <language key="button.movedown" locale="ur">نیچے لے جائیں</language>
+      <language key="error.emailinvalid.title" locale="en">Invalid Email</language>
+      <language key="error.emailinvalid.title" locale="ur">غلط ای میل</language>
+      <language key="error.emailinvalid.message" locale="en">Please verify that your email address is correct and try again.</language>
+      <language key="error.emailinvalid.message" locale="ur">براہ کرم تصدیق کریں کہ آپ کا ای میل پتہ درست ہے اور دوبارہ کوشش کریں۔</language>
+      <language key="devicenotsupported.body" locale="en">Your screen resolution is insufficient to view this application. Must be at least 1024x768.&lt;br&gt;&lt;br&gt;Please try on a device with a larger screen.</language>
+      <language key="devicenotsupported.body" locale="ur">اس اپلیکیشن کو دیکھنے کے لیے آپ کی اسکرین کا ریزولیوشن ناکافی ہے۔ کم از کم 1024x768 ہونا چاہیے۔&lt;br&gt;&lt;br&gt;براہ کرم بڑی اسکرین والے ڈیوائس پر کوشش کریں۔</language>
+      <language key="devicenotsupported.footer" locale="en">Should you require assistance, please contact us at &lt;a href="mailto:helpdesk@truechoicesolutions.com?subject=Device%20Support"&gt;helpdesk@truechoicesolutions.com&lt;/a&gt;</language>
+      <language key="devicenotsupported.footer" locale="ur">اگر آپ کو مدد درکار ہے، تو براہ کرم ہم سے اس پر رابطہ کریں &lt;a href=&amp;quot;mailto:helpdesk@truechoicesolutions.com?subject=Device%20Support&amp;quot;&gt;helpdesk@truechoicesolutions.com&lt;/a&gt;</language>
+      <!-- General -->
+      <language key="next" locale="en">OK</language>
+      <language key="next" locale="ur">ٹھیک</language>
+      <language key="back" locale="en">Back</language>
+      <language key="back" locale="ur">واپس</language>
+      <language key="help" locale="en">Help</language>
+      <language key="help" locale="ur">مدد</language>
+      <language key="skip" locale="en">SKIP</language>
+      <language key="skip" locale="ur">چھوڑیں</language>
+      <language key="helpbutton" locale="en">Help</language>
+      <language key="helpbutton" locale="ur">مدد</language>
+      <language key="alert.button.close" locale="en">Close</language>
+      <language key="alert.button.close" locale="ur">بند کریں</language>
+      <language key="alert.button.ok" locale="en">Ok</language>
+      <language key="alert.button.ok" locale="ur">ٹھیک</language>
+      <language key="alert.button.yes" locale="en">Yes</language>
+      <language key="alert.button.yes" locale="ur">ہاں</language>
+      <language key="alert.button.no" locale="en">No</language>
+      <language key="alert.button.no" locale="ur">نہیں</language>
+      <language key="levelscalemoveenablesnext" locale="en">false</language>
+      <language key="levelscalemoveenablesnext" locale="ur">false</language>
+      <language key="leastpreferred" locale="en">Least</language>
+      <language key="leastpreferred" locale="ur">کم از کم</language>
+      <language key="mostpreferred" locale="en">Most</language>
+      <language key="mostpreferred" locale="ur">سب سے زیادہ</language>
+      <language key="disclaimer" locale="en">Copyright &#169; 2020 TrueChoice Solutions, Inc.    | <![CDATA[<a href="//www.truechoicesolutions.com/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>]]></language>
+      <language key="disclaimer" locale="ur">کاپی رائٹ &#169; 2020 TrueChoice Solutions, Inc.    | <![CDATA[<a href="//www.truechoicesolutions.com/privacy-policy" target="_blank" rel="noopener noreferrer">رازداری پالیسی</a>]]>.</language>
+      <language key="loading" locale="en">Loading...</language>
+      <language key="loading" locale="ur">لوڈ ہو رہا ہے...</language>
+      <language key="assets.main.loading" locale="en">assets/main/loading.gif</language>
+      <language key="assets.main.loading" locale="ur">assets/main/loading.gif</language>
+      <!-- Restart Alert -->
+      <language key="restart.title" locale="en">ATTENTION - You are about to return to the start of the survey.</language>
+      <language key="restart.title" locale="ur">توجہ دیں - آپ سروے کے آغاز پر واپس جانے والے ہیں۔</language>
+      <language key="restart.message" locale="en">Hey! Testing restart alert popup and restart application feature. Click "Yes" to restart the application. Click on "No" to remain in this stage.</language>
+      <language key="restart.message" locale="ur">Hey! Testing restart alert popup and restart application feature. Click "Yes" to restart the application. Click on "No" to remain in this stage.</language>
+      <!-- Welcome -->
+      <language key="welcome.button.label" locale="en">Begin</language>
+      <language key="welcome.button.label" locale="ur">شروع کریں</language>
+      <!-- Help -->
+      <language key="help.button.label" locale="en">Close</language>
+      <language key="help.button.label" locale="ur">بند کریں</language>
+      <!-- Disclosure Popup -->
+      <language key="disclosure.title" locale="en">Information</language>
+      <language key="disclosure.title" locale="ur">معلومات</language>
+      <language key="disclosure.body" locale="en">Disclosure content goes here.</language>
+      <language key="disclosure.body" locale="ur">انکشاف مواد یہ ہیں۔</language>
+      <language key="disclosure.gotit" locale="en">Close</language>
+      <language key="disclosure.gotit" locale="ur">بند کریں</language>
+      <!-- Stage 1 -->
+      <language key="error.mustscale.message" locale="en">Please select or change the value of at least one of the options. Not all of the selections can be set at the same value.</language>
+      <language key="error.mustscale.message" locale="ur">براہ کرم کم از کم کسی ایک اختیار کی قدر منتخب یا تبدیل کریں۔ تمام انتخابات کو ایک ہی قدر پر سیٹ نہیں کیا جا سکتا ہے۔</language>
+      <!-- Stage 2 -->
+      <language key="attributes.leastpreferred" locale="en">Less Important</language>
+      <language key="attributes.leastpreferred" locale="ur">کم اہم</language>
+      <language key="attributes.mostpreferred" locale="en">More Important</language>
+      <language key="attributes.mostpreferred" locale="ur">زیادہ اہم</language>
+      <language key="error.scrollbarnotmoved.message" locale="en">Are you sure you have scrolled down to answer all of the questions? The scroll bar is located on the right side of your screen. Click 'yes' to continue or 'no' to modify your answers.</language>
+      <language key="error.scrollbarnotmoved.message" locale="ur">کیا آپ واقعی تمام سوالوں کے جواب دینے کے لیے نیچے اسکرول کر چکے ہیں؟ اسکرول بار آپ کی اسکرین کے دائیں طرف ہے۔ جاری رکھنے کے لیے ’ہاں‘ یا اپنے جوابات میں ترمیم کرنے کے لیے ’نہیں‘ پر کلک کریں۔</language>
+      <!-- Stage 2 and Importance Meter Preference Labels -->
+      <language key="preference.importance.labels" locale="en">NOT IMPORTANT||SOMEWHAT IMPORTANT||IMPORTANT||VERY IMPORTANT||EXTREMELY IMPORTANT</language>
+      <language key="preference.importance.labels" locale="ur">اہم نہیں||کسی حد تک اہم||اہم||بہت اہم||انتہائی اہم</language>
+      <!-- Stage 3 -->
+      <language key="tradeoffs.vs" locale="en">or</language>
+      <language key="tradeoffs.vs" locale="ur">یا</language>
+      <language key="tradeoffs.offer1" locale="en">Bundle 1</language>
+      <language key="tradeoffs.offer1" locale="ur">بنڈل 1</language>
+      <language key="tradeoffs.offer2" locale="en">Bundle 2</language>
+      <language key="tradeoffs.offer2" locale="ur">بنڈل 2</language>
+      <language key="tradeoffs.preference.labels" locale="en">Greatly Prefer Bundle 1||Prefer Bundle 1||Slightly Prefer Bundle 1||Indifferent||Slightly Prefer Bundle 2||Prefer Bundle 2||Greatly Prefer Bundle 2</language>
+      <language key="tradeoffs.preference.labels" locale="ur">اختیار 1 کو زیادہ ترجیح دیں||اختیار 1 کو ترجیح دیں||اختیار 1 کو کم ترجیح دیں||غیر اہم||اختیار 2 کو کم ترجیح دیں||اختیار 2 کو ترجیح دیں||اختیار 2 کو زیادہ ترجیح دیں</language>
+      <!-- Stage 4 -->
+      <language key="error.requiredinput.label" locale="en">This question requires a response.</language>
+      <language key="error.requiredinput.label" locale="ur">اس سوال کے لیے ایک جواب مطلوب ہے۔</language>
+      <language key="error.missingrequired.title" locale="en">Questions Not Answered</language>
+      <language key="error.missingrequired.title" locale="ur">سوالوں کے جواب نہیں دیے گئے</language>
+      <language key="error.missingrequired.message" locale="en">You have not answered the mandated question(s) on this screen. Please make sure any question marked with an asterisk (*) has been answered.</language>
+      <language key="error.missingrequired.message" locale="ur">آپ نے اس اسکرین پر لازمی سوالوں کے جواب نہیں دیے۔ براہ کرم یقینی بنائیں کہ ستارہ (*) کے نشان والے کسی بھی سوال کا جواب دیا گیا ہے۔</language>
+      <!-- Set flag to true to animate the icons -->
+      <language key="animateicons" locale="en">false</language>
+      <language key="animateicons" locale="ur">false</language>
+      <!-- Warning to user to confirm navigating away from app -->
+      <language key="warning.leavingapp.message" locale="en">Warning! You are about to leave the app and lose all data</language>
+      <language key="warning.leavingapp.message" locale="ur">انتباہ! آپ ایپ چھوڑنے والے ہیں اور آپ کا سبھی ڈیٹا ضائع جائے گا</language>
+      <!-- App Template -->
+      <profile key="app.templateversion" value="2" />
+      <profile key="app.templatesubversion" value="a" />
+      <!-- Widget Thumb States -->
+      <profile key="usethumbstates" value="true" />
+      <!-- Optimize for PC and Tablets: true/false -->
+      <profile key="devicenotsupported" value="false" />
+      <!-- Peer Comparisons -->
+      <!-- <profile key="instance-attribute-requestprocessor" value="averaging" />-->
+      <!-- To use dynamic breadcrumbs or not: true|false -->
+      <profile key="usedynamicbreadcrumbs" value="false" />
+      <!-- Notification Bar Timeout -->
+      <profile key="notificationbar.timeout" value="4000" />
+    </resource>
+    <resource name="controls">
+      <resource-element value="intro1" />
+      <resource-element value="redirect" />
+    </resource>
+    <!--stage description-->
+    <resource name="intro1" value="director">
+      <language key="title" locale="en">Please enter your unique PIN</language>
+      <language key="title" locale="ur">براہ کرم اپنی منفرد PIN درج کریں</language>
+      <!-- Content for label displays -->
+      <language key="labeldisplay1.displayname" locale="en">&lt;img src="assets/stages/display/intro/content/image-id.png"&gt;&lt;/img&gt;&lt;br&gt;</language>
+      <language key="labeldisplay1.displayname" locale="ur">&lt;img src="assets/stages/display/intro/content/image-id.png"&gt;&lt;/img&gt;&lt;br&gt;</language>
+      <language key="labeldisplay2.displayname" locale="en"><![CDATA[<p><b>Where do I get my unique PIN?</b></p><p class="label-display-blockquote">You should have received an SMS with your unique PIN. If you have not received it, you can contact your EVP focal point.</p>]]></language>
+      <language key="labeldisplay2.displayname" locale="ur"><![CDATA[<p><b>مجھے اپنا منفرد PIN کہاں سے ملے گا؟</b></p><p class="label-display-blockquote">آپ کو اپنے منفرد PIN کے ساتھ ایک SMS موصول ہونا چاہیے۔ اگر آپ کو یہ موصول نہیں ہوا ہے، تو آپ اپنے EVP فوکل پوائنٹ سے رابطہ کر سکتے ہیں۔ </p>]]></language>
+      <language key="labeldisplay3.displayname" locale="en"><![CDATA[<p><b>Why do you need this?</b></p><p class="label-display-blockquote">The unique PIN is used for access to the survey only.<br><font color='#009ADE'><b>This ensures that your responses are anonymous.</b></font></p>]]></language>
+      <language key="labeldisplay3.displayname" locale="ur"><![CDATA[<p><b>آپ کو اس کی ضرورت کیوں ہے؟</b></p><p class="label-display-blockquote">منفرد PIN کا استعمال صرف سروے تک رسائی حاصل کرنے کے لیے کیا جاتا ہے۔<br><font color='#009ADE'><b>یہ یقینی بناتا ہے کہ آپ کے جوابات گمنام ہیں۔ </b></font></p>]]></language>
+      <!-- Text input language keys -->
+      <language key="widget.displayname" locale="en">8 Character unique PIN&lt;br&gt;&lt;i&gt;All letters are case sensitive&lt;/i&gt;</language>
+      <language key="widget.displayname" locale="ur">8 حروف کا منفرد PIN&lt;br&gt;&lt;i&gt;تمام حروف کیس حساس ہیں&lt;/i&gt;</language>
+      <language key="widget.placeholder" locale="en">--</language>
+      <language key="widget.placeholder" locale="ur">--</language>
+      <language key="widget.errorlabel" locale="en">This question requires a response.</language>
+      <language key="widget.errorlabel" locale="ur">اس سوال کے لیے ایک جواب مطلوب ہے۔</language>
+      <!-- Error messaging when text input is invalid -->
+      <language key="error.invalidinput.title" locale="en">Invalid unique PIN</language>
+      <language key="error.invalidinput.title" locale="ur">غلط منفرد PIN</language>
+      <language key="error.invalidinput.message" locale="en">Please verify that your 8 character unique PIN is correct and try again.&lt;br&gt;&lt;br&gt;All letters are case sensitive.</language>
+      <language key="error.invalidinput.message" locale="ur">براہ کرم تصدیق کریں کہ آپ کی 8 حروف کی منفرد PIN  درست ہے اور دوبارہ کوشش کریں۔&lt;br&gt;&lt;br&gt;تمام حروف کیس حساس ہیں</language>
+      <!-- Breadcrumb and template keys -->
+      <language key="breadcrumbdisplay.message" locale="en">&lt;b&gt;Welcome&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.message" locale="ur">&lt;b&gt;خوش آمدید&lt;/b&gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-welcome</language>
+      <language key="breadcrumbdisplay.cssclass" locale="ur">breadcrumb-welcome</language>
+      <language key="templateurl" locale="en">director-uid.tpl.html</language>
+      <language key="templateurl" locale="ur">director-uid.tpl.html</language>
+      <!-- Director Redirect Options: Stage widget -->
+      <profile key="widget" value="text-input" />
+      <!-- Director Redirect Options: List of all options -->
+      <profile key="options" value="option0||option1" />
+      <!-- Director Redirect Options: Direct/Pretty URL parameters -->
+      <!-- Option 0 -->
+      <profile key="option0.conditionvalue" value="E" />
+      <profile key="option0.directurl.param.game" value="PwCTRAADNOCExec" />
+      <profile key="option0.directurl.param.language" value="ur"/>
+      <profile key="option0.prettyurl.param.loc" value="ADNOCURE" />
+      <!-- Option 1 -->
+      <profile key="option1.conditionvalue" value="N" />
+      <profile key="option1.directurl.param.game" value="PwCTRAADNOCNonExec" />
+      <profile key="option1.directurl.param.language" value="ur"/>
+      <profile key="option1.prettyurl.param.loc" value="ADNOCURN" />
+      <!-- Configuration for text input -->
+      <profile key="widget.type" value="alphanumeric" />
+      <profile key="widget.minlength" value="8" />
+      <profile key="widget.maxlength" value="8" />
+      <profile key="widget.encrypt" value="true" />
+      <profile key="widget.required" value="true" />
+      <profile key="widget.validationpattern" value="^[EN][0-9]{7}$" />
+    </resource>
+    <resource name="redirect" value="redirect" />
+    <!-- App naming name -->
+    <naming name="PwCTRAADNOCUidUR_Director" by-owner="false" />
+  </game>
+</client>
+

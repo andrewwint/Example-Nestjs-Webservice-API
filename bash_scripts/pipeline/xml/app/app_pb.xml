@@ -1,0 +1,1992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE client SYSTEM "object.dtd">
+<client name="e2e_prototype_pb">
+	<game name="e2e_prototype_pb" fixed="false">
+		<attribute name="color" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+            <level value="red">
+                <language key="description" locale="en"><![CDATA[<img src="assets/tooltips/color_red.jpg">]]>Electric crimson or red is a color whose hue resembles that of blood, or a ruby, and is of the long-wave extreme of the visible spectrum. Red is also a primary color. The hex for this color is #FF003F and the first known word usage was before the 12th century.</language>
+                <language key="displayname" locale="en">&lt;b&gt;Electric Crimson&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/color_red.png</language>
+            </level>
+            <level value="orange">
+                <language key="description" locale="en">Orange is a color between red and yellow that is like the color of fire and carrots. It is also a fruit that grows in California and Florida. The hex for this color is #FF9966 and the first know word usage was in 1542.</language>
+                <language key="displayname" locale="en">Orange</language>
+                <language key="icon" locale="en">assets/icons/color_orange.png</language>
+            </level>
+            <level value="yellow">
+                <language key="description" locale="en">Yellow is having the color of the sun, butter, or ripe lemons. Yellow is also a primary color. It can be mixed with the other 2 primary colors to make lots of other colors but no colors mixed together can make yellow. The hex for this color is #ffd500 and the first known word usage was before the 12th century.</language>
+                <language key="displayname" locale="en">Butter Yellow</language>
+                <language key="icon" locale="en">assets/icons/color_yellow.png</language>
+            </level>
+            <level value="green">
+                <language key="description" locale="en">Green is a color whose hue is between yellow and blue and is associated with growing fresh grass, an emerald, Spring, evil, or envy. A person can also be "green with envy." The "Wicked Witch of the West" was green. The hex for this color is#009900 and the first known word usage was before the 12th century.</language>
+                <language key="displayname" locale="en">Green</language>
+                <language key="icon" locale="en">assets/icons/color_green.png</language>
+            </level>
+            <level value="gray">
+                <language key="description" locale="en">Gray is a series of neutral colors ranging between black and white and is often the color associated with age, usually depicted gray or silver hair. Also Gray is also the color associated with cloudy days and clouds filled with rain, hence the saying, "it's a gray day today." The hex for this color is #848482 and the first known word usage was before the 12th century.</language>
+                <language key="displayname" locale="en">Battleship Gray</language>
+                <language key="icon" locale="en">assets/icons/color_gray.png</language>
+            </level>
+            <level value="blue">
+                <language key="description" locale="en">Blue is a color whose hue is that of the clear sky, water, and is the portion of the color spectrum lying between green and violet. Blue is also a primary color. It can be mixed with the other 2 primary colors to make lots of other colors but no colors mixed together can make blue. The hex for this color is #007af3 and the first known word usage was before the 13th century.</language>
+                <language key="displayname" locale="en">Blue</language>
+                <language key="icon" locale="en">assets/icons/color_blue.png</language>
+            </level>
+            <level value="purple">
+                <language key="description" locale="en">Purple is any of various colors that fall about midway between red and blue in hue, an is often the color worn as an emblem of rank or authority. The hex for this color is #4b0082 and the first known word usage was before the 15th century.</language>
+                <language key="displayname" locale="en">Purple</language>
+                <language key="icon" locale="en">assets/icons/color_purple.png</language>
+            </level>
+            <level value="black">
+                <language key="description" locale="en">Black is a word that has many, many meanings. Examples are typically associated with evil as in "black magic", a VERY bad mood, having the very dark color of coal, the night sky, something served without cream or milk as in "black coffee", or even used to describe humor that deals with subjects which are usually regarded as very serious or unpleasant. To make the color black, mix all of the other colors together and voila!, you get a mess, or black. The hex for this color is #000000 and the first known usage was before 12th century.</language>
+                <language key="displayname" locale="en">Starry Night</language>
+                <language key="icon" locale="en">assets/icons/color_black.png</language>
+            </level>
+            <level value="maroon">
+                <language key="description" locale="en">Maroon is a variant of the color red and is considered a dark red color. The word maroon comes from the French word maroon which means "chestnut".  Vajrayana Buddhist monks wear robes that are colored various shades of maroon. To make maroon start with red, add some blue and a little black and there you have it! Crayola introduced the maroon crayon to their pack in 1949. The crayola crayon hex for this color is #C32148 and the first recorded use of maroon as a color name in English was in 1789.</language>
+                <language key="displayname" locale="en">&lt;b&gt;Maroon&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/color_maroon.png</language>
+            </level>
+			<language key="description" locale="en">Color is defined as the phenomenon of light (as red, brown, pink, or gray) or visual perception that enables one to differentiate otherwise identical objects.</language>
+			<language key="displayname" locale="en">Which color do you prefer?</language>
+            <language key="instructions" locale="en">Shift the sliders to indicate a GREATER or LESSER preference for the colors shown.</language>
+			<language key="leastpreferred" locale="en">Prefer Less</language>
+			<language key="mostpreferred" locale="en">Prefer More</language>
+			<language key="icon" locale="en">assets/icons/color.png</language>
+			<language key="group" locale="en"/>
+			<language key="shortname" locale="en">Color</language>
+		</attribute>
+        <attribute name="basepay" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="number" unacceptables-allowed="true">
+            <level value="0">
+                <language key="displayname" locale="en">0%</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+            <level value=".5">
+                <language key="displayname" locale="en">0.5%</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+            <level value="1">
+                <language key="displayname" locale="en">1%</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+            <level value="1.5">
+                <language key="displayname" locale="en">1.5%</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+            <level value="2">
+                <language key="displayname" locale="en">2%</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+            <level value="2.5">
+                <language key="displayname" locale="en">2.5%</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+            <level value="3">
+                <language key="displayname" locale="en">3%</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+            <language key="displayname" locale="en">What base pay increase do you prefer?</language>
+            <language key="shortname" locale="en">Base Pay</language>
+            <language key="instructions" locale="en">Move the slider to the option you prefer.</language>
+            <language key="help.title" locale="en">What Are Your Preferences?</language>
+            <language key="help.body" locale="en">This question is asking you to move the horizontal slider to the option you most prefer.</language>
+            <language key="help.gotit" locale="en">Got it!</language>
+            <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+            <language key="help.assets.image.alt" locale="en">Help content image</language>
+            <language key="group" locale="en"/>
+            <language key="minicon" locale="en">assets/icons/price_low.png</language>
+            <language key="maxicon" locale="en">assets/icons/price_high.png</language>
+            <language key="mindisplayname" locale="en">&lt;b&gt;0% Increase&lt;/b&gt;</language>
+            <language key="maxdisplayname" locale="en">&lt;b&gt;3% Increase&lt;/b&gt;</language>
+            <language key="mindescription" locale="en">0% Increase</language>
+            <language key="maxdescription" locale="en">3% Increase</language>
+            <profile key="groupwidget" value="range-scale-single-thumb-large-icon"/>
+        </attribute>
+        <attribute name="power vs efficiency" implicit="unordered" must-have-allowed="false" skip-allowed="true" type="number" unacceptables-allowed="false">
+            <level value="1">
+                <language key="description" locale="en">Ultimate Efficiency</language>
+                <language key="displayname" locale="en">&lt;b&gt;Ultimate Efficiency&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/price_high.png</language>
+            </level>
+            <level value="2">
+                <language key="description" locale="en">High Efficiency</language>
+                <language key="displayname" locale="en">High Efficiency</language>
+                <language key="icon" locale="en">assets/icons/price_high.png</language>
+            </level>
+            <level value="3">
+                <language key="description" locale="en">Medium Efficiency</language>
+                <language key="displayname" locale="en">Medium Efficiency</language>
+                <language key="icon" locale="en">assets/icons/price_high.png</language>
+            </level>
+            <level value="4">
+                <language key="description" locale="en">Medium Power</language>
+                <language key="displayname" locale="en">Medium Power</language>
+                <language key="icon" locale="en">assets/icons/price_high.png</language>
+            </level>
+            <level value="5">
+                <language key="description" locale="en">High Power</language>
+                <language key="displayname" locale="en">High Power</language>
+                <language key="icon" locale="en">assets/icons/price_high.png</language>
+            </level>
+            <level value="6">
+                <language key="description" locale="en">Ultimate Power</language>
+                <language key="displayname" locale="en">&lt;b&gt;Ultimate Power&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/price_high.png</language>
+            </level>
+            <language key="description" locale="en">The balance between power and fuel economy that you would like to achieve.</language>
+            <language key="displayname" locale="en">What balance would you like between ultimate power and ultimate fuel-efficiency?</language>
+            <language key="shortname" locale="en">Power vs. efficiency</language>
+            <language key="instructions" locale="en">Move the slider towards the option you prefer. How far you move the slider depends on how strongly you prefer that option.</language>
+            <language key="help.title" locale="en">What Are Your Preferences?</language>
+            <language key="help.body" locale="en">This question is asking you to move the horizontal slider to the option you most prefer.</language>
+            <language key="help.gotit" locale="en">Got it!</language>
+            <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+            <language key="help.assets.image.alt" locale="en">Help content image</language>
+            <language key="minicon" locale="en">assets/icons/noindicator/price_low.png</language>
+            <language key="maxicon" locale="en">assets/icons/noindicator/price_high.png</language>
+            <language key="mindisplayname" locale="en">&lt;b&gt;Ultimate Efficiency&lt;/b&gt;</language>
+            <language key="maxdisplayname" locale="en">&lt;b&gt;Ultimate Power&lt;/b&gt;</language>
+            <language key="maxdisplayprefix" locale="en">Maximum: </language>
+            <language key="mindisplayprefix" locale="en">Minimum: </language>
+            <language key="help.title" locale="en">Instructions</language>
+            <language key="help.body" locale="en">Move the slider to show the calendar-year deductible / premium combination that is most acceptable to you.</language>
+            <language key="help.gotit" locale="en">Got it!</language>
+            <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+            <language key="group" locale="en"/>
+            <language key="upperboundincrement" locale="en">1</language>
+            <language key="lowerbounddecrement" locale="en">1</language>
+            <profile key="groupwidget" value="range-scale-single-thumb"/>
+            <profile key="softimplicit" value="descending"/>
+            <profile key="implicit.min" value="0"/>
+            <profile key="implicit.max" value="10"/>
+        </attribute>
+        <attribute name="fuel consumption" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="number" unacceptables-allowed="false">
+            <!-- UK MPG -->
+            <level value="20">
+                <language key="description" locale="en">Average fuel consumption of 20 MPG</language>
+                <language key="displayname" locale="en">&lt;b&gt;20 MPG&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/price_high.png</language>
+            </level>
+            <level value="25">
+                <language key="description" locale="en">Average fuel consumption of 25 MPG</language>
+                <language key="displayname" locale="en">25 MPG</language>
+                <language key="icon" locale="en">assets/icons/price_high.png</language>
+            </level>
+            <level value="30">
+                <language key="description" locale="en">Average fuel consumption of 30 MPG</language>
+                <language key="displayname" locale="en">30 MPG</language>
+                <language key="icon" locale="en">assets/icons/price_high.png</language>
+            </level>
+            <level value="35">
+                <language key="description" locale="en">Average fuel consumption of 35 MPG</language>
+                <language key="displayname" locale="en">35 MPG</language>
+                <language key="icon" locale="en">assets/icons/price_high.png</language>
+            </level>
+            <level value="40">
+                <language key="description" locale="en">Average fuel consumption of 40 MPG</language>
+                <language key="displayname" locale="en">40 MPG</language>
+                <language key="icon" locale="en">assets/icons/price_high.png</language>
+            </level>
+            <level value="45">
+                <language key="description" locale="en">Average fuel consumption of 45 MPG</language>
+                <language key="displayname" locale="en">45 MPG</language>
+                <language key="icon" locale="en">assets/icons/price_high.png</language>
+            </level>
+            <level value="50">
+                <language key="description" locale="en">Average fuel consumption of 50 MPG</language>
+                <language key="displayname" locale="en">50 MPG</language>
+                <language key="icon" locale="en">assets/icons/price_high.png</language>
+            </level>
+            <level value="55">
+                <language key="description" locale="en">Average fuel consumption of 55 MPG</language>
+                <language key="displayname" locale="en">55 MPG</language>
+                <language key="icon" locale="en">assets/icons/price_high.png</language>
+            </level>
+            <level value="60">
+                <language key="description" locale="en">Average fuel consumption of 60 MPG</language>
+                <language key="displayname" locale="en">&lt;b&gt;60 MPG&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/price_high.png</language>
+            </level>
+            <language key="description" locale="en">How much fuel does the car use?</language>
+            <language key="displayname" locale="en">What fuel consumption are you expecting from your new car?</language>
+            <language key="shortname" locale="en">Fuel consumption</language>
+            <language key="instructions" locale="en">Move the slider towards the option you prefer. How far you move the slider depends on how strongly you prefer that option.</language>
+            <language key="help.title" locale="en">What Are Your Preferences?</language>
+            <language key="help.body" locale="en">This question is asking you to move the horizontal slider to the option you most prefer.</language>
+            <language key="help.gotit" locale="en">Got it!</language>
+            <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+            <language key="help.assets.image.alt" locale="en">Help content image</language>
+            <language key="minicon" locale="en">assets/icons/noindicator/price_low.png</language>
+            <language key="maxicon" locale="en">assets/icons/noindicator/price_high.png</language>
+            <language key="mindisplayname" locale="en">&lt;b&gt;20 MPG&lt;/b&gt;</language>
+            <language key="maxdisplayname" locale="en">&lt;b&gt;60 MPG&lt;/b&gt;</language>
+            <language key="maxdisplayprefix" locale="en">Maximum: </language>
+            <language key="mindisplayprefix" locale="en">Minimum: </language>
+            <language key="levelwidget.options" locale="en">1||2||3||4||5</language>
+            <language key="upperboundincrement" locale="en">1</language>
+            <language key="lowerbounddecrement" locale="en">1</language>
+            <profile key="horizontalslider" value="price"/>
+            <profile key="groupwidget" value="range-scale-two-thumb"/>
+            <profile key="softimplicit" value="ascending"/>
+            <profile key="implicit.min" value="0"/>
+            <profile key="implicit.max" value="10"/>
+        </attribute>
+        <attribute name="size" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+            <level value="small">
+                <language key="description" locale="en">Small, in this case, refers to having comparatively little size or slight dimensions. The first known word usage was before the 12th century.</language>
+                <language key="displayname" locale="en">&lt;b&gt;Small&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/size_small.png</language>
+            </level>
+            <level value="medium">
+                <language key="description" locale="en">Medium, in this case, refers to something in a middle position. The first known word usage was in 1589.</language>
+                <language key="displayname" locale="en">Medium</language>
+                <language key="icon" locale="en">assets/icons/size_medium.png</language>
+            </level>
+            <level value="large">
+                <language key="description" locale="en">Large, in this case, refers to exceeding most other things of like kind especially in quantity or size. The first known word usage was before the 12th century.</language>
+                <language key="displayname" locale="en">Large</language>
+                <language key="icon" locale="en">assets/icons/size_large.png</language>
+            </level>
+            <level value="xlarge">
+                <language key="description" locale="en">Extra large, in this case, refers to large or great in dimensions, bulk, or extent. The first known word usage was before the 12th century.</language>
+                <language key="displayname" locale="en">&lt;b&gt;Extra Large&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/size_xlarge.png</language>
+            </level>
+			<language key="description" locale="en">Size, in this case, refers to physical magnitude, extent, or bulk, relative or proportionate dimensions or as one of a series of graduated measures especially of manufactured articles (as of clothing) conventionally identified by numbers or letters.</language>
+			<language key="displayname" locale="en">What size should your product be?</language>
+			<language key="leastpreferred" locale="en">Less Important</language>
+			<language key="mostpreferred" locale="en">More Important</language>
+			<language key="icon" locale="en">assets/icons/size.png</language>
+            <language key="intro.title" locale="en">Size</language>
+			<language key="intro.body" locale="en">Size, in this case, refers to physical magnitude, extent, or bulk, relative or proportionate dimensions or as one of a series of graduated measures especially of manufactured articles (as of clothing) conventionally identified by numbers or letters.</language>
+			<language key="intro.label" locale="en">Close</language>
+			<language key="intro.image" locale="en">assets/popups/content/image.jpg</language>
+			<language key="intro.image.alt" locale="en">Intro content image</language>
+			<language key="group" locale="en"/>
+			<language key="shortname" locale="en">Size</language>
+			<profile key="implicitwarning" type="String" value="descending"/>
+		</attribute>
+		<attribute name="weight" implicit="unordered" must-have-allowed="false" skip-allowed="true" type="string" unacceptables-allowed="false">
+            <level value="0">
+                <language key="description" locale="en">My product should be exceedingly light and should weigh next to nothing or be light as air.</language>
+                <language key="displayname" locale="en">&lt;b&gt;0 or Light as air&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/weight_0.png</language>
+            </level>
+            <level value="5">
+                <language key="description" locale="en">My product should weigh no more than 5 pounds because I am going to carry it in my arms or tote it around in my backpack for long enough to be a problem if it weighs more.</language>
+                <language key="displayname" locale="en">5 Pounds</language>
+                <language key="icon" locale="en">assets/icons/weight_5.png</language>
+            </level>
+            <level value="10">
+                <language key="description" locale="en">My product can weigh up to 10 pounds because I am going to carry it in my backpack or in my carry on luggage so I will not be directly stressed by the weight.</language>
+                <language key="displayname" locale="en">10 Pounds</language>
+                <language key="icon" locale="en">assets/icons/weight_10.png</language>
+            </level>
+            <level value="15">
+                <language key="description" locale="en">My product can weigh 15 pounds or more because I am never going to be carrying it. It will sit on my desk either at work or home.</language>
+                <language key="displayname" locale="en">&lt;b&gt;15 Pounds&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/weight_15.png</language>
+            </level>
+			<language key="description" locale="en">Weight is the standard or established amount that a thing should weigh. The first known word usage was in 1647.</language>
+			<language key="displayname" locale="en">How much should your product weigh?</language>
+            <language key="instructions" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the weights shown.</language>
+			<language key="leastpreferred" locale="en">Less Important</language>
+			<language key="mostpreferred" locale="en">More Important</language>
+			<language key="icon" locale="en">assets/icons/weight.png</language>
+			<language key="group" locale="en"/>
+			<language key="shortname" locale="en">Weight</language>
+		</attribute>
+		<attribute name="shape" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+            <level value="circle">
+                <language key="description" locale="en">A circle is a closed plane curve and every point is equidistant from a fixed point within the curve. The first know word usage was in the 14th century.</language>
+                <language key="displayname" locale="en">My product will be in the shape of a &lt;b&gt;Circle&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/shape_circle.png</language>
+            </level>
+            <level value="square">
+                <language key="description" locale="en">A square is defined as having four equal sides and four right angles. The first known word usage was in the 14th century.</language>
+                <language key="displayname" locale="en">My product will be in the shape of a Square</language>
+                <language key="icon" locale="en">assets/icons/shape_square.png</language>
+            </level>
+            <level value="triangle">
+                <language key="description" locale="en">A triangle is a geometric figure with three sides and three angles. Each two sides meet at a point called a vertex, and the three angles sum to 180°. A triangle with one 90° (right) angle is a right triangle. A triangle with all sides (and thus all angles) equal is equilateral, one with two sides equal is isosceles, and one with no two sides equal is scalene. The first know word usage was in the 14th century.</language>
+                <language key="displayname" locale="en">My product will be in the shape of a Triangle</language>
+                <language key="icon" locale="en">assets/icons/shape_triangle.png</language>
+            </level>
+            <level value="rectangle">
+                <language key="description" locale="en">A rectangle is defined as a parallelogram whose angles are all right angles and whose adjacent sides are of unequal length. The first know word usage was in 1571.</language>
+                <language key="displayname" locale="en">My product will be in the shape of a &lt;b&gt;Rectangle&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/shape_rectangle.png</language>
+            </level>
+			<language key="description" locale="en">Shape is defined as the visible makeup characteristic of a particular item or kind of item. The first known word usage was before the 12th century.</language>
+			<language key="displayname" locale="en">What shape should your product be?</language>
+			<language key="leastpreferred" locale="en"><![CDATA[<p>Less<br/>Like</p>]]></language>
+			<language key="mostpreferred" locale="en"><![CDATA[<p>More<br/>Like</p>]]></language>
+			<language key="icon" locale="en">assets/icons/shape.png</language>
+			<language key="group" locale="en"/>
+			<language key="shortname" locale="en">Shape</language>
+		</attribute>
+		<attribute name="intuition" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+            <level value="completely intuitive">
+                <language key="description" locale="en">No education is needed. You can use this product with little or no instruction.</language>
+                <language key="displayname" locale="en">&lt;b&gt;Completely intuitive&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/intuition_completelyintuitive.png</language>
+                <profile key="groupname" type="String" value="intuitive"/>
+            </level>
+            <level value="grade school">
+                <language key="description" locale="en">Someone with a grade school education will be able to use this product.</language>
+                <language key="displayname" locale="en">Grade School</language>
+                <language key="icon" locale="en">assets/icons/intuition_gradeschool.png</language>
+                <profile key="groupname" type="String" value="grade-school"/>
+            </level>
+            <level value="junior high school">
+                <language key="description" locale="en">Someone with a junior high school education can use this product.</language>
+                <language key="displayname" locale="en">Junior High school</language>
+                <language key="icon" locale="en">assets/icons/intuition_juniorhighschool.png</language>
+                <profile key="groupname" type="String" value="junior-high-school"/>
+            </level>
+            <level value="high school">
+                <language key="description" locale="en">You need at least a high school education to use this product.</language>
+                <language key="displayname" locale="en">High School</language>
+                <language key="icon" locale="en">assets/icons/intuition_highschool.png</language>
+                <profile key="groupname" type="String" value="high-school"/>
+            </level>
+            <level value="college">
+                <language key="description" locale="en">You need a college degree to use this product.</language>
+                <language key="displayname" locale="en">College</language>
+                <language key="icon" locale="en">assets/icons/intuition_college.png</language>
+                <profile key="groupname" type="String" value="college"/>
+            </level>
+            <level value="graduate degree">
+                <language key="description" locale="en">You need a graduate degree to use this product.</language>
+                <language key="displayname" locale="en">Graduate School</language>
+                <language key="icon" locale="en">assets/icons/intuition_graduatedegree.png</language>
+                <profile key="groupname" type="String" value="graduate"/>
+            </level>
+            <level value="doctorate">
+                <language key="description" locale="en">Without a doctorate you'll never figure this product out.</language>
+                <language key="displayname" locale="en">&lt;b&gt;Doctorate&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/intuition_doctorate.png</language>
+                <profile key="groupname" type="String" value="doctorate"/>
+            </level>
+			<language key="description" locale="en">In a perfect world, your product will be easy for anyone to use and figure out, but this is not a perfect world. How intuitive is your product?</language>
+			<language key="displayname" locale="en">How intuitive does your product need to be?</language>
+            <language key="instructions" locale="en">Shift the sliders to indicate a GREATER or LESSER preference for the level of intuition shown.</language>
+			<language key="leastpreferred" locale="en">Less Intuitive</language>
+			<language key="mostpreferred" locale="en">More Intuitive</language>
+			<language key="icon" locale="en">assets/icons/intuition.png</language>
+			<language key="group" locale="en"/>
+			<language key="shortname" locale="en">Product intuition</language>
+		</attribute>
+		<attribute name="delivery" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+            <level value="same day">
+                <language key="description" locale="en">You want same-day delivery for time-sensitive stuff because it's really important.</language>
+                <language key="displayname" locale="en">&lt;b&gt;Same day&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/delivery_same.png</language>
+            </level>
+            <level value="next day">
+                <language key="description" locale="en">You can wait for next-day delivery for your important stuff because it'll still come in time.</language>
+                <language key="displayname" locale="en">Next day</language>
+                <language key="icon" locale="en">assets/icons/delivery_next.png</language>
+            </level>
+            <level value="3 days">
+                <language key="description" locale="en">You're good with waiting a few extra days for delivery.</language>
+                <language key="displayname" locale="en">3 days</language>
+                <language key="icon" locale="en">assets/icons/delivery_3.png</language>
+            </level>
+            <level value="5 days">
+                <language key="description" locale="en">You can wait 5 days for delivery, but just barely.</language>
+                <language key="displayname" locale="en">5 days</language>
+                <language key="icon" locale="en">assets/icons/delivery_5.png</language>
+            </level>
+            <level value="7 days">
+                <language key="description" locale="en">You're not so impatient that 7 days will kill you to wait for delivery.</language>
+                <language key="displayname" locale="en">&lt;b&gt;7 days&lt;/b&gt;</language>
+                <language key="icon" locale="en">assets/icons/delivery_7.png</language>
+            </level>
+			<language key="description" locale="en">For some people, speed is of the essence and for others, they can wait until the cows come home!  So the question is, how impatient are you?</language>
+			<language key="displayname" locale="en">How fast do you want your product delivered to you?</language>
+			<language key="icon" locale="en">assets/icons/delivery.png</language>
+            <language key="instructions" locale="en">Select the delivery speed most important to you.</language>
+			<language key="group" locale="en"/>
+			<language key="shortname" locale="en">Delivery</language>
+			<profile key="groupwidget" value="single-select"/>
+			<profile key="groupwidget.showoptiontext" type="String" value="true"/>
+		</attribute>
+		<attribute name="price" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="number" unacceptables-allowed="true">
+            <level value="0">
+                <language key="description" locale="en">I am not willing to spend any amount of money per month.</language>
+                <language key="displayname" locale="en">&#36;0</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+            <level value="25">
+                <language key="description" locale="en">I am willing to spend up to &#36;25 per month.</language>
+                <language key="displayname" locale="en">&#36;25</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+            <level value="50">
+                <language key="description" locale="en">I am willing to spend up to &#36;50 per month.</language>
+                <language key="displayname" locale="en">&#36;50</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+            <level value="75">
+                <language key="description" locale="en">I am willing to spend up to &#36;75 per month.</language>
+                <language key="displayname" locale="en">&#36;75</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+            <level value="100">
+                <language key="description" locale="en">I am willing to spend up to &#36;100 per month.</language>
+                <language key="displayname" locale="en">&#36;100</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+            <level value="125">
+                <language key="description" locale="en">I am willing to spend up to &#36;125 per month.</language>
+                <language key="displayname" locale="en">&#36;125</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+            <level value="150">
+                <language key="description" locale="en">I am willing to spend up to &#36;150 per month.</language>
+                <language key="displayname" locale="en">&#36;150</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+            <level value="175">
+                <language key="description" locale="en">I am willing to spend up to &#36;175 per month.</language>
+                <language key="displayname" locale="en">&#36;175</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+            <level value="200">
+                <language key="description" locale="en">I am willing to spend up to &#36;200 per month.</language>
+                <language key="displayname" locale="en">&#36;200</language>
+                <language key="icon" locale="en">assets/icons/price_med.png</language>
+            </level>
+			<language key="description" locale="en">This is the amount in dollars that you would like to spend per month.</language>
+			<language key="displayname" locale="en">What is the amount of money that you would be willing to spend each month?</language>
+			<language key="group" locale="en"/>
+			<language key="shortname" locale="en">Price</language>
+			<language key="minicon" locale="en">assets/icons/noindicator/price_low.png</language>
+			<language key="maxicon" locale="en">assets/icons/noindicator/price_high.png</language>
+			<language key="mindescription" locale="en">No monthly premium paid for prescription drug coverage.</language>
+			<language key="maxdescription" locale="en">$200 monthly premium paid for prescription drug coverage.</language>
+			<language key="icon" locale="en">assets/icons/price.png</language>
+            <language key="instructions" locale="en">Use the controls to indicate your minimum and maximum prices.</language>
+            <language key="help.title" locale="en">What Are Your Preferences?</language>
+            <language key="help.body" locale="en">This question asks you to choose your top preference from a set of several options. Click on the single left or right arrow to incrementally adjust the option. Clicking on the double right arrow will jump to the highest option of $200. Clicking on the double left arrow will jump to the lowest option multiple of $0.</language>
+			<language key="help.gotit" locale="en">Got it!</language>
+			<language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+			<language key="help.assets.image.alt" locale="en">Help content image</language>
+			<profile key="horizontalslider" value="price"/>
+			<profile key="groupwidget" value="counter"/>
+		</attribute>
+        <attribute name="Hidden Price" implicit="descending" must-have-allowed="false" skip-allowed="false" type="price" unacceptables-allowed="false">
+            <level value="0">
+                <language key="description" locale="en">0</language>
+                <language key="displayname" locale="en">0</language>
+                <language key="icon" locale="en"/>
+            </level>
+            <level value="1">
+                <language key="description" locale="en">1</language>
+                <language key="displayname" locale="en">1</language>
+                <language key="icon" locale="en"/>
+            </level>
+            <language key="description" locale="en">Hidden Price</language>
+            <language key="displayname" locale="en">Hidden Price</language>
+            <language key="group" locale="en"/>
+            <profile key="hidden" value="true"/>
+        </attribute>
+        <!--Restricted Pairs-->
+		<restricted-set name="1">
+			<restricted-attribute name="color">
+				<restricted-level value="orange"/>
+				<restricted-level value="red"/>
+				<restricted-level value="purple"/>
+				<restricted-level value="blue"/>
+				<restricted-level value="green"/>
+				<restricted-level value="maroon"/>
+				<restricted-level value="yellow"/>
+				<restricted-level value="gray"/>
+				<restricted-level value="black"/>
+			</restricted-attribute>
+			<restricted-attribute name="Hidden Price">
+				<restricted-level value="1"/>
+				<restricted-level value="0"/>
+			</restricted-attribute>
+		</restricted-set>
+		<restricted-set name="2">
+			<restricted-attribute name="size">
+				<restricted-level value="small"/>
+				<restricted-level value="large"/>
+				<restricted-level value="medium"/>
+				<restricted-level value="xlarge"/>
+			</restricted-attribute>
+			<restricted-attribute name="Hidden Price">
+				<restricted-level value="1"/>
+				<restricted-level value="0"/>
+			</restricted-attribute>
+		</restricted-set>
+		<restricted-set name="3">
+			<restricted-attribute name="weight">
+				<restricted-level value="10"/>
+				<restricted-level value="0"/>
+				<restricted-level value="5"/>
+				<restricted-level value="15"/>
+			</restricted-attribute>
+			<restricted-attribute name="Hidden Price">
+				<restricted-level value="1"/>
+				<restricted-level value="0"/>
+			</restricted-attribute>
+		</restricted-set>
+		<restricted-set name="4">
+			<restricted-attribute name="shape">
+				<restricted-level value="rectangle"/>
+				<restricted-level value="triangle"/>
+				<restricted-level value="square"/>
+				<restricted-level value="circle"/>
+			</restricted-attribute>
+			<restricted-attribute name="Hidden Price">
+				<restricted-level value="1"/>
+				<restricted-level value="0"/>
+			</restricted-attribute>
+		</restricted-set>
+		<restricted-set name="5">
+			<restricted-attribute name="intuition">
+				<restricted-level value="grade school"/>
+				<restricted-level value="doctorate"/>
+				<restricted-level value="high school"/>
+				<restricted-level value="completely intuitive"/>
+				<restricted-level value="college"/>
+				<restricted-level value="graduate degree"/>
+				<restricted-level value="junior high school"/>
+			</restricted-attribute>
+			<restricted-attribute name="Hidden Price">
+				<restricted-level value="1"/>
+				<restricted-level value="0"/>
+			</restricted-attribute>
+		</restricted-set>
+		<restricted-set name="6">
+			<restricted-attribute name="Hidden Price">
+				<restricted-level value="1"/>
+				<restricted-level value="0"/>
+			</restricted-attribute>
+			<restricted-attribute name="delivery">
+				<restricted-level value="5 days"/>
+				<restricted-level value="7 days"/>
+				<restricted-level value="next day"/>
+				<restricted-level value="3 days"/>
+				<restricted-level value="same day"/>
+			</restricted-attribute>
+		</restricted-set>
+		<restricted-set name="7">
+			<restricted-attribute name="Hidden Price">
+				<restricted-level value="1"/>
+				<restricted-level value="0"/>
+			</restricted-attribute>
+			<restricted-attribute name="price">
+				<restricted-level value="125"/>
+				<restricted-level value="150"/>
+				<restricted-level value="0"/>
+				<restricted-level value="175"/>
+				<restricted-level value="200"/>
+				<restricted-level value="25"/>
+				<restricted-level value="100"/>
+				<restricted-level value="75"/>
+				<restricted-level value="50"/>
+			</restricted-attribute>
+		</restricted-set>
+        <restricted-set name="8">
+            <restricted-attribute name="Hidden Price">
+                <restricted-level value="1"/>
+                <restricted-level value="0"/>
+            </restricted-attribute>
+            <restricted-attribute name="fuel consumption">
+                <restricted-level value="20"/>
+                <restricted-level value="25"/>
+                <restricted-level value="30"/>
+                <restricted-level value="35"/>
+                <restricted-level value="40"/>
+                <restricted-level value="45"/>
+                <restricted-level value="50"/>
+                <restricted-level value="45"/>
+                <restricted-level value="60"/>
+            </restricted-attribute>
+        </restricted-set>
+        <restricted-set name="9">
+            <restricted-attribute name="Hidden Price">
+                <restricted-level value="1"/>
+                <restricted-level value="0"/>
+            </restricted-attribute>
+            <restricted-attribute name="basepay">
+                <restricted-level value="0"/>
+                <restricted-level value=".5"/>
+                <restricted-level value="1"/>
+                <restricted-level value="1.5"/>
+                <restricted-level value="2"/>
+                <restricted-level value="2.5"/>
+                <restricted-level value="3"/>
+            </restricted-attribute>
+        </restricted-set>
+        <restricted-set name="10">
+            <restricted-attribute name="Hidden Price">
+                <restricted-level value="1"/>
+                <restricted-level value="0"/>
+            </restricted-attribute>
+            <restricted-attribute name="power vs efficiency">
+                <restricted-level value="1"/>
+                <restricted-level value="2"/>
+                <restricted-level value="3"/>
+                <restricted-level value="4"/>
+                <restricted-level value="5"/>
+                <restricted-level value="6"/>
+            </restricted-attribute>
+        </restricted-set>
+		<!--Subgame-->
+		<subgame name="e2e_prototype_pb" version-label="0">
+			<subgame-attribute name="color">
+				<subgame-level value="red"/>
+				<subgame-level value="orange"/>
+				<subgame-level value="yellow"/>
+				<subgame-level value="green"/>
+				<subgame-level value="gray"/>
+				<subgame-level value="blue"/>
+				<subgame-level value="purple"/>
+				<subgame-level value="black"/>
+				<subgame-level value="maroon"/>
+			</subgame-attribute>
+            <subgame-attribute name="basepay">
+                <subgame-level value="0"/>
+                <subgame-level value=".5"/>
+                <subgame-level value="1"/>
+                <subgame-level value="1.5"/>
+                <subgame-level value="2"/>
+                <subgame-level value="2.5"/>
+                <subgame-level value="3"/>
+            </subgame-attribute>
+            <subgame-attribute name="power vs efficiency">
+                <subgame-level value="1" />
+                <subgame-level value="2" />
+                <subgame-level value="3" />
+                <subgame-level value="4" />
+                <subgame-level value="5" />
+                <subgame-level value="6" />
+            </subgame-attribute>
+            <subgame-attribute name="fuel consumption">
+                <!--fuel consumption range from 20 to 60 increments of 5-->
+                <subgame-level value="20"/>
+                <subgame-level value="25"/>
+                <subgame-level value="30"/>
+                <subgame-level value="35"/>
+                <subgame-level value="40"/>
+                <subgame-level value="45"/>
+                <subgame-level value="50"/>
+                <subgame-level value="55"/>
+                <subgame-level value="60"/>
+            </subgame-attribute>
+			<subgame-attribute name="size">
+				<subgame-level value="small"/>
+				<subgame-level value="medium"/>
+				<subgame-level value="large"/>
+				<subgame-level value="xlarge"/>
+			</subgame-attribute>
+			<subgame-attribute name="weight">
+				<subgame-level value="0"/>
+				<subgame-level value="5"/>
+				<subgame-level value="10"/>
+				<subgame-level value="15"/>
+			</subgame-attribute>
+			<subgame-attribute name="shape">
+				<subgame-level value="circle"/>
+				<subgame-level value="square"/>
+				<subgame-level value="triangle"/>
+				<subgame-level value="rectangle"/>
+			</subgame-attribute>
+			<subgame-attribute name="intuition">
+				<subgame-level value="completely intuitive"/>
+				<subgame-level value="grade school"/>
+				<subgame-level value="junior high school"/>
+				<subgame-level value="high school"/>
+				<subgame-level value="college"/>
+				<subgame-level value="graduate degree"/>
+				<subgame-level value="doctorate"/>
+			</subgame-attribute>
+			<subgame-attribute name="delivery">
+				<subgame-level value="same day"/>
+				<subgame-level value="next day"/>
+				<subgame-level value="3 days"/>
+				<subgame-level value="5 days"/>
+				<subgame-level value="7 days"/>
+			</subgame-attribute>
+			<subgame-attribute name="price">
+				<subgame-level value="0"/>
+				<subgame-level value="25"/>
+				<subgame-level value="50"/>
+				<subgame-level value="75"/>
+				<subgame-level value="100"/>
+				<subgame-level value="125"/>
+				<subgame-level value="150"/>
+				<subgame-level value="175"/>
+				<subgame-level value="200"/>
+			</subgame-attribute>
+			<subgame-attribute name="Hidden Price">
+				<subgame-level value="0"/>
+				<subgame-level value="1"/>
+			</subgame-attribute>
+            <naming name="e2e_prototype_pb" by-owner="true" type="bfd.domain.game.Game" owner="[Client]e2e_prototype_pb/[Game]e2e_prototype_pb"/>
+		</subgame>
+        <subgame name="prototypepbsubgame" version-label="0">
+			<subgame-attribute name="color">
+				<subgame-level value="red"/>
+				<subgame-level value="orange"/>
+				<subgame-level value="yellow"/>
+				<subgame-level value="green"/>
+				<subgame-level value="gray"/>
+				<subgame-level value="blue"/>
+				<subgame-level value="purple"/>
+				<subgame-level value="black"/>
+				<subgame-level value="maroon"/>
+			</subgame-attribute>
+            <subgame-attribute name="basepay">
+                <subgame-level value="0"/>
+                <subgame-level value=".5"/>
+                <subgame-level value="1"/>
+                <subgame-level value="1.5"/>
+                <subgame-level value="2"/>
+                <subgame-level value="2.5"/>
+                <subgame-level value="3"/>
+            </subgame-attribute>
+            <subgame-attribute name="power vs efficiency">
+                <subgame-level value="1" />
+                <subgame-level value="2" />
+                <subgame-level value="3" />
+                <subgame-level value="4" />
+                <subgame-level value="5" />
+                <subgame-level value="6" />
+            </subgame-attribute>
+            <subgame-attribute name="fuel consumption">
+                <!--fuel consumption range from 20 to 60 increments of 5-->
+                <subgame-level value="20"/>
+                <subgame-level value="25"/>
+                <subgame-level value="30"/>
+                <subgame-level value="35"/>
+                <subgame-level value="40"/>
+                <subgame-level value="45"/>
+                <subgame-level value="50"/>
+                <subgame-level value="55"/>
+                <subgame-level value="60"/>
+            </subgame-attribute>
+			<subgame-attribute name="size">
+				<subgame-level value="small"/>
+				<subgame-level value="medium"/>
+				<subgame-level value="large"/>
+				<subgame-level value="xlarge"/>
+			</subgame-attribute>
+			<subgame-attribute name="weight">
+				<subgame-level value="0"/>
+				<subgame-level value="5"/>
+				<subgame-level value="10"/>
+				<subgame-level value="15"/>
+			</subgame-attribute>
+			<subgame-attribute name="shape">
+				<subgame-level value="circle"/>
+				<subgame-level value="square"/>
+				<subgame-level value="triangle"/>
+				<subgame-level value="rectangle"/>
+			</subgame-attribute>
+			<subgame-attribute name="intuition">
+				<subgame-level value="completely intuitive"/>
+				<subgame-level value="grade school"/>
+				<subgame-level value="junior high school"/>
+				<subgame-level value="high school"/>
+				<subgame-level value="college"/>
+				<subgame-level value="graduate degree"/>
+				<subgame-level value="doctorate"/>
+			</subgame-attribute>
+			<subgame-attribute name="delivery">
+				<subgame-level value="same day"/>
+				<subgame-level value="next day"/>
+				<subgame-level value="3 days"/>
+				<subgame-level value="5 days"/>
+				<subgame-level value="7 days"/>
+			</subgame-attribute>
+			<subgame-attribute name="price">
+				<subgame-level value="0"/>
+				<subgame-level value="25"/>
+				<subgame-level value="50"/>
+				<subgame-level value="75"/>
+				<subgame-level value="100"/>
+				<subgame-level value="125"/>
+				<subgame-level value="150"/>
+				<subgame-level value="175"/>
+				<subgame-level value="200"/>
+			</subgame-attribute>
+			<subgame-attribute name="Hidden Price">
+				<subgame-level value="0"/>
+				<subgame-level value="1"/>
+			</subgame-attribute>
+            <naming name="prototypepbsubgame" by-owner="true" type="bfd.domain.game.Game" owner="[Client]e2e_prototype_pb/[Game]e2e_prototype_pb"/>
+		</subgame>
+        <subgame name="prototypepbsubgame2" version-label="0">
+			<subgame-attribute name="color">
+				<subgame-level value="red"/>
+				<subgame-level value="orange"/>
+				<subgame-level value="yellow"/>
+				<subgame-level value="green"/>
+				<subgame-level value="gray"/>
+				<subgame-level value="blue"/>
+				<subgame-level value="purple"/>
+				<subgame-level value="black"/>
+				<subgame-level value="maroon"/>
+			</subgame-attribute>
+            <subgame-attribute name="basepay">
+                <subgame-level value="0"/>
+                <subgame-level value=".5"/>
+                <subgame-level value="1"/>
+                <subgame-level value="1.5"/>
+                <subgame-level value="2"/>
+                <subgame-level value="2.5"/>
+                <subgame-level value="3"/>
+            </subgame-attribute>
+            <subgame-attribute name="power vs efficiency">
+                <subgame-level value="1" />
+                <subgame-level value="2" />
+                <subgame-level value="3" />
+                <subgame-level value="4" />
+                <subgame-level value="5" />
+                <subgame-level value="6" />
+            </subgame-attribute>
+            <subgame-attribute name="fuel consumption">
+                <!--fuel consumption range from 20 to 60 increments of 5-->
+                <subgame-level value="20"/>
+                <subgame-level value="25"/>
+                <subgame-level value="30"/>
+                <subgame-level value="35"/>
+                <subgame-level value="40"/>
+                <subgame-level value="45"/>
+                <subgame-level value="50"/>
+                <subgame-level value="55"/>
+                <subgame-level value="60"/>
+            </subgame-attribute>
+			<subgame-attribute name="size">
+				<subgame-level value="small"/>
+				<subgame-level value="medium"/>
+				<subgame-level value="large"/>
+				<subgame-level value="xlarge"/>
+			</subgame-attribute>
+			<subgame-attribute name="weight">
+				<subgame-level value="0"/>
+				<subgame-level value="5"/>
+				<subgame-level value="10"/>
+				<subgame-level value="15"/>
+			</subgame-attribute>
+			<subgame-attribute name="shape">
+				<subgame-level value="circle"/>
+				<subgame-level value="square"/>
+				<subgame-level value="triangle"/>
+				<subgame-level value="rectangle"/>
+			</subgame-attribute>
+			<subgame-attribute name="intuition">
+				<subgame-level value="completely intuitive"/>
+				<subgame-level value="grade school"/>
+				<subgame-level value="junior high school"/>
+				<subgame-level value="high school"/>
+				<subgame-level value="college"/>
+				<subgame-level value="graduate degree"/>
+				<subgame-level value="doctorate"/>
+			</subgame-attribute>
+			<subgame-attribute name="delivery">
+				<subgame-level value="same day"/>
+				<subgame-level value="next day"/>
+				<subgame-level value="3 days"/>
+				<subgame-level value="5 days"/>
+				<subgame-level value="7 days"/>
+			</subgame-attribute>
+			<subgame-attribute name="price">
+				<subgame-level value="0"/>
+				<subgame-level value="25"/>
+				<subgame-level value="50"/>
+				<subgame-level value="75"/>
+				<subgame-level value="100"/>
+				<subgame-level value="125"/>
+				<subgame-level value="150"/>
+				<subgame-level value="175"/>
+				<subgame-level value="200"/>
+			</subgame-attribute>
+			<subgame-attribute name="Hidden Price">
+				<subgame-level value="0"/>
+				<subgame-level value="1"/>
+			</subgame-attribute>
+            <naming name="prototypepbsubgame2" by-owner="true" type="bfd.domain.game.Game" owner="[Client]e2e_prototype_pb/[Game]e2e_prototype_pb"/>
+		</subgame>
+        <!--Misc Client Files-->
+        <resource name="main" value="truechoice/app/clients/prototype/4.3.2/">
+            <language key="browserTitle" locale="en">Prototype - PB</language>
+        </resource>
+		<!--game description-->
+		<resource name="system">
+			<language key="error.scrollbarnotmoved.message" locale="en">Are you sure you have scrolled down to answer all of the questions? The scroll bar is located on the right side of your screen. Click 'yes' to continue or 'no' to modify your answers.</language>
+			<!-- English System Messages -->
+			<language key="title.attention" locale="en">Attention</language>
+			<language key="error.helpdeskemail.title" locale="en">Attention</language>
+			<language key="error.helpdeskemail.message" locale="en">Your last request failed because of a communications problem with our servers.
+            &lt;br&gt;&lt;br&gt;Please restart by refreshing this webpage.  We apologize for the inconvenience.
+            &lt;br&gt;&lt;br&gt;Before you try again, please make sure your network connection is active and reconfirm that you are connected to the internet.
+            &lt;br&gt;&lt;br&gt;For further assistance, please email</language>
+			<language key="error.helpdeskemail.reference" locale="en">Reference</language>
+			<language key="retry" locale="en">Retry</language>
+			<language key="error.mustscale.message" locale="en">Please change the value for at least one option.</language>
+			<language key="error.emailinvalid.title" locale="en">Invalid Email</language>
+			<language key="error.emailinvalid.message" locale="en">Please verify that your email address is correct and try again.</language>
+			<language key="error.missingrequired.title" locale="en">Questions Not Answered</language>
+			<language key="error.missingrequired.message" locale="en">You have not answered all of the questions on this page. Please make sure the question marked with an asterisk (*) has been answered.</language>
+            <language key="devicenotsupported.body" locale="en">Your screen resolution is insufficient to view this application. Must be at least 1024x768.&lt;br&gt;&lt;br&gt;Please try on a device with a larger screen.</language>
+			<language key="devicenotsupported.footer" locale="en">Should you require assistance, please contact us at &lt;a href="mailto:helpdesk@truechoicesolutions.com?subject=Device%20Support"&gt;helpdesk@truechoicesolutions.com&lt;/a&gt;</language>
+            <!-- Director alert -->
+            <language key="error.director.title" locale="en">Response required</language>
+			<language key="error.director.message" locale="en">To proceed further, please select an option and click or tap "Next" to continue.</language>
+            <!-- restart alert -->
+            <language key="restart.title" locale="en">ATTENTION - You are about to return to the start of the survey.</language>
+            <language key="restart.message" locale="en">Hey! Testing restart alert popup and restart application feature. Click "Yes" to restart the application. Click on "No" to remain in this stage.</language>
+            <!--general-->
+			<language key="next" locale="en">Next</language>
+			<language key="back" locale="en">Back</language>
+			<language key="help" locale="en">Help</language>
+			<language key="skip" locale="en">SKIP</language>
+			<language key="disclosure" locale="en">Information</language>
+			<language key="alert.button.close" locale="en">Close</language>
+			<language key="alert.button.ok" locale="en">Ok</language>
+			<language key="alert.button.yes" locale="en">Yes</language>
+			<language key="alert.button.no" locale="en">No</language>
+			<language key="disclaimer" locale="en">Copyright © 2020 TrueChoice Solutions, Inc. | <![CDATA[<a href="//www.truechoicesolutions.com/Privacy-Policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>]]>. | </language>
+			<language key="loading" locale="en">Loading...</language>
+            <language key="assets.main.loading" locale="en">assets/main/loading.gif</language>
+            <language key="preference.importance.labels" locale="en">NOT IMPORTANT||SOMEWHAT IMPORTANT||IMPORTANT||VERY IMPORTANT||EXTREMELY IMPORTANT</language>
+            <!-- implicit warning -->
+			<language key="implicitwarning.moveup.message" locale="en">Note: You have rated a more valued option equal to or below a less valued one.</language>
+			<language key="implicitwarning.moveup.title" locale="en">Move up.</language>
+			<language key="implicitwarning.movedown.message" locale="en">Note: You have rated a less valued option equal to or above a more valued one.</language>
+			<language key="implicitwarning.movedown.title" locale="en">Move down.</language>
+			<language key="implicitwarning.message" locale="en">The sliders are now out of order. Would you like to move the slider to its original position?</language>
+			<language key="implicitwarning.title" locale="en">Attention</language>
+			<language key="implicitwarning.morebelowless.message" locale="en">Did you know that you have rated a more valued option equal to or below a less valued one? Do you want to proceed?</language>
+			<language key="implicitwarning.lessabovemore.message" locale="en">Did you know that you have rated a less valued option equal to or above a more valued one? Do you want to proceed?</language>
+			<!--stage 2-->
+			<language key="attributes.leastpreferred" locale="en">Less Important</language>
+			<language key="attributes.mostpreferred" locale="en">More Important</language>
+			<!--stage 3-->
+			<language key="tradeoffs.vs" locale="en">OR</language>
+			<language key="tradeoffs.offer1" locale="en">Option 1</language>
+			<language key="tradeoffs.offer2" locale="en">Option 2</language>
+            <language key="tradeoffs.preference.labels" locale="en">Greatly Prefer Option 1||Prefer Option 1||Slightly Prefer Option 1||Indifferent||Slightly Prefer Option 2||Prefer Option 2||Greatly Prefer Option 2</language>
+            <!-- Stage 4 -->
+            <language key="error.requiredinput.label" locale="en">Your Answer Is Invalid</language>
+			<!-- Percent Allocation -->
+			<language key="percentmeter.totalmaxalert" locale="en">Maximum of 100% has been reached</language>
+			<language key="percentmeter.valuedisplaytext" locale="en">/ 100%</language>
+            <language key="error.sumvaluesinvalid.title" locale="en">Invalid sum</language>
+            <language key="error.sumvaluesinvalid.message" locale="en">Values must equate to 100</language>
+			<!-- disclosure popup -->
+			<language key="disclosure.title" locale="en">Information</language>
+			<language key="disclosure.body" locale="en">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor interdum metus nec laoreet. In luctus ligula nulla, a faucibus ante mollis sed. Donec hendrerit risus eros, et mollis lacus condimentum at. Quisque urna felis, pellentesque eget cursus ut, fringilla nec tortor. Donec felis nisi, auctor non molestie tempor, ultricies eu orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sodales maximus sollicitudin. Sed eu orci elementum, fermentum dui ut, tempus diam. Cras et interdum quam. Nullam aliquam sapien a leo interdum, sit amet euismod ex porta. Curabitur condimentum ligula vel diam gravida aliquet.&lt;br&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor interdum metus nec laoreet. In luctus ligula nulla, a faucibus ante mollis sed. Donec hendrerit risus eros, et mollis lacus condimentum at. Quisque urna felis, pellentesque eget cursus ut, fringilla nec tortor. Donec felis nisi, auctor non molestie tempor, ultricies eu orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sodales maximus sollicitudin. Sed eu orci elementum, fermentum dui ut, tempus diam. Cras et interdum quam. Nullam aliquam sapien a leo interdum, sit amet euismod ex porta. Curabitur condimentum ligula vel diam gravida aliquet.</language>
+			<language key="disclosure.gotit" locale="en">Close</language>
+			<!-- Set flag to true to animate the icons -->
+			<language key="animateicons" locale="en">true</language>
+            <!-- Warning to user to confirm navigating away from app -->
+            <language key="warning.leavingapp.message" locale="en">Warning! You are about to leave the app and lose all data</language>
+			<!-- app template -->
+            <profile key="app.templateversion" value="1"/>
+			<!-- widget thumb states -->
+			<profile key="usethumbstates" value="true"/>
+			<!-- PC and Tablets only: true/false -->
+			<profile key="devicenotsupported" value="false"/>
+			<!-- request processor -->
+			<profile key="instance-attribute-requestprocessor" value="averaging"/>
+            <!-- To use dynamic breadcrumbs or not: true|false -->
+            <profile key="usedynamicbreadcrumbs" value="true"/>
+            <!-- Notification Bar -->
+            <profile key="notificationbar.timeout" value="4000"/>
+		</resource>
+		<resource name="controls">
+			<resource-element value="consent"/>
+			<resource-element value="levels"/>
+			<resource-element value="attributes"/>
+			<resource-element value="tradeoffs"/>
+			<resource-element value="aboutyou"/>
+            <resource-element value="survey1"/>
+            <resource-element value="survey2"/>
+            <resource-element value="output"/>
+		</resource>
+		<!-- UID passed in from URL -->
+        <resource name="url">
+            <resource-element value="uid" />
+        </resource>
+		<!--stage description-->
+        <resource name="consent" value="survey">
+            <resource-element value="Consent Title Label"/>
+            <resource-element value="Consent Label One"/>
+            <resource-element value="Consent One Question"/>
+            <resource-element value="Consent Label Two"/>
+            <resource-element value="Consent Two Question"/>
+            <resource-element value="Consent Contact Info One Label"/>
+            <resource-element value="Consent Contact Info Two Label"/>
+            <language key="help.title" locale="en">Attention</language>
+            <language key="help.body" locale="en"><![CDATA[<p>Your consent is required to continue with this application.</p> <br /><p><b>Please return to the application to give your consent if you want to continue.</b></p><br /><p>If you do not want to give your consent, you may close this browser tab to exit the application.</p>]]></language>
+            <language key="help.label" locale="en">Close</language>
+            <language key="help.gotit" locale="en">OK</language>
+            <language key="breadcrumbdisplay.message" locale="en">Welcome</language>
+            <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-welcome</language>
+            <language key="error.missingrequired.title" locale="en">Attention</language>
+            <language key="alert.button.ok" locale="en">OK</language>
+            <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+            <language key="help.assets.image.alt" locale="en">Help content image</language>
+            <language key="error.missingrequired.message" locale="en"><![CDATA[<p>Your consent is required to continue with this application.</p> <br /><p><b>Please return to the application to give your consent if you want to continue.</b></p><br /><p>If you do not want to give your consent, you may close this browser tab to exit the application.</p>]]></language>
+            <language key="templateurl" locale="en">survey_consent.tpl.html</language>
+            <profile key="help" value="true"/>
+        </resource> 
+		<resource name="levels" value="level">
+            <language key="title" locale="en">Rate Your Preferences</language>
+            <language key="instructions.unordered" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the elements shown.</language>
+            <language key="instructions.ordered" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the elements shown. The sliders have been pre-set in order of generally accepted preferences. Therefore, you cannot move a slider above the one to its right or lower than the one to its left.</language>
+            <language key="instructions.skip" locale="en">&lt;font&gt;&lt;b&gt;If this characteristic is irrelevant to you, click Next and you will not be asked about it again.&lt;/b&gt;&lt;/font&gt;</language>
+            <language key="mostpreferred" locale="en">More Important</language>
+            <language key="leastpreferred" locale="en">Less Important</language>
+			<language key="learnmore" locale="en">More Information</language>
+            <language key="help.title" locale="en">What are we asking you to do here?</language>
+            <language key="help.body" locale="en">
+                <![CDATA[<p>
+                This question is asking you to state your preferences across a range of items.
+                <br/>
+                <br/>
+                Please indicate how much you prefer or value each item – in relation to the others – by moving the slider to a GREATER or LESSER preference or value for each of the elements shown. How far you move the slider depends on how strongly you feel about the item.
+                <br/>
+                <br/>
+                You cannot have the same preference value for all the choices shown.
+                </p>]]>
+            </language>
+            <language key="help.gotit" locale="en">Got it!</language>
+			<language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+			<language key="help.assets.image.alt" locale="en">Help content image</language>
+            <language key="breadcrumbdisplay.message" locale="en">Part 1: || of ||</language>
+            <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-level</language>
+
+            <!-- Stage intro popup -->
+            <language key="intro.title" locale="en">Levels</language>
+            <language key="intro.body" locale="en">First, we'd like to ask you about your preferences for items that inspire you create and develop a new product in areas including color, size, weight, shape and price. </language>
+            <language key="intro.label" locale="en">Close</language>
+            <language key="intro.image" locale="en">assets/popups/stages/level/content/image.jpg</language>
+            <language key="intro.image.alt" locale="en">Intro content image (levels)</language>
+			<profile key="help" value="true"/>
+			<profile key="implicit.min" value="4.8"/>
+			<profile key="implicit.max" value="5.2"/>
+			<profile key="widget" value="level-scale"/>
+            <profile key="widget.showvalueasinteger" value="true"/>
+			<profile key="groupwidget.hideleastmost" value="true"/>
+		</resource>
+		<resource name="attributes" value="attribute">
+			<language key="title" locale="en">What's more important to you?</language>
+			<language key="leastpreferred" locale="en">Least Important</language>
+			<language key="mostpreferred" locale="en">Most Important</language>
+			<language key="infodisplay.header" locale="en">Your Choices from Part 1:</language>
+			<language key="infodisplay.header.topchoice" locale="en">Your Top Choice from Part 1:</language>
+			<language key="infodisplay.leastpreferred" locale="en">Least Preferred</language>
+			<language key="infodisplay.mostpreferred" locale="en">Most Preferred</language>
+			<language key="infodisplay.mostpreferred.mobile" locale="en">Most Preferred From Part 1:</language>
+            <language key="infodisplay.leastpreferred.mobile" locale="en">Least Preferred From Part 1:</language>
+            <language key="infodisplay.vs" locale="en">vs</language>
+			<language key="infodisplay.rating.header" locale="en">Your Rating for this Attribute</language>
+            <language key="instructions" locale="en">
+                <![CDATA[<p>
+                For each of the categories below, indicate its importance <b><u>relative to the others</u></b> by moving the slider towards the right (more important) or towards the left (less important).
+                </p>]]>
+            </language>
+            <language key="help.title" locale="en">What are we asking you to do here?</language>
+            <language key="help.body" locale="en">
+                <![CDATA[<p>
+                This screen lists the feature categories we asked you about in the first part of this application. Now, we'd like to understand how important each of these feature categories are relative to one another. As you consider each category, your most and least preferred choices appear to remind you of your earlier responses.
+                <br/>
+                <br/>
+                For each category, you are being asked to indicate how important each is to you, from a scale of LEAST importance (1) to GREATEST importance (100).
+                </p>]]>
+            </language>
+            <language key="help.label" locale="en">Close</language>
+			<language key="help.gotit" locale="en">Got it!</language>
+			<language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+			<language key="help.assets.image.alt" locale="en">Help content image</language>
+			<language key="breadcrumbdisplay.message" locale="en">Part 2</language>
+            <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-attribute</language>
+			<!-- Stage intro popup -->
+            <language key="intro.title" locale="en">Attributes</language>
+            <language key="intro.body" locale="en">Next we will ask you to rate the options from section one against each other. Please click or tap each option to indicate its importance to you and your product.</language>
+            <language key="intro.label" locale="en">Close</language>
+            <language key="intro.image" locale="en">assets/popups/stages/attribute/content/image.jpg</language>
+            <language key="intro.image.alt" locale="en">Intro content image (attribute)</language>
+			<language key="groupwidget.displayname" locale="en">Please select your most important feature.</language>
+			<language key="groupwidget.placeholder" locale="en">Please select...</language>
+			<language key="groupwidget.icon" locale="en">assets/icons/color_red.png</language>
+			<profile key="help" value="true"/>
+			<profile key="widget" value="attribute-scale"/>
+		</resource>
+		<resource name="tradeoffs" value="tradeoff">
+            <language key="title" locale="en">Which option do you prefer?</language>
+            <language key="instructions" locale="en">
+                <![CDATA[<p>
+                Assume all your choices are identical in every way except for the features shown. Based on the strength of your preference, slide towards the combination you prefer.
+                </p>]]>
+            </language>
+			<language key="mostpreferred" locale="en">Most Preferred</language>
+			<language key="leastpreferred" locale="en">Least Preferred</language>
+			<language key="help.title" locale="en">Which Do You Prefer?</language>
+            <language key="help.body" locale="en">
+                <![CDATA[<p>
+                Assume all your choices are identical in every way except for the features shown. Based on the strength of your preference, move the slider towards the combination you prefer.
+                </p>]]>
+            </language>
+			<language key="help.label" locale="en">Close</language>
+			<language key="help.gotit" locale="en">Got it!</language>
+			<language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+			<language key="help.assets.image.alt" locale="en">Help content image</language>
+			<language key="breadcrumbdisplay.message" locale="en">Part 3: || of ||</language>
+            <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-tradeoff</language>
+            <!-- Stage intro popup -->
+            <language key="intro.title" locale="en">Tradeoffs</language>
+            <language key="intro.body" locale="en">Next we will show several different feature combinations based on the level of importance you place on these option in section two. Based on the strength of your preference, tap on the combination you prefer. If the displayed combination is unimportant to you, click next and move onto the next combination.</language>
+            <language key="intro.label" locale="en">Close</language>
+            <language key="intro.image" locale="en">assets/popups/stages/tradeoff/content/image.jpg</language>
+            <language key="intro.image.alt" locale="en">Intro content image (tradeoff)</language>
+			<profile key="help" value="true"/>
+			<profile key="numtradeoffs" value="4"/>
+			<profile key="widget" value="tradeoff-scale"/>
+			<profile key="widget.showvaluefromzerototen" value="true"/>
+		</resource>
+		<resource name="aboutyou" value="survey">
+            <resource-element value="Name Question"/>
+            <resource-element value="State Province Question"/>
+            <resource-element value="Email Question"/>
+            <resource-element value="Date of Birth Question"/>
+            <resource-element value="What is the likelihood that you will answer all of these questions? Question"/>
+            <resource-element value="Favorite Month Question"/>
+            <resource-element value="How much energy do you use per year Question"/>
+            <resource-element value="Contact Me Question"/>
+            <resource-element value="Favorite Day Question"/>
+            <resource-element value="What is your age Question"/>
+            <resource-element value="Example Radio Button Question"/>
+            <resource-element value="About Yourself Question"/>
+            <resource-element value="Comments Question"/>
+            <language key="title" locale="en">Please take a moment to tell us a little about yourself:</language>
+            <language key="instructions" locale="en">Not so optional questions about you because all of the these fields are REQUIRED.</language>
+            <language key="breadcrumbdisplay.message" locale="en">About You</language>
+            <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-survey</language>
+            <!-- Stage intro popup -->
+            <language key="intro.title" locale="en">About You</language>
+            <language key="intro.body" locale="en">Almost done! Now we just have a few questions that we'd like to ask you. Any information you provide will be kept completely confidential and will not be shared with any third party. These questions are completely optional.</language>
+            <language key="intro.label" locale="en">Close</language>
+            <language key="intro.image" locale="en">assets/popups/stages/survey/content/image.jpg</language>
+            <language key="intro.image.alt" locale="en">Intro content image (About You)</language>
+            <profile key="columns" value="2"/>
+		</resource>
+		<resource name="survey1" value="survey">
+            <resource-element value="Potential market size Question"/>
+			<resource-element value="Product coolness Question"/>
+			<resource-element value="Product durability Question"/>
+            <resource-element value="Target customer Question"/>
+            <language key="title" locale="en">Product Features</language>
+			<language key="instructions" locale="en">I have a good understanding of my product: (Select one response for each)</language>
+			<language key="numberoflabels" locale="en">7</language>
+            <language key="label1" locale="en">Strongly Disagree</language>
+			<language key="labeltooltip1" locale="en">You strongly disagree with this statement</language>
+            <language key="label2" locale="en">Disagree</language>
+			<language key="labeltooltip2" locale="en">You disagree with this statement</language>
+            <language key="label3" locale="en">Slightly Disagree</language>
+			<language key="labeltooltip3" locale="en">You slightly disagree with this statement</language>
+			<language key="label4" locale="en">Slightly Agree</language>
+			<language key="labeltooltip4" locale="en">You slightly agree with this statement</language>
+            <language key="label5" locale="en">Agree</language>
+			<language key="labeltooltip5" locale="en">You agree with this statement</language>
+            <language key="label6" locale="en">Strongly Agree</language>
+			<language key="labeltooltip6" locale="en">You strongly agree with this statement</language>
+			<language key="label7" locale="en">Do NOT Care</language>
+            <language key="labeltooltip7" locale="en">You do not care about this statement</language>
+            <language key="breadcrumbdisplay.message" locale="en">Survey 1</language>
+            <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-survey</language>
+            <!-- Stage intro popup -->
+            <language key="intro.title" locale="en">Survey</language>
+            <language key="intro.body" locale="en">Almost done! Now we just have a few questions that we'd like to ask you. Any information you provide will be kept completely confidential and will not be shared with any third party. These questions are required, and you will not be able to continue without answering them.</language>
+            <language key="intro.label" locale="en">Close</language>
+            <language key="intro.image" locale="en">assets/popups/stages/survey/content/image.jpg</language>
+            <language key="intro.image.alt" locale="en">Intro content image (Survey1)</language>
+            <language key="templateurl" locale="en">survey_radio_group.tpl.html</language>
+			<language key="boldallgrouplabels" locale="en">false</language>
+            <language key="help" locale="en"></language>
+            <profile key="help" value="true"/>
+            <profile key="widget" value="radio-group"/>
+            <profile key="widget.notapplicableoption" value="true"/>
+		</resource>
+        <!-- Used for testing "unbolded" radio groups (see previous resource's profile key 'boldallgrouplabels') -->
+        <resource name="survey2" value="survey">
+            <resource-element value="Potential market size Question"/>
+			<resource-element value="Product coolness Question"/>
+			<language key="title" locale="en">Product Features</language>
+			<language key="instructions" locale="en">I have a good understanding of my product: (Select one response for each)</language>
+			<language key="numberoflabels" locale="en">7</language>
+            <language key="label1" locale="en">Strongly Disagree</language>
+			<language key="labeltooltip1" locale="en">You strongly disagree with this statement</language>
+            <language key="label2" locale="en">Disagree</language>
+			<language key="labeltooltip2" locale="en">You disagree with this statement</language>
+            <language key="label3" locale="en">Slightly Disagree</language>
+			<language key="labeltooltip3" locale="en">You slightly disagree with this statement</language>
+			<language key="label4" locale="en">Slightly Agree</language>
+			<language key="labeltooltip4" locale="en">You slightly agree with this statement</language>
+            <language key="label5" locale="en">Agree</language>
+			<language key="labeltooltip5" locale="en">You agree with this statement</language>
+            <language key="label6" locale="en">Strongly Agree</language>
+			<language key="labeltooltip6" locale="en">You strongly agree with this statement</language>
+			<language key="label7" locale="en">Do NOT Care</language>
+            <language key="labeltooltip7" locale="en">You do not care about this statement</language>
+            <language key="breadcrumbdisplay.message" locale="en">Survey 1</language>
+            <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-survey</language>
+            <!-- Stage intro popup -->
+            <language key="intro.title" locale="en">Survey</language>
+            <language key="intro.body" locale="en">Almost done! Now we just have a few questions that we'd like to ask you. Any information you provide will be kept completely confidential and will not be shared with any third party. These questions are required, and you will not be able to continue without answering them.</language>
+            <language key="intro.label" locale="en">Close</language>
+            <language key="intro.image" locale="en">assets/popups/stages/survey/content/image.jpg</language>
+            <language key="intro.image.alt" locale="en">Intro content image (Survey1)</language>
+            <language key="templateurl" locale="en">survey_radio_group.tpl.html</language>
+			<profile key="widget" value="radio-group"/>
+            <profile key="widget.notapplicableoption" value="true"/>
+            <profile key="widget.buttoncolors" value="false"/>
+		</resource>
+        <resource name="output" value="output">
+			<resource-element value="Product1 Question"/>
+			<resource-element value="Product2 Question"/>
+			<resource-element value="Email To Question"/>
+			<resource-element value="Email From Question"/>
+			<resource-element value="Email Note Question"/>
+			<language key="title" locale="en">Thank You!</language>
+			<language key="subtitle" locale="en">Here's some personalized information about your product that is most interesting. You have a great chance for success!</language>
+            <language key="breadcrumbdisplay.message" locale="en">Your Recommendations</language>
+            <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-output</language>
+            <language key="button1.label" locale="en">Contact Me Now</language>
+			<language key="button2.label" locale="en">Yahoo</language>
+			<language key="button3.label" locale="en">Google</language>
+			<language key="button4.label" locale="en">Email a friend</language>
+			<language key="button5.label" locale="en">Game Stuff</language>
+			<language key="button6.label" locale="en">TCS</language>
+			<language key="button7.label" locale="en">ESPN</language>
+			<language key="button8.label" locale="en">Restart</language>
+			<language key="footer" locale="en">You can now close your browser</language>
+			<language key="links.title" locale="en">Helpful links:</language>
+			<language key="link1.label" locale="en">Link to TCS - Click here if you would like to visit the TCS website!</language>
+			<language key="link2.label" locale="en">Link to Yahoo - Click here if you would like to visit the Yahoo! website!</language>
+			<language key="link3.label" locale="en">Link to Google - Click here if you would like to visit the Google website!</language>
+			<language key="messagesheader.label" locale="en">What you said was important:</language>
+			<language key="preferenceprofile.title" locale="en">Your Preference Profile</language>
+			<language key="preferenceprofile.preferencekey" locale="en">Your Preferences</language>
+			<language key="preferenceprofile.peerkey" locale="en">Your Peers</language>
+            <language key="producttitle" locale="en">About the product</language>
+            <language key="productfeaturestitle" locale="en">More product features we want to tell you about:</language>
+			<language key="outputinfopopupheader.label" locale="en">How do these products relate to your preferences?</language>
+			<language key="outputinfopopuptitle.label" locale="en">This recommendation was given based on your preferences. Here is the breakdown of your responses.</language>
+			<language key="tab1.label" locale="en">Top Solution Suggestion</language>
+			<language key="tab2.label" locale="en">Also of Interest</language>
+			<!-- Email Popup -->
+			<language key="emailpopup.send" locale="en">SUBMIT</language>
+			<language key="emailpopup.close" locale="en">Close</language>
+			<language key="emailpopup.title" locale="en">Email results</language>
+			<language key="emailpopup.error.invalidtoemail" locale="en">Please enter a valid TO Email address.</language>
+			<language key="emailpopup.error.invalidfromemail" locale="en">Please enter a valid FROM Email address.</language>
+			<language key="emailpopup.error.invalidallemails" locale="en">Please enter valid TO/FROM Email addresses.</language>
+			<!-- Product templates, cfm -->
+			<language key="cfm.url" locale="en">data/pb/cfm.xml</language>
+			<language key="templateurl" locale="en">output.pb.tpl.html</language>
+			<language key="product1.templateurl" locale="en">output.pb.layout.html</language>
+			<language key="product2.templateurl" locale="en">output.pb.layout.html</language>
+			<language key="product3.templateurl" locale="en">output.pb.layout.html</language>
+			<!-- Product template subversions: 'a' is default, 'b' is small-image -->
+			<language key="templatesubversion" locale="en">a</language>
+			<profile key="restart.directurl.param.game" value="prototype_director"/>
+			<profile key="restart.prettyurl.param.loc" value="prototype_director"/>
+            <profile key="restart.subgame.prototypepbsubgame.directurl.param.game" value="functional_tests" />
+            <profile key="restart.subgame.prototypepbsubgame.prettyurl.param.loc" value="functional_tests" />            
+            <profile key="restart.subgame.prototypepbsubgame2.directurl.param.game" value="prototype" />
+            <profile key="restart.subgame.prototypepbsubgame2.prettyurl.param.loc" value="prototype" />
+            <profile key="emailquestions" value="emailto||emailfrom||emailnote"/>
+			<profile key="isproductbased" value="true"/>
+            <profile key="persistjsondata" value="false"/>
+		</resource>
+		<!-- Consent Resources -->
+        <resource name="Consent Title Label" type="Alias" value="Consent Title"/>
+        <resource name="Consent Label One" type="Alias" value="Consent One Label"/>
+        <resource name="Consent One Question" type="Alias" value="Consent One"/>
+        <resource name="Consent Two Question" type="Alias" value="Consent Two"/>
+        <resource name="Consent Label Two" type="Alias" value="Consent Two Label"/>
+        <resource name="Consent Contact Info One Label" type="Alias" value="Consent Contact Info One"/>
+        <resource name="Consent Contact Info Two Label" type="Alias" value="Consent Contact Info Two"/> 
+		<!-- About You Resources -->
+        <resource name="Name Question" type="Alias" value="Full Name"/>
+        <resource name="State Province Question" type="Alias" value="State Province"/>
+        <resource name="Email Question" type="Alias" value="Email"/>
+        <resource name="Date of Birth Question" type="Alias" value="Date of Birth"/>
+        <resource name="What is the likelihood that you will answer all of these questions? Question" type="Alias" value="What is the likelihood that you will answer all of these questions?"/>
+        <resource name="Favorite Month Question" type="Alias" value="Favorite Month"/>
+        <resource name="Contact Me Question" type="Alias" value="Contact Me"/>
+        <resource name="How much energy do you use per year Question" type="Alias" value="How much energy do you use per year"/>
+		<resource name="Favorite Day Question" type="Alias" value="Favorite Day"/>
+        <resource name="What is your age Question" type="Alias" value="What is your age"/>
+        <resource name="Example Radio Button Question" type="Alias" value="Example Radio Button"/>
+        <resource name="About Yourself Question" type="Alias" value="About Yourself"/>
+        <resource name="Comments Question" type="Alias" value="Comments"/>
+        <!-- Survey 1 Resources -->
+        <resource name="Potential market size Question" type="Alias" value="Potential market size">
+            <profile key="type" value="radiobutton"/>
+        </resource>
+        <resource name="Target customer Question" type="Alias" value="Target customer">
+            <profile key="type" value="radiobutton"/>
+		</resource>
+		<resource name="Product coolness Question" type="Alias" value="Product coolness">
+            <profile key="type" value="radiobutton"/>
+		</resource>
+		<resource name="Product durability Question" type="Alias" value="Product durability">
+            <profile key="type" value="radiobutton"/>
+		</resource>
+        <!-- Output Questions -->
+		<resource name="Product1 Question" type="Alias" value="Product1">
+			<profile key="type" value="text"/>
+		</resource>
+		<resource name="Product2 Question" type="Alias" value="Product2">
+			<profile key="type" value="text"/>
+		</resource>
+		<resource name="Email To Question" type="Alias" value="emailto">
+			<profile key="type" value="text"/>
+		</resource>
+		<resource name="Email From Question" type="Alias" value="emailfrom">
+			<profile key="type" value="text"/>
+		</resource>
+		<resource name="Email Note Question" type="Alias" value="emailnote">
+			<profile key="type" value="text"/>
+		</resource>
+		<naming name="e2e_prototype_pb" by-owner="false"/>
+		<!-- Consent profile keys -->
+        <profile-key key="Consent Title" required="false">
+            <language key="displayname" locale="en"><![CDATA[<span style="font-size:20px;"><b>User Transparency</b></span>]]></language>
+            <profile key="type" value="text"/>
+            <profile key="widget" value="label-display"/>
+        </profile-key>
+        <profile-key key="Consent One Label" required="false">
+            <language key="displayname" locale="en"><![CDATA[<p><b>TrueChoice Solutions, Inc. is a data analytics company that will collect your product and service preferences data. This will help BrandCo develop future product and service strategies that benefit your business.</b></p>]]></language>
+            <profile key="type" value="text"/>
+            <profile key="widget" value="label-display"/>
+        </profile-key>
+        <profile-key key="Consent One" required="true">
+            <language key="displayname" locale="en">Do you consent to this?</language>
+            <profile key="type" value="checkbox"/>
+            <profile key="widget" value="checkbox"/>
+            <profile-value key="optin" value="I consent">
+                <language key="displayname" locale="en">I consent</language>
+                <language key="error.requiredinput.label" locale="en">Must consent to proceed</language>
+            </profile-value>
+        </profile-key>
+        <profile-key key="Consent Two Label" required="false">
+            <language key="displayname" locale="en"><![CDATA[<p>TrueChoice Solutions, Inc. will share your data with BrandCo for the duration of this 2 month project. We will collect product and service preferences and customer satisfaction information. We will analyze the data in the United States.</p>]]></language>
+            <profile key="type" value="text"/>
+            <profile key="widget" value="label-display"/>
+        </profile-key>
+        <profile-key key="Consent Two" required="false">
+            <language key="displayname" locale="en">Do you consent to tracking with Facebook Pixel?</language>
+            <profile key="externalanalytics.optin" value="true"/>
+            <profile key="type" value="checkbox"/>
+            <profile key="widget" value="checkbox"/>
+            <profile-value key="analyticstracking" value="I consent">
+                <language key="displayname" locale="en">I consent</language>
+            </profile-value>
+        </profile-key>
+        <profile-key key="Consent Contact Info One" required="false">
+            <language key="displayname" locale="en"><![CDATA[<p>To learn more about how TrueChoice Solutions, Inc. will manage your data and about your data privacy rights, click or tap <a href="http://www.truechoicesolutions.com/Privacy-Policy" rel="noopener noreferrer" to target="_blank"><i>here</i></a>.</p>]]></language>
+            <profile key="type" value="text"/>
+            <profile key="widget" value="label-display"/>
+            </profile-key>
+        <profile-key key="Consent Contact Info Two" required="false">
+            <language key="displayname" locale="en"><![CDATA[BrandCo will control the data collected from you by TrueChoice Solutions, Inc. BrandCo's contact information is: <p class="label-display-blockquote">E-mail: privacy@email.com<br/><a href="http://www.truechoicesolutions.com/Privacy-Policy" rel="noopener noreferrer" to target="_blank"><i>www.BrandCo.com</i></a></p>]]></language>
+            <profile key="type" value="text"/>
+            <profile key="widget" value="label-display"/>
+        </profile-key>
+		<!-- About You profile keys -->
+        <profile-key key="Full Name" required="false">
+            <language key="displayname" locale="en">Your full name</language>
+            <language key="placeholder" locale="en">--</language>
+            <language key="tooltip" locale="en">Your first and last name. Middle name too, if you want.</language>
+            <profile key="type" value="text"/>
+            <profile key="widget" value="text-input"/>
+        </profile-key>
+        <profile-key key="State Province" required="false">
+            <language key="displayname" locale="en">Please enter the State/Province that you live in:</language>
+            <language key="tooltip" locale="en">Please enter the State/Province that you live in:</language>
+            <profile key="type" value="dropbox"/>
+            <profile key="widget" value="drop-down"/>
+            <profile-value key="AL" value="AL">
+                <language key="displayname" locale="en">Alabama</language>
+            </profile-value>
+            <profile-value key="AK" value="AK">
+                <language key="displayname" locale="en">Alaska</language>
+            </profile-value>
+            <profile-value key="AZ" value="AZ">
+                <language key="displayname" locale="en">Arizona</language>
+            </profile-value>
+            <profile-value key="AR" value="AR">
+                <language key="displayname" locale="en">Arkansas</language>
+            </profile-value>
+            <profile-value key="British Columbia" value="British Columbia">
+                <language key="displayname" locale="en">British Columbia</language>
+            </profile-value>
+            <profile-value key="CA" value="CA">
+                <language key="displayname" locale="en">California</language>
+            </profile-value>
+            <profile-value key="CO" value="CO">
+                <language key="displayname" locale="en">Colorado</language>
+            </profile-value>
+            <profile-value key="CT" value="CT">
+                <language key="displayname" locale="en">Connecticut</language>
+            </profile-value>
+            <profile-value key="DE" value="DE">
+                <language key="displayname" locale="en">Delaware</language>
+            </profile-value>
+            <profile-value key="DC" value="DC">
+                <language key="displayname" locale="en">District of Columbia     </language>
+            </profile-value>
+            <profile-value key="FL" value="FL">
+                <language key="displayname" locale="en">Florida</language>
+            </profile-value>
+            <profile-value key="GA" value="GA">
+                <language key="displayname" locale="en">Georgia</language>
+            </profile-value>
+            <profile-value key="HI" value="HI">
+                <language key="displayname" locale="en">Hawaii</language>
+            </profile-value>
+            <profile-value key="ID" value="ID">
+                <language key="displayname" locale="en">Idaho</language>
+            </profile-value>
+            <profile-value key="IL" value="IL">
+                <language key="displayname" locale="en">Illinois</language>
+            </profile-value>
+            <profile-value key="IN" value="IN">
+                <language key="displayname" locale="en">Indiana</language>
+            </profile-value>
+            <profile-value key="IA" value="IA">
+                <language key="displayname" locale="en">Iowa</language>
+            </profile-value>
+            <profile-value key="KS" value="KS">
+                <language key="displayname" locale="en">Kansas</language>
+            </profile-value>
+            <profile-value key="KY" value="KY">
+                <language key="displayname" locale="en">Kentucky</language>
+            </profile-value>
+            <profile-value key="LA" value="LA">
+                <language key="displayname" locale="en">Louisiana</language>
+            </profile-value>
+            <profile-value key="ME" value="ME">
+                <language key="displayname" locale="en">Maine</language>
+            </profile-value>
+            <profile-value key="MD" value="MD">
+                <language key="displayname" locale="en">Maryland</language>
+            </profile-value>
+            <profile-value key="MA" value="MA">
+                <language key="displayname" locale="en">Massachusetts</language>
+            </profile-value>
+            <profile-value key="MI" value="MI">
+                <language key="displayname" locale="en">Michigan</language>
+            </profile-value>
+            <profile-value key="MN" value="MN">
+                <language key="displayname" locale="en">Minnesota</language>
+            </profile-value>
+            <profile-value key="MS" value="MS">
+                <language key="displayname" locale="en">Mississippi</language>
+            </profile-value>
+            <profile-value key="MO" value="MO">
+                <language key="displayname" locale="en">Missouri</language>
+            </profile-value>
+            <profile-value key="MT" value="MT">
+                <language key="displayname" locale="en">Montana</language>
+            </profile-value>
+            <profile-value key="NE" value="NE">
+                <language key="displayname" locale="en">Nebraska</language>
+            </profile-value>
+            <profile-value key="NV" value="NV">
+                <language key="displayname" locale="en">Nevada</language>
+            </profile-value>
+            <profile-value key="NH" value="NH">
+                <language key="displayname" locale="en">New Hampshire</language>
+            </profile-value>
+            <profile-value key="NJ" value="NJ">
+                <language key="displayname" locale="en">New Jersey</language>
+            </profile-value>
+            <profile-value key="NM" value="NM">
+                <language key="displayname" locale="en">New Mexico</language>
+            </profile-value>
+            <profile-value key="NY" value="NY">
+                <language key="displayname" locale="en">New York</language>
+            </profile-value>
+            <profile-value key="Newfoundland" value="Newfoundland">
+                <language key="displayname" locale="en">Newfoundland</language>
+            </profile-value>
+            <profile-value key="NC" value="NC">
+                <language key="displayname" locale="en">North Carolina</language>
+            </profile-value>
+            <profile-value key="ND" value="ND">
+                <language key="displayname" locale="en">North Dakota</language>
+            </profile-value>
+            <profile-value key="Northwest Territories" value="Northwest Territories">
+                <language key="displayname" locale="en">Northwest Territories</language>
+            </profile-value>
+            <profile-value key="Nova Scotia" value="Nova Scotia">
+                <language key="displayname" locale="en">Nova Scotia</language>
+            </profile-value>
+            <profile-value key="Nunavut" value="Nunavut">
+                <language key="displayname" locale="en">Nunavut</language>
+            </profile-value>
+            <profile-value key="OH" value="OH">
+                <language key="displayname" locale="en">Ohio</language>
+            </profile-value>
+            <profile-value key="OK" value="OK">
+                <language key="displayname" locale="en">Oklahoma</language>
+            </profile-value>
+            <profile-value key="Ontario" value="Ontario">
+                <language key="displayname" locale="en">Ontario</language>
+            </profile-value>
+            <profile-value key="OR" value="OR">
+                <language key="displayname" locale="en">Oregon</language>
+            </profile-value>
+            <profile-value key="PA" value="PA">
+                <language key="displayname" locale="en">Pennsylvania</language>
+            </profile-value>
+            <profile-value key="Prince Edward Island" value="Prince Edward Island">
+                <language key="displayname" locale="en">Prince Edward Island</language>
+            </profile-value>
+            <profile-value key="Quebec" value="Quebec">
+                <language key="displayname" locale="en">Quebec</language>
+            </profile-value>
+            <profile-value key="RI" value="RI">
+                <language key="displayname" locale="en">Rhode Island</language>
+            </profile-value>
+            <profile-value key="Saskatchewan" value="Saskatchewan">
+                <language key="displayname" locale="en">Saskatchewan</language>
+            </profile-value>
+            <profile-value key="SC" value="SC">
+                <language key="displayname" locale="en">South Carolina</language>
+            </profile-value>
+            <profile-value key="SD" value="SD">
+                <language key="displayname" locale="en">South Dakota</language>
+            </profile-value>
+            <profile-value key="TN" value="TN">
+                <language key="displayname" locale="en">Tennessee</language>
+            </profile-value>
+            <profile-value key="TX" value="TX">
+                <language key="displayname" locale="en">Texas</language>
+            </profile-value>
+            <profile-value key="UT" value="UT">
+                <language key="displayname" locale="en">Utah</language>
+            </profile-value>
+            <profile-value key="VT" value="VT">
+                <language key="displayname" locale="en">Vermont</language>
+            </profile-value>
+            <profile-value key="VA" value="VA">
+                <language key="displayname" locale="en">Virginia</language>
+            </profile-value>
+            <profile-value key="WA" value="WA">
+                <language key="displayname" locale="en">Washington</language>
+            </profile-value>
+            <profile-value key="WV" value="WV">
+                <language key="displayname" locale="en">West Virginia</language>
+            </profile-value>
+            <profile-value key="WI" value="WI">
+                <language key="displayname" locale="en">Wisconsin</language>
+            </profile-value>
+            <profile-value key="WY" value="WY">
+                <language key="displayname" locale="en">Wyoming</language>
+            </profile-value>
+            <profile-value key="Yukon" value="Yukon">
+                <language key="displayname" locale="en">Yukon</language>
+            </profile-value>
+        </profile-key>
+        <profile-key key="Email" required="false">
+            <language key="displayname" locale="en">Your email address</language>
+            <language key="tooltip" locale="en">The email address you use most often</language>
+            <language key="boldlabel" locale="en">false</language>
+            <profile key="type" value="text"/>
+            <profile key="widget" value="text-input"/>
+        </profile-key>
+        <profile-key key="Date of Birth" required="false">
+            <language key="displayname" locale="en">What is your birthday</language>
+            <language key="placeholder" locale="en">MM/DD/YYYY</language>
+            <language key="tooltip" locale="en">What is your birthday</language>
+            <profile key="type" value="text"/>
+            <profile key="widget" value="text-input"/>
+        </profile-key>
+        <profile-key key="Contact Me" required="false">
+            <language key="displayname" locale="en">Please select, "No, do not contact me" if you would rather not receive occasional e-mail communication from us here at TCS.  Please refer to our web site at www.truechoicesolutions.com concerning the additional questions or comments you might have for us.</language>
+            <language key="tooltip" locale="en">Please select, "No, do not contact me" if you would rather not receive occasional e-mail communication from us here at TCS.  Please refer to our web site at www.truechoicesolutions.com concerning the additional questions or comments you might have for us. If you would like to be contacted please select "Yes, please contact me via email that I have previously provided for you".</language>
+            <profile key="type" value="radio"/>
+            <profile key="widget" value="radio-button"/>
+            <profile-value key="Yes" value="Yes, contact me">
+                <language key="displayname" locale="en">Yes, please contact me through the email that I have provided</language>
+            </profile-value>
+            <profile-value key="No" value="No, do not contact me">
+                <language key="displayname" locale="en">No, do not contact me, I do not want to recieve emails.</language>
+            </profile-value>
+        </profile-key>
+        <profile-key key="Favorite Month" required="false">
+            <language key="displayname" locale="en">What are your favorite months?  I'm betting it's the month you were born in!</language>
+            <language key="tooltip" locale="en">Select all that apply.</language>
+            <profile key="type" value="checkbox"/>
+            <profile key="widget" value="checkbox"/>
+            <profile-value key="January" value="January">
+                <language key="displayname" locale="en">January - Ambitious and serious</language>
+            </profile-value>
+            <profile-value key="February" value="February">
+                <language key="displayname" locale="en">February - Abstract thoughts</language>
+            </profile-value>
+            <profile-value key="March" value="March">
+                <language key="displayname" locale="en">March - Attractive personality</language>
+            </profile-value>
+            <profile-value key="April" value="April">
+                <language key="displayname" locale="en">April - Active and dynamic</language>
+            </profile-value>
+            <profile-value key="May" value="May">
+                <language key="displayname" locale="en">May - Stubborn and hard-hearted</language>
+            </profile-value>
+            <profile-value key="June" value="June">
+                <language key="displayname" locale="en">June - Thinks far with vision</language>
+            </profile-value>
+            <profile-value key="July" value="July">
+                <language key="displayname" locale="en">July - Fun to be with</language>
+            </profile-value>
+            <profile-value key="August" value="August">
+                <language key="displayname" locale="en">August - Loves to joke</language>
+            </profile-value>
+            <profile-value key="September" value="September">
+                <language key="displayname" locale="en">September - Suave and compromising</language>
+            </profile-value>
+            <profile-value key="October" value="October">
+                <language key="displayname" locale="en">October - Loves to chat</language>
+            </profile-value>
+            <profile-value key="November" value="November">
+                <language key="displayname" locale="en">November - Have a lot of ideas</language>
+            </profile-value>
+            <profile-value key="December" value="December">
+                <language key="displayname" locale="en">December - Loyal and generous</language>
+            </profile-value>
+        </profile-key>
+        <profile-key key="What is the likelihood that you will answer all of these questions?" required="false">
+            <language key="displayname" locale="en">On a scale of 0-10, what is the likelihood that you will answer all of these questions? (0 = Not At All Likely; 10 = Absolutely)</language>
+            <language key="tooltip" locale="en">On a scale of 0-10, what is the likelihood that you will answer all of these questions? (0 = Not At All Likely; 10 = Absolutely)</language>
+            <profile key="type" value="rating"/>
+            <profile key="widget" value="rating-scale"/>
+            <profile key="usehashmarks" value="true"/>
+            <profile key="useallhashlabels" value="true"/>
+            <profile-value key="NA" value="null">
+                <language key="displayname" locale="en"> -- Please select a value -- </language>
+                <language key="hashlabel" locale="en">N/A</language>
+            </profile-value>
+            <profile-value key="0" value="0">
+                <language key="displayname" locale="en">0 - Not at all likely</language>
+                <language key="hashlabel" locale="en">0</language>
+            </profile-value>
+            <profile-value key="1" value="1">
+                <language key="displayname" locale="en">1 - If you force me to</language>
+                <language key="hashlabel" locale="en">1</language>
+            </profile-value>
+            <profile-value key="2" value="2">
+                <language key="displayname" locale="en">2 - Grudgingly</language>
+                <language key="hashlabel" locale="en">2</language>
+            </profile-value>
+            <profile-value key="3" value="3">
+                <language key="displayname" locale="en">3 - Do I have to</language>
+                <language key="hashlabel" locale="en">3</language>
+            </profile-value>
+            <profile-value key="4" value="4">
+                <language key="displayname" locale="en">4 - Ok, but I'd rather not</language>
+                <language key="hashlabel" locale="en">4</language>
+            </profile-value>
+            <profile-value key="5" value="5">
+                <language key="displayname" locale="en">5 - Maybe I will, maybe I won't</language>
+                <language key="hashlabel" locale="en">5</language>
+            </profile-value>
+            <profile-value key="6" value="6">
+                <language key="displayname" locale="en">6 - Sure, but not right now</language>
+                <language key="hashlabel" locale="en">6</language>
+            </profile-value>
+            <profile-value key="7" value="7">
+                <language key="displayname" locale="en">7 - Yes, but in an hour</language>
+                <language key="hashlabel" locale="en">7</language>
+            </profile-value>
+            <profile-value key="8" value="8">
+                <language key="displayname" locale="en">8 - OK, just a sec</language>
+                <language key="hashlabel" locale="en">8</language>
+            </profile-value>
+            <profile-value key="9" value="9">
+                <language key="displayname" locale="en">9 - YES!  I'll stop what I'm doing to help out</language>
+                <language key="hashlabel" locale="en">9</language>
+            </profile-value>
+            <profile-value key="10" value="10">
+                <language key="displayname" locale="en">10 - Absolutely, already done!  I'm a team player!</language>
+                <language key="hashlabel" locale="en">10</language>
+            </profile-value>
+        </profile-key>
+        <profile-key key="How much energy do you use per year" required="false">
+            <language key="displayname" locale="en">How much energy do you use per year:</language>
+            <language key="boldlabel" locale="en">false</language>
+            <profile key="widget" value="rating-scale"/>
+            <profile key="type" value="rating"/>
+            <profile key="usehashmarks" value="true"/>
+            <profile key="useallhashlabels" value="false"/>
+            <profile-value key="NA" value="null">
+                <language key="displayname" locale="en">-- Please select a value --</language>
+                <language key="hashlabel" locale="en">N/A</language>
+            </profile-value>
+            <profile-value key="0" value="0 kWh">
+                <language key="displayname" locale="en">0 kWh</language>
+            </profile-value>
+            <profile-value key="100" value="100 kWh">
+                <language key="displayname" locale="en">100 kWh</language>
+            </profile-value>
+            <profile-value key="200" value="200 kWh">
+                <language key="displayname" locale="en">200 kWh</language>
+            </profile-value>
+            <profile-value key="300" value="300 kWh">
+                <language key="displayname" locale="en">300 kWh</language>
+            </profile-value>
+            <profile-value key="400" value="400 kWh">
+                <language key="displayname" locale="en">400 kWh</language>
+            </profile-value>
+        </profile-key>
+        <profile-key key="Favorite Day" required="false">
+            <language key="displayname" locale="en">What is your favorite day?  I'm betting it's the weekend!</language>
+            <language key="boldlabel" locale="en">false</language>
+            <profile key="type" value="checkbox"/>
+            <profile key="widget" value="checkbox"/>
+            <profile-value key="Monday" value="Monday">
+                <language key="displayname" locale="en">Monday</language>
+            </profile-value>
+			<profile-value key="Tuesday" value="Tuesday">
+                <language key="displayname" locale="en">Tuesday</language>
+            </profile-value>
+			<profile-value key="Wednesday" value="Wednesday">
+                <language key="displayname" locale="en">Wednesday</language>
+            </profile-value>
+			<profile-value key="Thursday" value="Thursday">
+                <language key="displayname" locale="en">Thursday</language>
+            </profile-value>
+			<profile-value key="Friday" value="Friday">
+                <language key="displayname" locale="en">Friday</language>
+            </profile-value>
+			<profile-value key="Saturday" value="Saturday">
+                <language key="displayname" locale="en">Saturday</language>
+            </profile-value>
+			<profile-value key="Sunday" value="Sunday">
+                <language key="displayname" locale="en">Sunday</language>
+            </profile-value>
+		</profile-key>
+		<profile-key key="What is your age" required="false">
+            <language key="displayname" locale="en">Please choose your age range:</language>
+            <language key="boldlabel" locale="en">false</language>
+            <profile key="type" value="dropbox"/>
+            <profile key="widget" value="drop-down"/>
+            <profile-value key="20-29" value="20-29">
+                <language key="displayname" locale="en">20-29</language>
+            </profile-value>
+			<profile-value key="30-39" value="30-39">
+                <language key="displayname" locale="en">30-39</language>
+            </profile-value>
+			<profile-value key="40-49" value="40-49">
+                <language key="displayname" locale="en">40-49</language>
+            </profile-value>
+			<profile-value key="50 or older" value="50 or older">
+                <language key="displayname" locale="en">50 or older</language>
+            </profile-value>
+        </profile-key>
+        <profile-key key="Example Radio Button" required="false">
+            <language key="displayname" locale="en">Example Radio Button Label.</language>
+            <language key="tooltip" locale="en">Example Radio Button tooltip</language>
+            <language key="boldlabel" locale="en">false</language>
+            <profile key="type" value="radio"/>
+            <profile key="widget" value="radio-button"/>
+            <profile-value key="Yes" value="Yes, contact me">
+                <language key="displayname" locale="en">Yes, please contact me through the email that I have provided</language>
+            </profile-value>
+            <profile-value key="No" value="No, do not contact me">
+                <language key="displayname" locale="en">No, do not contact me, I do not want to recieve emails.</language>
+            </profile-value>
+        </profile-key>
+        <profile-key key="About Yourself" required="false">
+            <language key="displayname" locale="en">Tell us about yourself</language>
+            <language key="tooltip" locale="en">What kind of a profession are you in, etc.</language>
+            <profile key="widget" value="text-area"/>
+        </profile-key>
+        <profile-key key="Comments" required="false">
+            <language key="displayname" locale="en">Comments</language>
+            <language key="tooltip" locale="en">Provide any additional comments</language>
+            <language key="boldlabel" locale="en">false</language>
+            <profile key="widget" value="text-area"/>
+        </profile-key>
+        <!-- Survey 1 Radio Group 7 Header profile keys -->
+        <profile-key key="Potential market size" required="true">
+			<language key="displayname" locale="en">The potential market size for my product is huge!</language>
+            <language key="tooltip" locale="en">Tooltip text 1 with longer text to test</language>
+            <profile key="showoptiontext" type="String" value="true"/>
+            <profile-value key="Strongly Disagree" value="Strongly Disagree">
+				<language key="displayname" locale="en">Strongly Disagree</language>
+				<language key="tooltip" locale="en">You strongly disagree with this statement</language>
+			</profile-value>
+			<profile-value key="Disagree" value="Disagree">
+				<language key="displayname" locale="en">Disagree</language>
+				<language key="tooltip" locale="en">You disagree with this statement</language>
+			</profile-value>
+			<profile-value key="Slightly Disagree" value="Slightly Disagree">
+				<language key="displayname" locale="en">Slightly Disagree</language>
+				<language key="tooltip" locale="en">You slightly disagree with this statement</language>
+			</profile-value>
+			<profile-value key="Slightly Agree" value="Slightly Agree">
+				<language key="displayname" locale="en">Slightly Agree</language>
+				<language key="tooltip" locale="en">You slightly agree with this statement</language>
+			</profile-value>
+			<profile-value key="Agree" value="Agree">
+				<language key="displayname" locale="en">Agree</language>
+				<language key="tooltip" locale="en">You agree with this statement</language>
+			</profile-value>
+            <profile-value key="Strongly Agree" value="Strongly Agree">
+				<language key="displayname" locale="en">Strongly Agree</language>
+				<language key="tooltip" locale="en">You strongly agree with this statement</language>
+			</profile-value>
+			<profile-value key="Do NOT Care" value="Do NOT Care">
+				<language key="displayname" locale="en">Do NOT Care</language>
+				<language key="tooltip" locale="en">You do not care about this statement</language>
+			</profile-value>
+        </profile-key>
+        <profile-key key="Target customer" required="true">
+			<language key="displayname" locale="en">I am targeting customers who are totally "up on it" and have money to burn!</language>
+            <language key="tooltip" locale="en">Tooltip text 3</language>
+            <profile key="showoptiontext" type="String" value="true"/>
+            <profile-value key="Strongly Disagree" value="Strongly Disagree">
+				<language key="displayname" locale="en">Strongly Disagree</language>
+				<language key="tooltip" locale="en">You strongly disagree with this statement</language>
+			</profile-value>
+			<profile-value key="Disagree" value="Disagree">
+				<language key="displayname" locale="en">Disagree</language>
+				<language key="tooltip" locale="en">You disagree with this statement</language>
+			</profile-value>
+			<profile-value key="Slightly Disagree" value="Slightly Disagree">
+				<language key="displayname" locale="en">Slightly Disagree</language>
+				<language key="tooltip" locale="en">You slightly disagree with this statement</language>
+			</profile-value>
+			<profile-value key="Slightly Agree" value="Slightly Agree">
+				<language key="displayname" locale="en">Slightly Agree</language>
+				<language key="tooltip" locale="en">You slightly agree with this statement</language>
+			</profile-value>
+			<profile-value key="Agree" value="Agree">
+				<language key="displayname" locale="en">Agree</language>
+				<language key="tooltip" locale="en">You agree with this statement</language>
+			</profile-value>
+            <profile-value key="Strongly Agree" value="Strongly Agree">
+				<language key="displayname" locale="en">Strongly Agree</language>
+				<language key="tooltip" locale="en">You strongly agree with this statement</language>
+			</profile-value>
+			<profile-value key="Do NOT Care" value="Do NOT Care">
+				<language key="displayname" locale="en">Do NOT Care</language>
+				<language key="tooltip" locale="en">You do not care about this statement</language>
+			</profile-value>
+        </profile-key>
+		<profile-key key="Product coolness" required="true">
+			<language key="displayname" locale="en">My product is totally cool, unique, and trendy and everyone will NEED to own it.</language>
+            <language key="tooltip" locale="en">Tooltip text 4</language>
+            <profile key="showoptiontext" type="String" value="true"/>
+			<profile-value key="Strongly Disagree" value="Strongly Disagree">
+				<language key="displayname" locale="en">Strongly Disagree</language>
+				<language key="tooltip" locale="en">You strongly disagree with this statement</language>
+			</profile-value>
+			<profile-value key="Disagree" value="Disagree">
+				<language key="displayname" locale="en">Disagree</language>
+				<language key="tooltip" locale="en">You disagree with this statement</language>
+			</profile-value>
+			<profile-value key="Slightly Disagree" value="Slightly Disagree">
+				<language key="displayname" locale="en">Slightly Disagree</language>
+				<language key="tooltip" locale="en">You slightly disagree with this statement</language>
+			</profile-value>
+			<profile-value key="Slightly Agree" value="Slightly Agree">
+				<language key="displayname" locale="en">Slightly Agree</language>
+				<language key="tooltip" locale="en">You slightly agree with this statement</language>
+			</profile-value>
+			<profile-value key="Agree" value="Agree">
+				<language key="displayname" locale="en">Agree</language>
+				<language key="tooltip" locale="en">You agree with this statement</language>
+			</profile-value>
+            <profile-value key="Strongly Agree" value="Strongly Agree">
+				<language key="displayname" locale="en">Strongly Agree</language>
+				<language key="tooltip" locale="en">You strongly agree with this statement</language>
+			</profile-value>
+			<profile-value key="Do NOT Care" value="Do NOT Care">
+				<language key="displayname" locale="en">Do NOT Care</language>
+				<language key="tooltip" locale="en">You do not care about this statement</language>
+			</profile-value>
+        </profile-key>
+		<profile-key key="Product durability" required="true">
+			<language key="displayname" locale="en">Durability is a key factor of my product and it won't drop even if you drop it!</language>
+            <profile key="showoptiontext" type="String" value="true"/>
+            <profile-value key="Strongly Disagree" value="Strongly Disagree">
+				<language key="displayname" locale="en">Strongly Disagree</language>
+				<language key="tooltip" locale="en">You strongly disagree with this statement</language>
+			</profile-value>
+			<profile-value key="Disagree" value="Disagree">
+				<language key="displayname" locale="en">Disagree</language>
+				<language key="tooltip" locale="en">You disagree with this statement</language>
+			</profile-value>
+			<profile-value key="Slightly Disagree" value="Slightly Disagree">
+				<language key="displayname" locale="en">Slightly Disagree</language>
+				<language key="tooltip" locale="en">You slightly disagree with this statement</language>
+			</profile-value>
+			<profile-value key="Slightly Agree" value="Slightly Agree">
+				<language key="displayname" locale="en">Slightly Agree</language>
+				<language key="tooltip" locale="en">You slightly agree with this statement</language>
+			</profile-value>
+			<profile-value key="Agree" value="Agree">
+				<language key="displayname" locale="en">Agree</language>
+				<language key="tooltip" locale="en">You agree with this statement</language>
+			</profile-value>
+            <profile-value key="Strongly Agree" value="Strongly Agree">
+				<language key="displayname" locale="en">Strongly Agree</language>
+				<language key="tooltip" locale="en">You strongly agree with this statement</language>
+			</profile-value>
+			<profile-value key="Do NOT Care" value="Do NOT Care">
+				<language key="displayname" locale="en">Do NOT Care</language>
+				<language key="tooltip" locale="en">You do not care about this statement</language>
+			</profile-value>
+        </profile-key>
+		<!-- Output -->
+		<profile-key key="Product1" required="false">
+			<profile key="type" value="text"/>
+			<profile key="hidden" value="true"/>
+		</profile-key>
+		<profile-key key="Product2" required="false">
+			<profile key="hidden" value="true"/>
+		</profile-key>
+		<profile-key key="emailto" required="true">
+			<language key="displayname" locale="en">To: (email address)</language>
+			<language key="placeholder" locale="en">Example: john@example.com</language>
+			<language key="error" locale="en">'TO' email address is not valid.</language>
+			<profile key="widget" value="text-input"/>
+			<profile key="inputtype" value="email"/>
+		</profile-key>
+		<profile-key key="emailfrom" required="true">
+			<language key="displayname" locale="en">From: (email address)</language>
+			<language key="placeholder" locale="en">Example: jane@example.com</language>
+			<language key="error" locale="en">'FROM' email address is not valid.</language>
+			<profile key="widget" value="text-input"/>
+			<profile key="inputtype" value="email"/>
+		</profile-key>
+		<profile-key key="emailnote" required="false">
+			<language key="displayname" locale="en">Note: (optional)</language>
+			<language key="placeholder" locale="en">Please check out this great product!</language>
+			<profile key="widget" value="text-area"/>
+			<profile key="inputtype" value="text"/>
+		</profile-key>
+		<!-- Output Questions profile keys -->
+        <profile-key key="uid" required="false">
+            <naming name="e2e_prototype_pbUid"/>
+        </profile-key>
+		<profile key="BestChoice" value="10"/>
+	</game>
+</client>

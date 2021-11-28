@@ -1,0 +1,4 @@
+{
+  "packages": ["portal/**", "portal-cli/**", "webservice/**"],
+  "version": "independent"
+}

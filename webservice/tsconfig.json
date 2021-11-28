@@ -1,0 +1,87 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ESNext",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@truechoice/auth": [
+        "libs/auth/src"
+      ],
+      "@truechoice/auth/*": [
+        "libs/auth/src/*"
+      ],
+      "@truechoice/notification": [
+        "libs/notification/src"
+      ],
+      "@truechoice/notification/*": [
+        "libs/notification/src/*"
+      ],
+      "@truechoice/users": [
+        "libs/users/src"
+      ],
+      "@truechoice/users/*": [
+        "libs/users/src/*"
+      ],
+      "@truechoice/ssm": [
+        "libs/ssm/src"
+      ],
+      "@truechoice/ssm/*": [
+        "libs/ssm/src/*"
+      ],
+      "@truechoice/stacks": [
+        "libs/stacks/src"
+      ],
+      "@truechoice/stacks/*": [
+        "libs/stacks/src/*"
+      ],
+      "@truechoice/aws": [
+        "libs/aws/src"
+      ],
+      "@truechoice/aws/*": [
+        "libs/aws/src/*"
+      ],
+      "@truechoice/stack-install": [
+        "libs/stack-install/src"
+      ],
+      "@truechoice/stack-install/*": [
+        "libs/stack-install/src/*"
+      ],
+      "@truechoice/xml-loader": [
+        "libs/xml-loader/src"
+      ],
+      "@truechoice/xml-loader/*": [
+        "libs/xml-loader/src/*"
+      ],
+      "@truechoice/helpers": [
+        "libs/helpers/src"
+      ],
+      "@truechoice/helpers/*": [
+        "libs/helpers/src/*"
+      ],
+      "@truechoice/installer": [
+        "libs/installer/src"
+      ],
+      "@truechoice/installer/*": [
+        "libs/installer/src/*"
+      ],
+      "@truechoice/status": [
+        "libs/status/src"
+      ],
+      "@truechoice/status/*": [
+        "libs/status/src/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

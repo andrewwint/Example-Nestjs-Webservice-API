@@ -1,0 +1,99 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "auth": {
+      "type": "library",
+      "root": "libs/auth",
+      "entryFile": "index",
+      "sourceRoot": "libs/auth/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/auth/tsconfig.lib.json"
+      }
+    },
+    "notification": {
+      "type": "library",
+      "root": "libs/notification",
+      "entryFile": "index",
+      "sourceRoot": "libs/notification/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/notification/tsconfig.lib.json"
+      }
+    },
+    "users": {
+      "type": "library",
+      "root": "libs/users",
+      "entryFile": "index",
+      "sourceRoot": "libs/users/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/users/tsconfig.lib.json"
+      }
+    },
+    "ssm": {
+      "type": "library",
+      "root": "libs/ssm",
+      "entryFile": "index",
+      "sourceRoot": "libs/ssm/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/ssm/tsconfig.lib.json"
+      }
+    },
+    "stacks": {
+      "type": "library",
+      "root": "libs/stacks",
+      "entryFile": "index",
+      "sourceRoot": "libs/stacks/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/stacks/tsconfig.lib.json"
+      }
+    },
+    "aws": {
+      "type": "library",
+      "root": "libs/aws",
+      "entryFile": "index",
+      "sourceRoot": "libs/aws/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/aws/tsconfig.lib.json"
+      }
+    },
+    "xml-loader": {
+      "type": "library",
+      "root": "libs/xml-loader",
+      "entryFile": "index",
+      "sourceRoot": "libs/xml-loader/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/xml-loader/tsconfig.lib.json"
+      }
+    },
+    "helpers": {
+      "type": "library",
+      "root": "libs/helpers",
+      "entryFile": "index",
+      "sourceRoot": "libs/helpers/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/helpers/tsconfig.lib.json"
+      }
+    },
+    "installer": {
+      "type": "library",
+      "root": "libs/installer",
+      "entryFile": "index",
+      "sourceRoot": "libs/installer/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/installer/tsconfig.lib.json"
+      }
+    },
+    "status": {
+      "type": "library",
+      "root": "libs/status",
+      "entryFile": "index",
+      "sourceRoot": "libs/status/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/status/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": false
+  }
+}

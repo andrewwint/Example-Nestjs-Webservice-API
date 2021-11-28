@@ -1,0 +1,51 @@
+FROM public.ecr.aws/a4g4f7i6/node-alpine:latest AS builder
+
+# Create app directory
+WORKDIR /app
+
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
+COPY package*.json ./
+
+# Install dependencies.
+RUN npm install 
+
+# Bundle app source
+COPY . .
+
+# Run tests
+RUN npm run test
+# RUN npm run test:e2e:ci
+
+# Necessary to run before adding application code to leverage Docker cache
+RUN npm cache clean --force
+
+# Run application
+RUN npm run build
+
+FROM public.ecr.aws/a4g4f7i6/node-alpine:latest
+
+WORKDIR /app
+
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/tsconfig* ./
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/.env ./
+
+# Create xml upload folder
+RUN mkdir tmp && chmod 777 tmp && ls -al
+
+# Install ssh and scp need for xml import
+RUN apk add openssh
+
+# Set timezone to UTC by default
+RUN ln -sf /usr/share/zoneinfo/Etc/UTC /etc/localtime
+
+# Install aws-cli
+# RUN apk -Uuv add groff less python py-pip
+# RUN pip install awscli
+# RUN apk --purge -v del py-pip
+RUN rm /var/cache/apk/*
+
+EXPOSE 3000
+CMD [ "node", "dist/src/main" ]

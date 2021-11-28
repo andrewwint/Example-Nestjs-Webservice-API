@@ -1,0 +1,845 @@
+<?xml version="1.0"?>
+<!DOCTYPE client SYSTEM "object.dtd">
+<client name="prototype_feature">
+  <game name="prototype_feature" fixed="false">
+    <attribute name="color" implicit="unordered" must-have-allowed="false" skip-allowed="true" type="string" unacceptables-allowed="false">
+      <level value="red">
+        <language key="icon" locale="en">icon-color-red</language>
+        <language key="message" locale="en">color||Color||Electric crimson or red has always been one of your favorite colors and you will always choose that color over any other!||icon-color-red</language>
+        <language key="description" locale="en">&amp;lt;img src=&amp;quot;assets/tooltips/color_red.jpg&amp;quot;&amp;gt;Electric crimson or red is a color whose hue resembles that of blood, or a ruby, and is of the long-wave extreme of the visible spectrum. Red is also a primary color. The hex for this color is #FF003F and the first known word usage was before the 12th century.</language>
+        <language key="displayname" locale="en">Electric Crimson</language>
+      </level>
+      <level value="orange">
+        <language key="icon" locale="en">icon-color-orange</language>
+        <language key="message" locale="en">color||Color||Orange has always been one of your favorite colors and you will always choose that color over any other!||icon-color-orange</language>
+        <language key="description" locale="en">Orange is a color between red and yellow that is like the color of fire and carrots. It is also a fruit that grows in California and Florida. The hex for this color is #FF9966 and the first know word usage was in 1542.</language>
+        <language key="displayname" locale="en">Orange</language>
+      </level>
+      <level value="yellow">
+        <language key="icon" locale="en">icon-color-yellow</language>
+        <language key="message" locale="en">color||Color||Yellow has always been one of your favorite colors and you will always choose that color over any other!||icon-color-yellow</language>
+        <language key="description" locale="en">Yellow is having the color of the sun, butter, or ripe lemons. Yellow is also a primary color. It can be mixed with the other 2 primary colors to make lots of other colors but no colors mixed together can make yellow. The hex for this color is #ffd500 and the first known word usage was before the 12th century.</language>
+        <language key="displayname" locale="en">Lemon Yellow</language>
+      </level>
+      <level value="green">
+        <language key="icon" locale="en">icon-color-green</language>
+        <language key="message" locale="en">color||Color||Green has always been one of your favorite colors and you will always choose that color over any other!||icon-color-green</language>
+        <language key="description" locale="en">Green is a color whose hue is between yellow and blue and is associated with growing fresh grass, an emerald, Spring, evil, or envy. A person can also be &amp;quot;green with envy.&amp;quot; The &amp;quot;Wicked Witch of the West&amp;quot; was green. The hex for this color is#009900 and the first known word usage was before the 12th century.</language>
+        <language key="displayname" locale="en">Green</language>
+      </level>
+      <level value="gray">
+        <language key="icon" locale="en">icon-color-gray</language>
+        <language key="message" locale="en">color||Color||Gray has always been one of your favorite colors and you will always choose that color over any other!||icon-color-gray</language>
+        <language key="description" locale="en">Gray is a series of neutral colors ranging between black and white and is often the color associated with age, usually depicted gray or silver hair. Also Gray is also the color associated with cloudy days and clouds filled with rain, hence the saying, &amp;quot;it's a gray day today.&amp;quot; The hex for this color is #848482 and the first known word usage was before the 12th century.</language>
+        <language key="displayname" locale="en">Battleship Gray</language>
+      </level>
+      <level value="blue">
+        <language key="message" locale="en">color||Color||Blue has always been one of your favorite colors and you will always choose that color over any other!||icon-color-blue</language>
+        <language key="icon" locale="en">icon-color-blue</language>
+        <language key="description" locale="en">Blue is a color whose hue is that of the clear sky, water, and is the portion of the color spectrum lying between green and violet. Blue is also a primary color. It can be mixed with the other 2 primary colors to make lots of other colors but no colors mixed together can make blue. The hex for this color is #007af3 and the first known word usage was before the 13th century.</language>
+        <language key="displayname" locale="en">Blue</language>
+      </level>
+      <level value="purple">
+        <language key="message" locale="en">color||Color||Purple has always been one of your favorite colors and you will always choose that color over any other!||icon-color-purple</language>
+        <language key="icon" locale="en">icon-color-purple</language>
+        <language key="description" locale="en">Purple is any of various colors that fall about midway between red and blue in hue, an is often the color worn as an emblem of rank or authority. The hex for this color is #4b0082 and the first known word usage was before the 15th century.</language>
+        <language key="displayname" locale="en">Purple</language>
+      </level>
+      <level value="black">
+        <language key="icon" locale="en">icon-color-black</language>
+        <language key="message" locale="en">color||Color||Starry night has always been one of your favorite colors and you will always choose that color over any other!||icon-color-black</language>
+        <language key="description" locale="en">Black is a word that has many, many meanings. Examples are typically associated with evil as in &amp;quot;black magic&amp;quot;, a VERY bad mood, having the very dark color of coal, the night sky, something served without cream or milk as in &amp;quot;black coffee&amp;quot;, or even used to describe humor that deals with subjects which are usually regarded as very serious or unpleasant. To make the color black, mix all of the other colors together and voila!, you get a mess, or black. The hex for this color is #000000 and the first known usage was before 12th century.</language>
+        <language key="displayname" locale="en">Starry Night</language>
+      </level>
+      <level value="maroon">
+        <language key="icon" locale="en">icon-color-maroon</language>
+        <language key="message" locale="en">color||Color||&amp;lt;a href=&amp;quot;http://www.google.com&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Maroon&amp;lt;/a&amp;gt; has always been one of &amp;lt;u&amp;gt;your favorite&amp;lt;/u&amp;gt; colors and you will always choose that color over any other!||icon-color-maroon</language>
+        <language key="description" locale="en">Maroon is a variant of the color red and is considered a dark red color. The word maroon comes from the French word maroon which means &amp;quot;chestnut&amp;quot;. Vajrayana Buddhist monks wear robes that are colored various shades of maroon. To make maroon start with red, add some blue and a little black and there you have it! Crayola introduced the maroon crayon to their pack in 1949. The crayola crayon hex for this color is #C32148 and the first recorded use of maroon as a color name in English was in 1789.</language>
+        <language key="displayname" locale="en">Maroon</language>
+      </level>
+      <language key="group" locale="en"/>
+      <language key="instructions" locale="en">Shift the sliders to indicate a GREATER or LESSER preference for the colors shown.</language>
+      <language key="message" locale="en">color||Electric crimson or red has always been one of your favorite colors and you will always choose that color over any other!||icon-color-red</language>
+      <language key="mostpreferred" locale="en">Prefer More</language>
+      <language key="icon" locale="en">icon-color</language>
+      <language key="description" locale="en">Color is defined as the phenomenon of light (as red, brown, pink, or gray) or visual perception that enables one to differentiate otherwise identical objects.</language>
+      <language key="leastpreferred" locale="en">Prefer Less</language>
+      <language key="shortname" locale="en">Color</language>
+      <language key="shortname.levels" locale="en">Color</language>
+      <language key="displayname" locale="en">Which color do you prefer?</language>
+    </attribute>
+    <attribute name="basepay" implicit="unordered" must-have-allowed="false" skip-allowed="true" type="number" unacceptables-allowed="true">
+      <level value="0">
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="message" locale="en">basepay||Base Pay||You want to spend no money at all and like things best that are free!||icon-price-med</language>
+        <language key="description" locale="en">0% increase</language>
+        <language key="displayname" locale="en">0%</language>
+      </level>
+      <level value=".5">
+        <language key="message" locale="en">basepay||Base Pay||You are willing to spend up to $25 per month.||icon-price-med</language>
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="description" locale="en">0.5% increase</language>
+        <language key="displayname" locale="en">0.5%</language>
+      </level>
+      <level value="1">
+        <language key="message" locale="en">basepay||Base Pay||You are willing to spend up to $50 per month.||icon-price-med</language>
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="description" locale="en">1% increase</language>
+        <language key="displayname" locale="en">1%</language>
+      </level>
+      <level value="1.5">
+        <language key="message" locale="en">basepay||Base Pay||You are willing to spend up to $75 per month.||icon-price-med</language>
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="description" locale="en">1.5% increase</language>
+        <language key="displayname" locale="en">1.5%</language>
+      </level>
+      <level value="2">
+        <language key="message" locale="en">basepay||Base Pay||You are willing to spend up to $100 per month.||icon-price-med</language>
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="description" locale="en">2% increase</language>
+        <language key="displayname" locale="en">2%</language>
+      </level>
+      <level value="2.5">
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="message" locale="en">basepay||Base Pay||You are willing to spend up to $125 per month.||icon-price-med</language>
+        <language key="description" locale="en">2.5% increase</language>
+        <language key="displayname" locale="en">2.5%</language>
+      </level>
+      <level value="3">
+        <language key="message" locale="en">basepay||Base Pay||You are willing to spend up to $150 per month.||icon-price-med</language>
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="description" locale="en">3% increase</language>
+        <language key="displayname" locale="en">3%</language>
+      </level>
+      <level value="3.5">
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="message" locale="en">basepay||Base Pay||You are willing to spend up to $125 per month.||icon-price-med</language>
+        <language key="description" locale="en">3.5% increase</language>
+        <language key="displayname" locale="en">3.5%</language>
+      </level>
+      <level value="4">
+        <language key="message" locale="en">basepay||Base Pay||You are willing to spend up to $150 per month.||icon-price-med</language>
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="description" locale="en">4% increase</language>
+        <language key="displayname" locale="en">4%</language>
+      </level>
+      <level value="5">
+        <language key="message" locale="en">basepay||Base Pay||You are willing to spend up to $150 per month.||icon-price-med</language>
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="description" locale="en">5% increase</language>
+        <language key="displayname" locale="en">5%</language>
+      </level>
+      <language key="group" locale="en"/>
+      <language key="help.title" locale="en">What Are Your Preferences?</language>
+      <language key="instructions" locale="en">Move the slider to the option you prefer.</language>
+      <language key="help.body" locale="en">This question is asking you to move the horizontal slider to the option you most prefer.</language>
+      <language key="help.gotit" locale="en">Got it!</language>
+      <language key="minicon" locale="en">icon-price-low</language>
+      <language key="help.assets.image.alt" locale="en">Help content image</language>
+      <language key="maxdisplayname" locale="en">5% Increase</language>
+      <language key="displayname" locale="en">What base pay increase do you prefer?</language>
+      <language key="mindisplayname" locale="en">0% Increase</language>
+      <language key="mindescription" locale="en">0% Increase</language>
+      <language key="icon" locale="en">assets/icons/large/noindicator/basepay.png</language>
+      <language key="description" locale="en">Potential base pay increase</language>
+      <language key="shortname" locale="en">Base Pay</language>
+      <language key="shortname.levels" locale="en">Base Pay</language>
+      <language key="maxicon" locale="en">icon-price-high</language>
+      <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+      <language key="maxdescription" locale="en">5% Increase</language>
+      <profile key="groupwidget" value="range-scale-single-thumb-large-icon"/>
+    </attribute>
+    <attribute name="size" implicit="unordered" must-have-allowed="false" skip-allowed="true" type="string" unacceptables-allowed="false">
+      <level value="small">
+        <language key="icon" locale="en">icon-size-small</language>
+        <language key="message" locale="en">size||Size||You tend to like things that are small and compact in nature.||icon-size-small</language>
+        <language key="description" locale="en">Small, in this case, refers to having comparatively little size or slight dimensions. The first known word usage was before the 12th century.</language>
+        <language key="displayname" locale="en">Small</language>
+      </level>
+      <level value="medium">
+        <language key="icon" locale="en">icon-size-medium</language>
+        <language key="message" locale="en">size||Size||You tend to gravitate toward things that are medium in size - not too big and not too small.||icon-size-medium</language>
+        <language key="description" locale="en">Medium, in this case, refers to something in a middle position. The first known word usage was in 1589.</language>
+        <language key="displayname" locale="en">Medium</language>
+      </level>
+      <level value="large">
+        <language key="message" locale="en">size||Size||You like things that are big and large in size or quantity.||icon-size-large</language>
+        <language key="icon" locale="en">icon-size-large</language>
+        <language key="description" locale="en">Large, in this case, refers to exceeding most other things of like kind especially in quantity or size. The first known word usage was before the 12th century.</language>
+        <language key="displayname" locale="en">Large</language>
+      </level>
+      <level value="xlarge">
+        <language key="icon" locale="en">icon-size-xlarge</language>
+        <language key="message" locale="en">size||Size||You like things that are extra large! The bigger the better and more the merrier!||icon-size-xlarge</language>
+        <language key="description" locale="en">Extra large, in this case, refers to large or great in dimensions, bulk, or extent. The first known word usage was before the 12th century.</language>
+        <language key="displayname" locale="en">Extra Large</language>
+      </level>
+      <language key="help.assets.image" locale="en">Size, in this case, refers to physical magnitude, extent, or bulk, relative or proportionate dimensions or as one of a series of graduated measures especially of manufactured articles (as of clothing) conventionally identified by numbers or letters.</language>
+      <language key="group" locale="en"/>
+      <language key="intro.label" locale="en">Close</language>
+      <language key="instructions" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the sizes shown.</language>
+      <language key="message" locale="en">size||You like things that are extra large! The bigger the better and more the merrier!||icon-size-xlarge</language>
+      <language key="displayname" locale="en">What size should your product be?</language>
+      <language key="intro.image.alt" locale="en">assets/popups/content/image.jpg</language>
+      <language key="intro.title" locale="en">Size</language>
+      <language key="icon" locale="en">icon-size</language>
+      <language key="description" locale="en">Size, in this case, refers to physical magnitude, extent, or bulk, relative or proportionate dimensions or as one of a series of graduated measures especially of manufactured articles (as of clothing) conventionally identified by numbers or letters.</language>
+      <language key="shortname" locale="en">Size</language>
+      <language key="shortname.levels" locale="en">&amp;lt;u&amp;gt;Size&amp;lt;/u&amp;gt;</language>
+      <profile key="implicitwarning" value="descending"/>
+    </attribute>
+    <attribute name="weight" implicit="unordered" must-have-allowed="false" skip-allowed="true" type="string" unacceptables-allowed="false">
+      <level value="0">
+        <language key="message" locale="en">weight||Weight||You like things that are very light and weigh next to nothing or light as air!||icon-weight-0</language>
+        <language key="icon" locale="en">icon-weight-0</language>
+        <language key="description" locale="en">My product should be exceedingly light and should weigh next to nothing or be light as air.</language>
+        <language key="displayname" locale="en">0 or Light as air</language>
+      </level>
+      <level value="5">
+        <language key="message" locale="en">weight||Weight||The maximum weight you will tolerate carrying for any length of time is 5 pounds - and even that is a stretch!||icon-weight-5</language>
+        <language key="icon" locale="en">icon-weight-5</language>
+        <language key="description" locale="en">My product should weigh no more than 5 pounds because I am going to carry it in my arms or tote it around in my backpack for long enough to be a problem if it weighs more.</language>
+        <language key="displayname" locale="en">5 Pounds</language>
+      </level>
+      <level value="10">
+        <language key="message" locale="en">weight||Weight||You're ok with a maximum weight of 10 pounds because you have no intention of carrying this around, except in a backpack or in carry on luggage.||icon-weight-10</language>
+        <language key="icon" locale="en">icon-weight-10</language>
+        <language key="description" locale="en">My product can weigh up to 10 pounds because I am going to carry it in my backpack or in my carry on luggage so I will not be directly stressed by the weight.</language>
+        <language key="displayname" locale="en">10 Pounds</language>
+      </level>
+      <level value="15">
+        <language key="icon" locale="en">icon-weight-15</language>
+        <language key="message" locale="en">weight||Weight||You're ok with a maximum weight of 15 pounds or more because you have not intention of every picking it up.||icon-weight-15</language>
+        <language key="description" locale="en">My product can weigh 15 pounds or more because I am never going to be carrying it. It will sit on my desk either at work or home.</language>
+        <language key="displayname" locale="en">15 Pounds</language>
+      </level>
+      <language key="group" locale="en"/>
+      <language key="instructions" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the weights shown.</language>
+      <language key="message" locale="en">weight||You're ok with a maximum weight of 15 pounds or more because you have not intention of every picking it up.||icon-weight-15</language>
+      <language key="icon" locale="en">icon-weight</language>
+      <language key="description" locale="en">Weight is the standard or established amount that a thing should weigh. The first known word usage was in 1647.</language>
+      <language key="shortname" locale="en">Weight</language>
+      <language key="shortname.levels" locale="en">Weight</language>
+      <language key="displayname" locale="en">How much should your product weigh?</language>
+    </attribute>
+    <attribute name="intuition" implicit="unordered" must-have-allowed="false" skip-allowed="true" type="string" unacceptables-allowed="false">
+      <level value="completely intuitive">
+        <language key="icon" locale="en">icon-intuition-completely-intuitive</language>
+        <language key="message" locale="en">intuition||Product intuition||You like things that are completely intuitive, are really, really easy and need no instruction to use.||icon-intuition-completely-intuitive</language>
+        <language key="description" locale="en">No education is needed. You can use this product with little or no instruction.</language>
+        <language key="displayname" locale="en">Completely intuitive</language>
+      </level>
+      <level value="grade school">
+        <language key="message" locale="en">intuition||Product intuition||You like things that are so easy that someone with a grade school education can figure it out. A very little bit of instruction is ok.||icon-intuition-grade-school</language>
+        <language key="icon" locale="en">icon-intuition-grade-school</language>
+        <language key="description" locale="en">Someone with a grade school education will be able to use this product.</language>
+        <language key="displayname" locale="en">Grade School</language>
+      </level>
+      <level value="junior high school">
+        <language key="icon" locale="en">icon-intuition-junior-high-school</language>
+        <language key="message" locale="en">intuition||Product intuition||You like things that are easy and someone with a junior high school education can use it. Some instruction is ok, but you don't want to have to ask your kids for help.||icon-intuition-junior-high-school</language>
+        <language key="description" locale="en">Someone with a junior high school education can use this product.</language>
+        <language key="displayname" locale="en">Junior High school</language>
+      </level>
+      <level value="high school">
+        <language key="icon" locale="en">icon-intuition-high-school</language>
+        <language key="message" locale="en">intuition||Product intuition||You like things to be a bit challenging and a high school education is about as much as you need to use it. Easy instructions are ok, but you're glad there are kids around, just in case.||icon-intuition-high-school</language>
+        <language key="description" locale="en">You need at least a high school education to use this product.</language>
+        <language key="displayname" locale="en">High School</language>
+      </level>
+      <level value="college">
+        <language key="icon" locale="en">icon-intuition-college</language>
+        <language key="message" locale="en">intuition||Product intuition||You love a challenge but will need a college degree to figure it out. For most people instructions are a must!||icon-intuition-college</language>
+        <language key="description" locale="en">You need a college degree to use this product.</language>
+        <language key="displayname" locale="en">College</language>
+      </level>
+      <level value="graduate degree">
+        <language key="message" locale="en">intuition||Product intuition||You love to be challenged and are glad you have a graduate degree to figure it out because without one, this would be no fun at all!||icon-intuition-graduate-degree</language>
+        <language key="icon" locale="en">icon-intuition-graduate-degree</language>
+        <language key="description" locale="en">You need a graduate degree to use this product.</language>
+        <language key="displayname" locale="en">Graduate School</language>
+      </level>
+      <level value="doctorate">
+        <language key="message" locale="en">intuition||Product intuition||You LOVE a wicked challenge and because you have a doctorate, or very smart friends, you think this is great fun!. Even the instructions are unintelligible. What could be better!||icon-intuition-doctorate</language>
+        <language key="icon" locale="en">icon-intuition-doctorate</language>
+        <language key="description" locale="en">Without a doctorate you'll never figure this product out.</language>
+        <language key="displayname" locale="en">Doctorate</language>
+      </level>
+      <language key="group" locale="en"/>
+      <language key="instructions" locale="en">Shift the sliders to indicate a GREATER or LESSER preference for the level of intuition shown.</language>
+      <language key="icon" locale="en">icon-intuition</language>
+      <language key="mostpreferred" locale="en">Prefer More</language>
+      <language key="description" locale="en">In a perfect world, your product will be easy for anyone to use and figure out, but this is not a perfect world. How intuitive is your product?</language>
+      <language key="leastpreferred" locale="en">Prefer Less</language>
+      <language key="shortname" locale="en">Product intuition</language>
+      <language key="shortname.levels" locale="en">Product intuition</language>
+      <language key="displayname" locale="en">How intuitive does your product need to be?</language>
+    </attribute>
+    <attribute name="delivery" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="string" unacceptables-allowed="false">
+      <level value="same day">
+        <language key="icon" locale="en">icon-delivery-same-day</language>
+        <language key="message" locale="en">delivery||Delivery||Same-day delivery for time-sensitive stuff is really important to you!||icon-delivery-same-day</language>
+        <language key="description" locale="en">You want same-day delivery for time-sensitive stuff because it's really important.</language>
+        <language key="displayname" locale="en">Same day</language>
+      </level>
+      <level value="next day">
+        <language key="message" locale="en">delivery||Delivery||You can wait for next-day delivery for your important stuff because it'll still come in time.||icon-delivery-next-day</language>
+        <language key="icon" locale="en">icon-delivery-next-day</language>
+        <language key="description" locale="en">You can wait for next-day delivery for your important stuff because it'll still come in time.</language>
+        <language key="displayname" locale="en">Next day</language>
+      </level>
+      <level value="3 days">
+        <language key="icon" locale="en">icon-delivery-3-days</language>
+        <language key="message" locale="en">delivery||Delivery||You're good with waiting a few extra days for delivery.||icon-delivery-3-days</language>
+        <language key="description" locale="en">You're good with waiting a few extra days for delivery.</language>
+        <language key="displayname" locale="en">3 days</language>
+      </level>
+      <level value="5 days">
+        <language key="icon" locale="en">icon-delivery-5-days</language>
+        <language key="message" locale="en">delivery||Delivery||You can wait 5 days for delivery, but just barely.||icon-delivery-5-days</language>
+        <language key="description" locale="en">You can wait 5 days for delivery, but just barely.</language>
+        <language key="displayname" locale="en">5 days</language>
+      </level>
+      <level value="7 days">
+        <language key="icon" locale="en">icon-delivery-7-days</language>
+        <language key="message" locale="en">delivery||Delivery||You're not so impatient that 7 days will kill you to wait for delivery.||icon-delivery-7-days</language>
+        <language key="description" locale="en">You're not so impatient that 7 days will kill you to wait for delivery.</language>
+        <language key="displayname" locale="en">7 days</language>
+      </level>
+      <language key="group" locale="en"/>
+      <language key="help.title" locale="en">What Are Your Preferences?</language>
+      <language key="instructions" locale="en">Select the delivery speed most important to you.</language>
+      <language key="message" locale="en">delivery||You're not so impatient that 7 days will kill you to wait for delivery.||icon-delivery-7-days</language>
+      <language key="help.body" locale="en">&amp;lt;p&amp;gt;This question asks you to choose your top preference from a set of several options. &amp;lt;br/&amp;gt; &amp;lt;br/&amp;gt; Click on or tap your top selection. &amp;lt;/p&amp;gt;</language>
+      <language key="help.gotit" locale="en">Got it!</language>
+      <language key="help.assets.image.alt" locale="en">Help content image</language>
+      <language key="displayname" locale="en">How fast do you want your product delivered to you?</language>
+      <language key="icon" locale="en">icon-delivery</language>
+      <language key="description" locale="en">For some people, speed is of the essence and for others, they can wait until the cows come home! So the question is, how impatient are you?</language>
+      <language key="shortname" locale="en">Delivery</language>
+      <language key="shortname.levels" locale="en">Delivery</language>
+      <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+      <profile key="groupwidget" value="single-select"/>
+      <profile key="groupwidget.showoptiontext" value="true"/>
+    </attribute>
+    <attribute name="price" implicit="unordered" must-have-allowed="false" skip-allowed="false" type="number" unacceptables-allowed="true">
+      <level value="0">
+        <language key="message" locale="en">price||Price||You want to spend no money at all and like things best that are free!||icon-price-med</language>
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="description" locale="en">I am not willing to spend any amount of money per month.</language>
+        <language key="displayname" locale="en">$0</language>
+      </level>
+      <level value="25">
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="message" locale="en">price||Price||You are willing to spend up to $25 per month.||icon-price-med</language>
+        <language key="description" locale="en">I am willing to spend up to $25 per month.</language>
+        <language key="displayname" locale="en">$25</language>
+      </level>
+      <level value="50">
+        <language key="message" locale="en">price||Price||You are willing to spend up to $50 per month.||icon-price-med</language>
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="description" locale="en">I am willing to spend up to $50 per month.</language>
+        <language key="displayname" locale="en">$50</language>
+      </level>
+      <level value="75">
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="message" locale="en">price||Price||You are willing to spend up to $75 per month.||icon-price-med</language>
+        <language key="description" locale="en">I am willing to spend up to $75 per month.</language>
+        <language key="displayname" locale="en">$75</language>
+      </level>
+      <level value="100">
+        <language key="message" locale="en">price||Price||You are willing to spend up to $100 per month.||icon-price-med</language>
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="description" locale="en">I am willing to spend up to $100 per month.</language>
+        <language key="displayname" locale="en">$100</language>
+      </level>
+      <level value="125">
+        <language key="message" locale="en">price||Price||You are willing to spend up to $125 per month.||icon-price-med</language>
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="description" locale="en">I am willing to spend up to $125 per month.</language>
+        <language key="displayname" locale="en">$125</language>
+      </level>
+      <level value="150">
+        <language key="message" locale="en">price||Price||You are willing to spend up to $150 per month.||icon-price-med</language>
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="description" locale="en">I am willing to spend up to $150 per month.</language>
+        <language key="displayname" locale="en">$150</language>
+      </level>
+      <level value="175">
+        <language key="message" locale="en">price||Price||You are willing to spend up to $175 per month.||icon-price-med</language>
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="description" locale="en">I am willing to spend up to $175 per month.</language>
+        <language key="displayname" locale="en">$175</language>
+      </level>
+      <level value="200">
+        <language key="icon" locale="en">icon-price-med</language>
+        <language key="message" locale="en">price||Price||You are willing to spend up to $200 per month, but no more than that!||icon-price-med</language>
+        <language key="description" locale="en">I am willing to spend up to $200 per month.</language>
+        <language key="displayname" locale="en">$200</language>
+      </level>
+      <language key="group" locale="en"/>
+      <language key="help.title" locale="en">What Are Your Preferences?</language>
+      <language key="instructions" locale="en">Use the controls to indicate your minimum and maximum prices.</language>
+      <language key="message" locale="en">price||You are willing to spend up to $200 per month, but no more than that!||icon-price-med</language>
+      <language key="help.body" locale="en">This question asks you to choose your top preference from a set of several options. Click on the single left or right arrow to incrementally adjust the option. Clicking on the double right arrow will jump to the highest option of $200. Clicking on the double left arrow will jump to the lowest option multiple of $0.</language>
+      <language key="help.gotit" locale="en">Got it!</language>
+      <language key="minicon" locale="en">icon-price-low</language>
+      <language key="help.assets.image.alt" locale="en">Help content image</language>
+      <language key="displayname" locale="en">What is the amount of money that you would be willing to spend each month?</language>
+      <language key="mindescription" locale="en">No monthly premium paid for prescription drug coverage.</language>
+      <language key="icon" locale="en">assets/icons/price.png</language>
+      <language key="description" locale="en">This is the amount in dollars that you would like to spend per month.</language>
+      <language key="shortname" locale="en">Price</language>
+      <language key="maxicon" locale="en">icon-price-high</language>
+      <language key="shortname.levels" locale="en">Price</language>
+      <language key="maxdescription" locale="en">$200 monthly premium paid for prescription drug coverage.</language>
+      <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+      <profile key="groupwidget" value="counter"/>
+      <profile key="horizontalslider" value="price"/>
+    </attribute>
+    <attribute name="Hidden Price" implicit="descending" must-have-allowed="false" skip-allowed="false" type="price" unacceptables-allowed="false">
+      <level value="0">
+        <language key="icon" locale="en"/>
+        <language key="description" locale="en">0</language>
+        <language key="displayname" locale="en">0</language>
+      </level>
+      <level value="1">
+        <language key="icon" locale="en"/>
+        <language key="description" locale="en">1</language>
+        <language key="displayname" locale="en">1</language>
+      </level>
+      <language key="group" locale="en"/>
+      <language key="description" locale="en">Hidden Price</language>
+      <language key="displayname" locale="en">Hidden Price</language>
+      <profile key="hidden" value="true"/>
+    </attribute>
+    <subgame name="prototype_feature" version-label="0">
+      <subgame-attribute name="color">
+        <subgame-level value="red"/>
+        <subgame-level value="orange"/>
+        <subgame-level value="yellow"/>
+        <subgame-level value="green"/>
+        <subgame-level value="gray"/>
+        <subgame-level value="blue"/>
+        <subgame-level value="purple"/>
+        <subgame-level value="black"/>
+        <subgame-level value="maroon"/>
+      </subgame-attribute>
+      <subgame-attribute name="basepay">
+        <subgame-level value="0"/>
+        <subgame-level value=".5"/>
+        <subgame-level value="1"/>
+        <subgame-level value="1.5"/>
+        <subgame-level value="2"/>
+        <subgame-level value="2.5"/>
+        <subgame-level value="3"/>
+        <subgame-level value="3.5"/>
+        <subgame-level value="4"/>
+        <subgame-level value="5"/>
+      </subgame-attribute>
+      <subgame-attribute name="size">
+        <subgame-level value="small"/>
+        <subgame-level value="medium"/>
+        <subgame-level value="large"/>
+        <subgame-level value="xlarge"/>
+      </subgame-attribute>
+      <subgame-attribute name="weight">
+        <subgame-level value="0"/>
+        <subgame-level value="5"/>
+        <subgame-level value="10"/>
+        <subgame-level value="15"/>
+      </subgame-attribute>
+      <subgame-attribute name="intuition">
+        <subgame-level value="completely intuitive"/>
+        <subgame-level value="grade school"/>
+        <subgame-level value="junior high school"/>
+        <subgame-level value="high school"/>
+        <subgame-level value="college"/>
+        <subgame-level value="graduate degree"/>
+        <subgame-level value="doctorate"/>
+      </subgame-attribute>
+      <subgame-attribute name="delivery">
+        <subgame-level value="same day"/>
+        <subgame-level value="next day"/>
+        <subgame-level value="3 days"/>
+        <subgame-level value="5 days"/>
+        <subgame-level value="7 days"/>
+      </subgame-attribute>
+      <subgame-attribute name="price">
+        <subgame-level value="0"/>
+        <subgame-level value="25"/>
+        <subgame-level value="50"/>
+        <subgame-level value="75"/>
+        <subgame-level value="100"/>
+        <subgame-level value="125"/>
+        <subgame-level value="150"/>
+        <subgame-level value="175"/>
+        <subgame-level value="200"/>
+      </subgame-attribute>
+      <subgame-attribute name="Hidden Price">
+        <subgame-level value="0"/>
+        <subgame-level value="1"/>
+      </subgame-attribute>
+      <naming name="prototype_feature" by-owner="true" type="bfd.domain.game.Game" owner="[Client]prototype_feature/[Game]prototype_feature"/>
+    </subgame>
+    <resource name="main" value="/truechoice/app/clients/prototype/TCSFOUR-4013-pinata/">
+      <language locale="en" key="browserTitle">prototype_feature</language>
+    </resource>
+    <resource name="controls">
+      <resource-element value="welcome"/>
+      <resource-element value="levels"/>
+      <resource-element value="prestage2"/>
+      <resource-element value="attributes"/>
+      <resource-element value="tradeoffs"/>
+      <resource-element value="output"/>
+    </resource>
+    <resource name="system">
+      <language key="implicitwarning.lessabovemore.message" locale="en">Did you know that you have rated a less valued option equal to or above a more valued one? Do you want to proceed?</language>
+      <language key="error.director.title" locale="en">Response required</language>
+      <language key="error.emailinvalid.message" locale="en">Please verify that your email address is correct and try again.</language>
+      <language key="error.sumvaluesinvalid.message" locale="en">Values must equate to 100</language>
+      <language key="error.minattributesnotselected.message" locale="en">Please select at least 3 options to continue.</language>
+      <language key="alert.button.yes" locale="en">Yes</language>
+      <language key="devicenotsupported.body" locale="en">Your screen resolution is insufficient to view this application. Must be at least 1024x768.&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Please try on a device with a larger screen.</language>
+      <language key="implicitwarning.movedown.title" locale="en">Move down.</language>
+      <language key="error.requiredinput.label" locale="en">Your Answer Is Invalid</language>
+      <language key="tradeoffs.preference.labels" locale="en">Greatly Prefer Option 1||Prefer Option 1||Slightly Prefer Option 1||Indifferent||Slightly Prefer Option 2||Prefer Option 2||Greatly Prefer Option 2</language>
+      <language key="error.mustscale.message" locale="en">Please change the value for at least one option.</language>
+      <language key="error.scrollbarnotmoved.message" locale="en">Are you sure you have scrolled down to answer all of the questions? The scroll bar is located on the right side of your screen. Click 'yes' to continue or 'no' to modify your answers.</language>
+      <language key="error.sumvaluesinvalid.title" locale="en">Invalid sum</language>
+      <language key="notatallimportant" locale="en">Strongly Disagree</language>
+      <language key="disclosure.gotit" locale="en">Close</language>
+      <language key="leastpreferred" locale="en">Least</language>
+      <language key="moveup" locale="en">Move Up</language>
+      <language key="error.missingrequired.message" locale="en">You have not answered all of the questions on this page. Please make sure the question marked with an asterisk (*) has been answered.</language>
+      <language key="percentmeter.totalmaxalert" locale="en">Maximum of 100% has been reached</language>
+      <language key="preference.importance.labels" locale="en">NOT IMPORTANT||SOMEWHAT IMPORTANT||IMPORTANT||VERY IMPORTANT||EXTREMELY IMPORTANT</language>
+      <language key="levelscalemoveenablesnext" locale="en">false</language>
+      <language key="alert.button.ok" locale="en">Ok</language>
+      <language key="error.helpdeskemail.title" locale="en">Attention</language>
+      <language key="error.director.message" locale="en">To proceed further, please select an option and click or tap &amp;quot;Next&amp;quot; to continue.</language>
+      <language key="loading" locale="en">Loading...</language>
+      <language key="devicenotsupported.footer" locale="en">Should you require assistance, please contact us at &amp;lt;a href=&amp;quot;mailto:helpdesk@truechoicesolutions.com?subject=Device%20Support&amp;quot;&amp;gt;helpdesk@truechoicesolutions.com&amp;lt;/a&amp;gt;</language>
+      <language key="mostpreferred" locale="en">Most</language>
+      <language key="restart.message" locale="en">Hey! Testing restart alert popup and restart application feature. Click &amp;quot;Yes&amp;quot; to restart the application. Click on &amp;quot;No&amp;quot; to remain in this stage.</language>
+      <language key="disclosure.title" locale="en">Information</language>
+      <language key="helpbutton" locale="en">Help?</language>
+      <language key="error.minattributesnotselected.title" locale="en">Attention</language>
+      <language key="title.error" locale="en">Error</language>
+      <language key="movedown" locale="en">Move Down</language>
+      <language key="title.attention" locale="en">Attention</language>
+      <language key="retry" locale="en">Retry</language>
+      <language key="assets.main.loading" locale="en">assets/main/loading.gif</language>
+      <language key="disclosure.body" locale="en">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor interdum metus nec laoreet. In luctus ligula nulla, a faucibus ante mollis sed. Donec hendrerit risus eros, et mollis lacus condimentum at. Quisque urna felis, pellentesque eget cursus ut, fringilla nec tortor. Donec felis nisi, auctor non molestie tempor, ultricies eu orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sodales maximus sollicitudin. Sed eu orci elementum, fermentum dui ut, tempus diam. Cras et interdum quam. Nullam aliquam sapien a leo interdum, sit amet euismod ex porta. Curabitur condimentum ligula vel diam gravida aliquet.&amp;lt;br&amp;gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor interdum metus nec laoreet. In luctus ligula nulla, a faucibus ante mollis sed. Donec hendrerit risus eros, et mollis lacus condimentum at. Quisque urna felis, pellentesque eget cursus ut, fringilla nec tortor. Donec felis nisi, auctor non molestie tempor, ultricies eu orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sodales maximus sollicitudin. Sed eu orci elementum, fermentum dui ut, tempus diam. Cras et interdum quam. Nullam aliquam sapien a leo interdum, sit amet euismod ex porta. Curabitur condimentum ligula vel diam gravida aliquet.</language>
+      <language key="alert.button.close" locale="en">Close</language>
+      <language key="next" locale="en">Next</language>
+      <language key="animateicons" locale="en">false</language>
+      <language key="implicitwarning.message" locale="en">The sliders are now out of order. Would you like to move the slider to its original position?</language>
+      <language key="implicitwarning.morebelowless.message" locale="en">Did you know that you have rated a more valued option equal to or below a less valued one? Do you want to proceed?</language>
+      <language key="skip" locale="en">This is not important</language>
+      <language key="implicitwarning.movedown.message" locale="en">Note: You have rated a less valued option equal to or above a more valued one.</language>
+      <language key="error.system.title" locale="en">System Error</language>
+      <language key="attributes.leastpreferred" locale="en">Less Important</language>
+      <language key="attributes.mostpreferred" locale="en">More Important</language>
+      <language key="error.helpdeskemail.message" locale="en">Your last request failed because of a communications problem with our servers. &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Please restart by refreshing this webpage. We apologize for the inconvenience. &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;Before you try again, please make sure your network connection is active and reconfirm that you are connected to the internet. &amp;lt;br&amp;gt;&amp;lt;br&amp;gt;For further assistance, please email</language>
+      <language key="tradeoffs.vs" locale="en">OR</language>
+      <language key="extremelyImportant" locale="en">Strongly Agree</language>
+      <language key="implicitwarning.title" locale="en">Attention</language>
+      <language key="welcome.button.label" locale="en">Begin</language>
+      <language key="implicitwarning.moveup.message" locale="en">Note: You have rated a more valued option equal to or below a less valued one.</language>
+      <language key="tradeoffs.offer1" locale="en">Option 1</language>
+      <language key="back" locale="en">Back</language>
+      <language key="error.timeout.message" locale="en">The system has not responded in an appropriate amount of time. Please try again in a few moments. If the problem persists, please contact the administrator.</language>
+      <language key="restart.title" locale="en">ATTENTION - You are about to return to the start of the survey.</language>
+      <language key="tradeoffs.offer2" locale="en">Option 2</language>
+      <language key="title.warning" locale="en">Warning</language>
+      <language key="error.missingrequired.title" locale="en">Questions Not Answered</language>
+      <language key="percentmeter.valuedisplaytext" locale="en">/ 100%</language>
+      <language key="warning.leavingapp.message" locale="en">Warning! You are about to leave the app and lose all data</language>
+      <language key="button.movedown" locale="en">Move Down</language>
+      <language key="implicitwarning.moveup.title" locale="en">Move up.</language>
+      <language key="disclaimer" locale="en">Copyright © 2019 TrueChoice Solutions, Inc. | &amp;lt;a href=&amp;quot;//www.truechoicesolutions.com/Privacy-Policy&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot;&amp;gt;Privacy Policy&amp;lt;/a&amp;gt;.</language>
+      <language key="error.helpdeskemail.reference" locale="en">Reference</language>
+      <language key="help.button.label" locale="en">Close</language>
+      <language key="alert.button.no" locale="en">No</language>
+      <language key="button.moveup" locale="en">Move Up</language>
+      <language key="error.emailinvalid.title" locale="en">Invalid Email</language>
+      <profile key="app.templateversion" value="1"/>
+      <profile key="usethumbstates" value="false"/>
+      <profile key="externalanalytics.fb" value="false"/>
+      <profile key="notificationbar.timeout" value="4000"/>
+      <profile key="app.templatesubversion" value="b"/>
+      <profile key="devicenotsupported" value="false"/>
+      <profile key="instance-attribute-requestprocessor" value="averaging"/>
+      <profile key="usedynamicbreadcrumbs" value="true"/>
+      <profile key="externalanalytics.fb.id" value="1609058966064965"/>
+    </resource>
+    <resource name="welcome" value="display">
+      <language key="templateurl" locale="en">welcome-1.tpl.html</language>
+      <language key="breadcrumbdisplay.message" locale="en">Welcome: welcome-1</language>
+      <language key="title" locale="en">Understanding your product and service needs is important to us.</language>
+      <language key="header" locale="en">Pinata! Shell Import Hi JC...</language>
+      <language key="next" locale="en">Begin</language>
+      <language key="time.image.text" locale="en">XML Output and Import from Mongdb ...</language>
+      <language key="body" locale="en">The product you choose is at the very core of your business and one of the most important decision you will have to make. Although the perfect product may or may not exist, there are definitely ways to minimize risk by choosing a product that have more going for it, than against it. Using specific criteria can help you better understand the product you are considering and increase your overall chances of success.</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-welcome</language>
+    </resource>
+    <resource name="intro" value="display">
+      <language key="templateurl" locale="en">display2.tpl.html</language>
+      <language key="assets.content.image.alt" locale="en">Content image</language>
+      <language key="breadcrumbdisplay.message" locale="en">Introduction</language>
+      <language key="title" locale="en">Let's Get Started!</language>
+      <language key="assets.content.image" locale="en">assets/stages/display/intro/content/image.png</language>
+      <language key="body" locale="en">1. &amp;lt;b&amp;gt;This exercise will take about 10 minutes.&amp;lt;/b&amp;gt; First, we'll ask you about your preferences for items including compensation, healthcare and retirement benefits. Then, we'll ask you to indicate the relative importance of these areas and evaluate some trade-offs. &amp;lt;br/&amp;gt; &amp;lt;br/&amp;gt; 2. &amp;lt;b&amp;gt;What's Best?&amp;lt;/b&amp;gt; This survey includes many aspects of a product, some of which you may not have thought of as well as some new ideas. We want your feedback. Think of this as exploring a broader set of choices. As you look to review your product idea, think of what you want and prefer most. &amp;lt;br/&amp;gt; &amp;lt;br/&amp;gt; 3. &amp;lt;b&amp;gt;Be Yourself!&amp;lt;/b&amp;gt; When responding, please consider only yourself and your personal needs and preferences. &amp;lt;br/&amp;gt; &amp;lt;br/&amp;gt; &amp;lt;p&amp;gt;&amp;lt;i&amp;gt;&amp;lt;b&amp;gt;The survey must be completed in one session. If you cannot complete the survey in one session, you will have to start over. Please note that the survey will timeout after 30 minutes of inactivity.&amp;lt;/b&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/p&amp;gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-welcome</language>
+    </resource>
+    <resource name="onboardintro" value="display">
+      <language key="content.pane1.image" locale="en">assets/stages/display/onboardIntro/content/part1.gif</language>
+      <language key="templateurl" locale="en">onboardIntro.tpl.html</language>
+      <language key="content.pane1.text" locale="en">&amp;lt;b&amp;gt;Feature Preferences&amp;lt;/b&amp;gt; – rate the importance of value-added business and operational sub-factors</language>
+      <language key="content.pane3.image" locale="en">assets/stages/display/onboardIntro/content/part3.gif</language>
+      <language key="footer" locale="en">This exercise should not take you more than 10 mins. Thank you for your input and continued partnership!</language>
+      <language key="content.pane4.image" locale="en">assets/stages/display/onboardIntro/content/part4.gif</language>
+      <language key="title" locale="en">Help Us Serve You Better!</language>
+      <language key="content.pane4.text" locale="en">&amp;lt;b&amp;gt;Survey&amp;lt;/b&amp;gt; – answer questions about your satisfaction across broader categories of business.</language>
+      <language key="header" locale="en">The core part of this tool is divided into four sections:</language>
+      <language key="content.pane4small.image" locale="en">assets/stages/display/onboardIntro/content/part4_320.gif</language>
+      <language key="content.pane1small.image" locale="en">assets/stages/display/onboardIntro/content/part1_320.gif</language>
+      <language key="note" locale="en">NOTE - Additional information is available for each option by clicking on or tapping the &amp;lt;span class=&amp;quot;tooltip-indicator-no-pointer&amp;quot;&amp;gt;&amp;lt;/span&amp;gt; icons.&amp;lt;br&amp;gt;The information included may help further explain the option.</language>
+      <language key="content.pane2small.image" locale="en">assets/stages/display/onboardIntro/content/part2_320.gif</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-welcome</language>
+      <language key="content.pane4.image.alt" locale="en">Content image</language>
+      <language key="content.pane3.image.alt" locale="en">Content image</language>
+      <language key="content.pane2.image" locale="en">assets/stages/display/onboardIntro/content/part2.gif</language>
+      <language key="breadcrumbdisplay.message" locale="en">Introduction</language>
+      <language key="content.pane3.text" locale="en">&amp;lt;b&amp;gt;Tradeoffs&amp;lt;/b&amp;gt; – refine your feedback by indicating preferences between paired options</language>
+      <language key="content.pane2.text" locale="en">&amp;lt;b&amp;gt;Importance of Preference&amp;lt;/b&amp;gt; – rate the relative importance of broader categories of business and operational value-added</language>
+      <language key="content.pane1.image.alt" locale="en">Content image</language>
+      <language key="body" locale="en">Your company has developed this tool to further understand your needs and preferences and how to better meet them. It will take a few minutes to share your perspectives. Afterwards, you will be presented with a summary of your feedback.</language>
+      <language key="content.pane2.image.alt" locale="en">Content image</language>
+    </resource>
+    <resource name="prestage1" value="display">
+      <language key="templateurl" locale="en">display2.tpl.html</language>
+      <language key="assets.content.image.alt" locale="en">Content image</language>
+      <language key="title" locale="en">What should you expect in the first section of this application?</language>
+      <language key="breadcrumbdisplay.message" locale="en">Stage 1</language>
+      <language key="assets.content.image" locale="en">assets/stages/display/prestage1/content/image.png</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-level</language>
+      <language key="body" locale="en">&amp;lt;font&amp;gt;&amp;lt;b&amp;gt;First, we'd like to ask you about your preferences for items that inspire you create and develop a new product in areas including color, size, weight, shape and price.&amp;lt;/b&amp;gt; &amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;font color='#666666'&amp;gt;For each item shown, select a value between 0 and 10. The lower the number, the less you care about that option. Click &amp;lt;i&amp;gt;&amp;lt;b&amp;gt;next&amp;lt;/b&amp;gt;&amp;lt;/i&amp;gt; at the top right of this window to continue!&amp;lt;/font&amp;gt;</language>
+      <profile key="restartalert.showonreturn" value="true"/>
+    </resource>
+    <resource name="levels" value="level">
+      <language key="help.title" locale="en">What are we asking you to do here?</language>
+      <language key="title" locale="en">Rate Your Preferences</language>
+      <language key="help.body" locale="en">&amp;lt;p&amp;gt; This question is asking you to state your preferences across a range of items. &amp;lt;br/&amp;gt; &amp;lt;br/&amp;gt; Please indicate how much you prefer or value each item – in relation to the others – by moving the slider to a GREATER or LESSER preference or value for each of the elements shown. How far you move the slider depends on how strongly you feel about the item. &amp;lt;br/&amp;gt; &amp;lt;br/&amp;gt; You cannot have the same preference value for all the choices shown. &amp;lt;/p&amp;gt;</language>
+      <language key="leastpreferred" locale="en">Less Important</language>
+      <language key="help.gotit" locale="en">Got it!</language>
+      <language key="help.assets.image.alt" locale="en">Help content image</language>
+      <language key="instructions.skip" locale="en">&amp;lt;font&amp;gt;&amp;lt;b&amp;gt;If this characteristic is irrelevant to you, click Next and you will not be asked about it again.&amp;lt;/b&amp;gt;&amp;lt;/font&amp;gt;</language>
+      <language key="instructions.unordered" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the elements shown.</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-level</language>
+      <language key="learnmore" locale="en">More Information</language>
+      <language key="breadcrumbdisplay.message" locale="en">Stage 1: Question || of ||</language>
+      <language key="mostpreferred" locale="en">More Important</language>
+      <language key="instructions.ordered" locale="en">Shift the sliders to indicate GREATER or LESSER importance for the elements shown. The sliders have been pre-set in order of generally accepted preferences. Therefore, you cannot move a slider above the one to its right or lower than the one to its left.</language>
+      <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+      <profile key="groupwidget.hideleastmost" value="true"/>
+      <profile key="implicit.max" value="5.2"/>
+      <profile key="widget" value="level-scale"/>
+      <profile key="notificationbar.timeout" value="4000"/>
+      <profile key="implicit.min" value="4.8"/>
+      <profile key="help" value="true"/>
+    </resource>
+    <resource name="prestage2" value="display">
+      <language key="assets.content.image.alt" locale="en">Content image</language>
+      <language key="title" locale="en">What to expect in section two?</language>
+      <language key="breadcrumbdisplay.message" locale="en">Stage 2</language>
+      <language key="assets.content.image" locale="en">assets/stages/display/content/image.jpg</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-attribute</language>
+      <language key="body" locale="en">Next we will ask you to rate the options from section one against each other. Please click or tap each option to indicate its importance to you and your product.</language>
+    </resource>
+    <resource name="attributes" value="attribute">
+      <language key="intro.body" locale="en">Next we will ask you to rate the options from section one against each other. Please click or tap each option to indicate its importance to you and your product.</language>
+      <language key="intro.label" locale="en">Close</language>
+      <language key="help.title" locale="en">What are we asking you to do here?</language>
+      <language key="title" locale="en">What's more important to you?</language>
+      <language key="instructions" locale="en">&amp;lt;p&amp;gt; For each of the categories below, indicate its importance &amp;lt;b&amp;gt;&amp;lt;u&amp;gt;relative to the others&amp;lt;/u&amp;gt;&amp;lt;/b&amp;gt; by moving the slider towards the right (more important) or towards the left (less important). &amp;lt;/p&amp;gt;</language>
+      <language key="help.body" locale="en">&amp;lt;p&amp;gt; This screen lists the feature categories we asked you about in the first part of this application. Now, we'd like to understand how important each of these feature categories are relative to one another. As you consider each category, your most and least preferred choices appear to remind you of your earlier responses. &amp;lt;br/&amp;gt; &amp;lt;br/&amp;gt; For each category, you are being asked to indicate how important each is to you, from a scale of LEAST importance (1) to GREATEST importance (100). &amp;lt;/p&amp;gt;</language>
+      <language key="leastpreferred" locale="en">Least Important</language>
+      <language key="help.gotit" locale="en">Got it!</language>
+      <language key="help.label" locale="en">Close</language>
+      <language key="help.assets.image.alt" locale="en">Help content image</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-attribute</language>
+      <language key="infodisplay.mostpreferred" locale="en">Most Preferred</language>
+      <language key="intro.image.alt" locale="en">Intro content image (attribute)</language>
+      <language key="infodisplay.vs" locale="en">vs</language>
+      <language key="infodisplay.leastpreferred" locale="en">Least Preferred</language>
+      <language key="intro.title" locale="en">Attributes</language>
+      <language key="breadcrumbdisplay.message" locale="en">&amp;lt;b&amp;gt;Stage 2&amp;lt;/b&amp;gt;</language>
+      <language key="mostpreferred" locale="en">Most Important</language>
+      <language key="intro.image" locale="en">assets/popups/stages/attribute/content/image.jpg</language>
+      <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+      <language key="infodisplay.rating.header" locale="en">Your Rating for this Attribute</language>
+      <language key="infodisplay.header.topchoice" locale="en">Your Top Choice from Part 1:</language>
+      <language key="infodisplay.header" locale="en">Your Choices from Part 1:</language>
+      <profile key="widget" value="attribute-scale"/>
+      <profile key="help" value="true"/>
+    </resource>
+    <resource name="prestage3" value="display">
+      <language key="assets.content.image.alt" locale="en">Content image</language>
+      <language key="breadcrumbdisplay.message" locale="en">Stage 3</language>
+      <language key="title" locale="en">What to expect in section three?</language>
+      <language key="assets.content.image" locale="en">assets/stages/display/content/image.jpg</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-tradeoff</language>
+      <language key="body" locale="en">Next we will show several different feature combinations based on the level of importance you place on these option in section two. Based on the strength of your preference, tap on the combination you prefer. If the displayed combination is unimportant to you, click next and move onto the next combination.</language>
+    </resource>
+    <resource name="tradeoffs" value="tradeoff">
+      <language key="intro.body" locale="en">Next we will show several different feature combinations based on the level of importance you place on these option in section two. Based on the strength of your preference, tap on the combination you prefer. If the displayed combination is unimportant to you, click next and move onto the next combination.</language>
+      <language key="intro.label" locale="en">Close</language>
+      <language key="help.title" locale="en">What are we asking you to do here?</language>
+      <language key="title" locale="en">Which option do you prefer?</language>
+      <language key="instructions" locale="en">&amp;lt;p&amp;gt; Assume all your choices are identical in every way except for the features shown. Based on the strength of your preference, slide towards the combination you prefer. &amp;lt;/p&amp;gt;</language>
+      <language key="help.body" locale="en">&amp;lt;p&amp;gt; Assume all your choices are identical in every way except for the features shown. Based on the strength of your preference, move the slider towards the combination you prefer. &amp;lt;/p&amp;gt;</language>
+      <language key="leastpreferred" locale="en">Least Preferred</language>
+      <language key="help.gotit" locale="en">Got it!</language>
+      <language key="help.label" locale="en">Close</language>
+      <language key="help.assets.image.alt" locale="en">Help content image</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-tradeoff</language>
+      <language key="intro.image.alt" locale="en">Intro content image (tradeoff)</language>
+      <language key="intro.title" locale="en">Tradeoffs</language>
+      <language key="breadcrumbdisplay.message" locale="en">Stage 3: Question || of ||</language>
+      <language key="mostpreferred" locale="en">Most Preferred</language>
+      <language key="intro.image" locale="en">assets/popups/stages/tradeoff/content/image.jpg</language>
+      <language key="help.assets.image" locale="en">assets/popups/content/image.jpg</language>
+      <profile key="widget.showvaluefromzerototen" value="true"/>
+      <profile key="widget" value="tradeoff-scale"/>
+      <profile key="numtradeoffs" value="2"/>
+      <profile key="help" value="true"/>
+    </resource>
+    <resource name="prestage4" value="display">
+      <language key="assets.content.image.alt" locale="en">Content image</language>
+      <language key="breadcrumbdisplay.message" locale="en">Stage 4</language>
+      <language key="title" locale="en">What to expect in section four?</language>
+      <language key="assets.content.image" locale="en">assets/stages/display/content/image.jpg</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-survey</language>
+      <language key="body" locale="en">Almost done! Now we just have a few questions that we'd like to ask you. Any information you provide will be kept completely confidential and will not be shared with any third party. These questions are completely optional.</language>
+    </resource>
+    <resource name="aboutyou" value="survey">
+      <language key="intro.body" locale="en">Almost done! Now we just have a few questions that we'd like to ask you. Any information you provide will be kept completely confidential and will not be shared with any third party. These questions are completely optional.</language>
+      <language key="intro.label" locale="en">Close</language>
+      <language key="intro.image.alt" locale="en">Intro content image (About You)</language>
+      <language key="intro.title" locale="en">About You</language>
+      <language key="breadcrumbdisplay.message" locale="en">About You</language>
+      <language key="title" locale="en">Please take a moment to tell us a little about yourself:</language>
+      <language key="instructions" locale="en">Not so optional questions about you because all of the these fields are REQUIRED.</language>
+      <language key="intro.image" locale="en">assets/popups/stages/survey/content/image.jpg</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-survey</language>
+      <language key="title.tooltip" locale="en">This is a mock tooltip for stage.</language>
+    </resource>
+    <resource name="survey1" value="survey">
+      <language key="intro.body" locale="en">Almost done! Now we just have a few questions that we'd like to ask you. Any information you provide will be kept completely confidential and will not be shared with any third party. These questions are required, and you will not be able to continue without answering them.</language>
+      <language key="intro.label" locale="en">Close</language>
+      <language key="title" locale="en">&amp;lt;p&amp;gt; Product Features: &amp;lt;br/&amp;gt; Please answer the following questions. &amp;lt;/p&amp;gt;</language>
+      <language key="labeltooltip1" locale="en">You strongly disagree with this statement</language>
+      <language key="label3" locale="en">Slightly Disagree</language>
+      <language key="label7" locale="en">Do NOT Care</language>
+      <language key="help" locale="en">Help</language>
+      <language key="labeltooltip6" locale="en">You strongly agree with this statement</language>
+      <language key="intro.title" locale="en">Survey</language>
+      <language key="breadcrumbdisplay.message" locale="en">Survey Page</language>
+      <language key="intro.image" locale="en">assets/popups/stages/survey/content/image.jpg</language>
+      <language key="label4" locale="en">Slightly Agree</language>
+      <language key="labeltooltip3" locale="en">You slightly disagree with this statement</language>
+      <language key="label5" locale="en">Agree</language>
+      <language key="templateurl" locale="en">survey_radio_group.tpl.html</language>
+      <language key="labeltooltip4" locale="en">You slightly agree with this statement</language>
+      <language key="label2" locale="en">Disagree</language>
+      <language key="instructions" locale="en">Rate your level of agreement for the product features shown.</language>
+      <language key="labeltooltip5" locale="en">You agree with this statement</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-survey</language>
+      <language key="title.tooltip" locale="en">This is a mock tooltip for stage.</language>
+      <language key="labeltooltip2" locale="en">You disagree with this statement</language>
+      <language key="intro.image.alt" locale="en">Intro content image (Survey1)</language>
+      <language key="label6" locale="en">Strongly Agree</language>
+      <language key="label1" locale="en">Strongly Disagree</language>
+      <language key="labeltooltip7" locale="en">You do not care about this statement</language>
+      <language key="numberoflabels" locale="en">7</language>
+      <profile key="widget" value="radio-group"/>
+      <profile key="widget.notapplicableoption" value="true"/>
+      <profile key="help" value="true"/>
+    </resource>
+    <resource name="survey2" value="survey">
+      <language key="templateurl" locale="en">survey_percent_allocation.tpl.html</language>
+      <language key="title" locale="en">How is your time divided among the following platforms in terms of media consumption?</language>
+      <language key="breadcrumbdisplay.message" locale="en">Survey Page</language>
+      <language key="instructions" locale="en">&amp;lt;p&amp;gt; Adjust the sliders that are relevant to you to reach a total value of 100%. &amp;lt;/p&amp;gt;</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-survey</language>
+      <language key="title.tooltip" locale="en">This is a mock tooltip for stage.</language>
+      <profile key="defaultmodelvalue" value="0"/>
+      <profile key="maxmodelvalue" value="100"/>
+      <profile key="modelvaluestep" value="1"/>
+      <profile key="totalquestion" value="Percent Widget Total"/>
+    </resource>
+    <resource name="output" value="output">
+      <language key="emailpopup.error.invalidfromemail" locale="en">Please enter a valid FROM Email address.</language>
+      <language key="socialbutton2.url" locale="en">http://www.truechoicesolutions.com</language>
+      <language key="footer" locale="en">You can now close your browser</language>
+      <language key="button6.url" locale="en">restart</language>
+      <language key="title" locale="en">Here's some personalized information about your product that is most interesting. You have a great chance for success!</language>
+      <language key="emailpopup.error.invalidtoemail" locale="en">Please enter a valid TO Email address.</language>
+      <language key="button4.url" locale="en">emailafriend</language>
+      <language key="button5.url" locale="en">http://www.ign.com</language>
+      <language key="emailpopup.close" locale="en">Close</language>
+      <language key="button2.url" locale="en">http://www.yahoo.com</language>
+      <language key="assets.content.image" locale="en">assets/stages/output/content/image.jpg</language>
+      <language key="emailpopup.title" locale="en">Email results</language>
+      <language key="preferenceprofile.title" locale="en">Your Preference Profile</language>
+      <language key="button1.label" locale="en">Contact</language>
+      <language key="link2.label" locale="en">Link to Yahoo - Click here if you would like to visit the Yahoo! website!</language>
+      <language key="preferenceprofile.preferencekey" locale="en">Your Preferences</language>
+      <language key="emailpopup.send" locale="en">SUBMIT</language>
+      <language key="breadcrumbdisplay.message" locale="en">Output</language>
+      <language key="tab2.label" locale="en">Alternative</language>
+      <language key="link1.label" locale="en">Link to TCS - Click here if you would like to visit the TCS website!</language>
+      <language key="link3.label" locale="en">Link to Google - Click here if you would like to visit the Google website!</language>
+      <language key="emailpopup.error.invalidallemails" locale="en">Please enter valid TO/FROM Email addresses.</language>
+      <language key="link2.url" locale="en">//www.yahoo.com</language>
+      <language key="socialbutton2.label" locale="en">Twitter</language>
+      <language key="specificationstitle.label" locale="en">Specifications:</language>
+      <language key="socialbutton1.url" locale="en">http://www.truechoicesolutions.com</language>
+      <language key="button3.label" locale="en">Google</language>
+      <language key="templateurl" locale="en">output.mb.tpl.html</language>
+      <language key="button2.label" locale="en">Yahoo</language>
+      <language key="link1.url" locale="en">//www.truechoicesolutions.com</language>
+      <language key="button3.url" locale="en">http://www.google.com</language>
+      <language key="subtitle1" locale="en">Below are specific things that will be helpful to you going forward.</language>
+      <language key="tab1.label" locale="en">Your Best Choice</language>
+      <language key="link3.url" locale="en">//www.google.com</language>
+      <language key="button5.label" locale="en">Game Stuff</language>
+      <language key="socialbutton1.label" locale="en">Facebook</language>
+      <language key="breadcrumbdisplay.cssclass" locale="en">breadcrumb-output</language>
+      <language key="preferenceprofile.peerkey" locale="en">Your Peers</language>
+      <language key="button1.url" locale="en">http://www.truechoicesolutions.com</language>
+      <language key="assets.content.image.alt" locale="en">Content image</language>
+      <language key="links.title" locale="en">Helpful links:</language>
+      <language key="button4.label" locale="en">Email a friend</language>
+      <language key="subtitle2" locale="en">Go ahead and see if we aren't spot on based on your selections.</language>
+      <language key="productfeaturestitle" locale="en">Product Features Title: Lorem Ipsum Dolor etc</language>
+      <language key="button6.label" locale="en">Restart</language>
+      <language key="cfm.url" locale="en">data/mb/cfm.xml</language>
+      <profile key="levelmessagekeyorder" value="name||image||title||description"/>
+      <profile key="restart.prettyurl.param.loc" value="prototype_director"/>
+      <profile key="persistjsondata" value="false"/>
+      <profile key="isproductbased" value="false"/>
+      <profile key="restart.directurl.param.game" value="prototype_director"/>
+      <profile key="emailquestions" value="emailto||emailfrom||emailnote"/>
+    </resource>
+    <resource name="url">
+      <resource-element value="uid"/>
+    </resource>
+    <naming name="prototype_feature" owner="[Client]prototype_feature/[Game]prototype_feature" type="bfd.domain.game.Game" by-owner="true"/>
+    <profile-key key="uid" required="false">
+      <naming name="prototype_featureUid"/>
+    </profile-key>
+  </game>
+</client>

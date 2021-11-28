@@ -1,0 +1,60 @@
+version: 0.2
+
+env:
+  variables:
+    APP_VERSION: '2.0.3'
+    APP_NAME: 'Portal Web Service'
+    AWS_REGION: $AWS_DEFAULT_REGION
+    APP_DESCRIPTION: 'Webservice to simplify internal communication'
+    APP_PORT: '3000'
+    AWS_PEM_FILE: '/efs/.ssh/kp_aws_production.pem'
+    JWT_ACCESS_TOKEN_EXPIRES_IN: '300000'
+    JWT_REFRESH_TOKEN_EXPIRES_IN: '30d'
+    MONGO_VER: '4.2.11-bionic'
+
+  parameter-store:
+    AWS_ACCESS_KEY_ID: '/webservice/aws_access_key_id'
+    AWS_SECRET_ACCESS_KEY: '/webservice/aws_secret_access_key'
+    MONGO_USER: '/webservice/$APP_ENV/mongo_user'
+    MONGO_PASSWORD: '/webservice/$APP_ENV/mongo_password'
+    MONGO_DB: '/webservice/$APP_ENV/mongo_database'
+    JWT_SECRET: '/webservice/jwt_secret'
+    JWT_E2ETEST_ACCESS: '/webservice/jwt_e2etest_access'
+    JWT_E2ETEST_USERPWD: '/webservice/jwt_e2etest_userpwd'
+    PUSHER_APP_ID: '/webservice/pusher_app_id'
+    PUSHER_APP_KEY: '/webservice/pusher_app_key'
+    PUSHER_APP_SECRET: '/webservice/pusher_app_secret'
+    SENDGRID_USERNAME: '/webservice/sendgrid_username'
+    SENDGRID_APIKEY: '/webservice/sendgrid_apikey'
+
+phases:
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - REPOSITORY_URI=$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com
+      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin $REPOSITORY_URI
+      - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
+      - APP_VERSION=$APP_VERSION-build-$CODEBUILD_BUILD_NUMBER
+  build:
+    commands:
+      - cd webservice
+      - printenv > .env
+      - echo "APP_VERSION is $APP_VERSION"
+      - echo Build started on `date`
+      - echo Building the Docker image...
+      - docker build -t $IMAGE_REPO_NAME:$IMAGE_TAG .
+      - docker tag $IMAGE_REPO_NAME:$IMAGE_TAG $REPOSITORY_URI/$IMAGE_REPO_NAME:$IMAGE_TAG
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Pushing the Docker image...
+      - docker push $REPOSITORY_URI/$IMAGE_REPO_NAME:$IMAGE_TAG
+      - printf '[{"name":"app","imageUri":"%s"}]' $REPOSITORY_URI/$IMAGE_REPO_NAME:$IMAGE_TAG > ../imagedefinitions.json
+      - mv appspec.yml ../appspec.yml
+      - cat ../imagedefinitions.json
+      - cat .env
+artifacts:
+  files:
+    - './imagedefinitions.json'
+    - './appspec.yml'
+  name: imagedefinitions.json

@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+if [ -f /home/ubuntu/load/json-to-xmls/bin/delete.xml.sh  ] && [ -f /home/ubuntu/load/clearcache.sh ]; then
+    chmod 777 /home/ubuntu/load/json-to-xmls/
+    chmod 0775 /home/ubuntu/load/clearcache.sh
+    chmod 0775 /home/ubuntu/load/json-to-xmls/bin/delete.xml.sh
+    chown -R ubuntu:ubuntu /home/ubuntu/load/
+fi
+
+if [ -f /home/ubuntu/load/execute.sh ]; then
+  echo "\e[30;48;5;82m/home/ubuntu/load/execute.sh Found \e[0m"
+else
+  echo "\e[1;31;42m/home/ubuntu/load/execute.sh \e[5mNot found please install \e[21m \e[0m"
+fi

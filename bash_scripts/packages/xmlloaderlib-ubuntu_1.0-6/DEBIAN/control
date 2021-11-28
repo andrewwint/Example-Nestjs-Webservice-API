@@ -1,0 +1,9 @@
+Package: xmlloaderlib-ubuntu
+Version: 1.0-6
+Section: shells
+Priority: optional
+Architecture: all
+Depends: bash
+Maintainer: TrueChoice Engineering Team
+Description: These bash scripts are used in the importing of XML files. 
+ To dynamically generate delete XML files and clear cache when needed.
