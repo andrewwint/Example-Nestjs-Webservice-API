@@ -67,7 +67,6 @@ export class ContentService {
   removeContent(): String {
     return 'removeContent';
   }
-
  
   private async createContentHistory(id: string, updateContentDelta: Object): Promise<[object]> {
     let current: CreateContentDTO = await this.contentModel.findById(id, '-_id').lean();
