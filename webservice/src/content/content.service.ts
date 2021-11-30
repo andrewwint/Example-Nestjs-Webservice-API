@@ -68,28 +68,7 @@ export class ContentService {
     return 'removeContent';
   }
 
-  //Refactor into helper class
-  private transfromOutputContent(content: Content) {
-    let newContent = JSON.parse(
-      JSON.stringify(content)
-        .replace(/&#46;/g, '.')
-        .replace(/hashKey/g, '$$$hashKey')
-        .replace(/shortname-levels/g, 'shortname.levels')
-        .replace(/help-title/g, 'help.title')
-        .replace(/help-body/g, 'help.body')
-        .replace(/help-gotit/g, 'help.gotit')
-        .replace(/help-assets-image-alt/g, 'help.assets.image.alt')
-        .replace(/help-assets-image/g, 'help.assets.image')
-        .replace(/intro-body/g, 'help.assets.image')
-        .replace(/intro-image.alt/g, 'intro.image.alt')
-        .replace(/intro-image/g, 'intro.image.alt')
-        .replace(/intro-title/g, 'intro.title')
-        .replace(/intro-label/g, 'intro.label')
-        .replace(/groupwidget-showoptiontext/g, 'groupwidget.showoptiontext')
-    );
-    return newContent;
-  }
-
+ 
   private async createContentHistory(id: string, updateContentDelta: Object): Promise<[object]> {
     let current: CreateContentDTO = await this.contentModel.findById(id, '-_id').lean();
     let contentdelta: CreateContentDTO = {};
