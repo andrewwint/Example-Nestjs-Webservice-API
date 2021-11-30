@@ -95,6 +95,7 @@ export class ContentService {
     let contentdelta: CreateContentDTO = {};
     for (const key of Object.keys(updateContentDelta)) {
       //TODO# Refactor using higher order function
+      // https://codesandbox.io/s/upbeat-torvalds-eos73
       contentdelta[key] = current[key];
       contentdelta.content_id = new ObjectId(id);
       contentdelta.version_history = current.__v;
