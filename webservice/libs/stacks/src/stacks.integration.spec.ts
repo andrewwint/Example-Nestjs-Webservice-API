@@ -79,19 +79,6 @@ describe('Stacks Controller', () => {
     });
   });
 
-  /*Pending code change on the service to extract AWS Service
-  describe('setInstancesByStackName', () => {
-    it('should find all instances for a stack', async () => {
-      const stack = 'staging-us-east-2-solstice';
-      jest.spyOn(service, 'setInstancesByStackName');
-      jest.spyOn(repository, 'deleteMany');
-      await controller.setInstancesByStackName(stack);
-      expect(service.setInstancesByStackName).toHaveBeenCalled();
-      expect(service.setInstancesByStackName).toBeCalledWith(stack);
-      
-    });
-  });*/
-
   describe('updateInstanceById', () => {
     it('should find and update instance by _id', async () => {
       const id = '5f24590a13e7952f343d1b11';
