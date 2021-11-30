@@ -55,6 +55,9 @@ ContentSchema.pre('findOneAndUpdate', function() {
   update.$inc.__v = 1;
 });
 
+// Compare https://gist.github.com/andrewwint/8e35ac5fe944d876768461a5a507c1f2
+// https://github.com/andrewwint/web-service/blob/5bfc156197ebf9e5b622137dcf18d9b7ce6d1993/webservice/src/content/content.service.ts#L93
+
 export const ContentHistorySchema = new mongoose.Schema({
   content_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Content' },
   version_history: Number,
