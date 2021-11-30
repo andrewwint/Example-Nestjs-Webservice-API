@@ -16,8 +16,6 @@ import { UpdateContentDTO } from './dto/update-content.dto';
 import { ContentHistory } from './interfaces/content-history.interface';
 import { ObjectId } from 'bson';
 import { XmlwriterService } from '../xmlwriter/xmlwriter.service';
-//import { CreateContentStoreDTO } from './dto/create-content-store.dto';
-//import { ContentStore } from './interfaces/content-store.interface';
 
 @Injectable()
 export class ContentService {
