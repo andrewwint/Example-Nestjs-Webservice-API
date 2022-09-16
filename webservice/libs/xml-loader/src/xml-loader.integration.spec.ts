@@ -49,7 +49,7 @@ describe('XmlLoader Controller', () => {
   });
 
   describe('loadXmlBatch', () => {
-    const instance: any = { instance_id: '5f275f06f6f50377a0e96aaa', servertype: 'App' };
+    const instance: any = { instance_id: '12313242345abcdef', servertype: 'App' };
     const batch: LoadXmlFileDTO = {
       server: 'dev-test',
       payload: {
@@ -91,14 +91,14 @@ describe('XmlLoader Controller', () => {
       jest.spyOn(service, 'loadXmlByContentId');
       jest.spyOn(service, 'loadXmlFile');
       jest.spyOn(stack, 'getServerByShortName');
-      await controller.loadXmlByContentId('5e0255c45db08b348814d542', 'dev');
+      await controller.loadXmlByContentId('12313242345abcdef', 'dev');
       expect(service.loadXmlFile).not.toHaveBeenCalled();
       expect(service.loadXmlByContentId).toHaveBeenCalledWith('5e0255c45db08b348814d542', 'dev');
     });
   });
 
   describe('loadXmlFile', () => {
-    const instance: any = { instance_id: '5f275f06f6f50377a0e96aaa', servertype: 'App' };
+    const instance: any = { instance_id: '12313242345abcdef', servertype: 'App' };
     const xml: LoadXmlFileDTO = {
       server: 'dev-test',
       deleteXml: 'client',
