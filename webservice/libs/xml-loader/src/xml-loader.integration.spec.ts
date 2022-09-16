@@ -129,7 +129,7 @@ describe('XmlLoader Controller', () => {
 
   describe('upLoadXmlFile', () => {
     it('should pass the xml file to the correct service method ', async () => {
-      const instance: any = { instance_id: '5f275f06f6f50377a0e96aaa', servertype: 'App' };
+      const instance: any = { instance_id: '12313242345abcdef', servertype: 'App' };
       const uploadXmlFileDto: UploadXmlFileDTO = {
         server: 'dev-test',
         deleteXml: 'client'
