@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is for managing the application distritubtion for Linux machines. For more detials on how to create Debian Linux package go to [Debian Linux Packages](https://truechoice.atlassian.net/l/c/epG42Jqq)
+This project is for managing the application distritubtion for Linux machines. For more detials on how to create Debian Linux package go to [Debian Linux Packages](https://wiki.debian.org/HowToPackageForDebian)
 
 ### Packages
 
@@ -16,7 +16,7 @@ Package Includes:
 ##### Installing `xmlloaderlib-ubuntu`
 
 ```shell
-> wget https://truechoice-package-distribution.s3.amazonaws.com/xmlloaderlib-ubuntu_1.0-6.deb
+> wget https://[your s3 bucket].s3.amazonaws.com/xmlloaderlib-ubuntu_1.0-6.deb
 > sudo apt install ./xmlloaderlib-ubuntu_1.0-6.deb
 ```
 
