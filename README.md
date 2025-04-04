@@ -1,6 +1,23 @@
-# Portal Webservice
+# Project Overview
+
+This project provides examples to help companies transition from legacy technologies to modern solutions. It covers key areas such as:
+
+- **XML to JSON**: Simplifying data formats for better performance.
+- **Node.js Restful APIs**: Building faster server-side applications.
+- **EC2 to ECS**: Migrating from EC2 to ECS for better scalability and management.
+- **Docker for Local Development**: Using Docker to improve local development workflows.
+- **Custom Linux Packages**: Creating custom packages for faster processing.
 
 ## Description
+
+This is a Node-based RESTful API and client-server application designed to process and transform data. The application utilizes the following technologies:
+
+- **TypeScript**: Ensures type safety and enhances code maintainability.
+- **NestJS**: A framework for building efficient, scalable server-side applications.
+- **MongoDB**: A NoSQL database used for storing and retrieving data efficiently.
+- **Docker**: Provides containerization for local development and deployment.
+- **AWS-SDK**: Interfaces with AWS services, enabling cloud-based storage and processing.
+- **Pusher**: Facilitates real-time communication between the server and clients.
 
 This is an Lerna [independant](https://github.com/lerna/lerna/tree/master/commands/init#--independent) managed monorepository along with `commitizen`
 
