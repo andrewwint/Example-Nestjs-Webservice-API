@@ -19,6 +19,8 @@ This is a Node-based RESTful API and client-server application designed to proce
 - **AWS-SDK**: Interfaces with AWS services, enabling cloud-based storage and processing.
 - **Pusher**: Facilitates real-time communication between the server and clients.
 
+<img src="diagram.png" width="50%"/>
+
 This is an Lerna [independant](https://github.com/lerna/lerna/tree/master/commands/init#--independent) managed monorepository along with `commitizen`
 
 ## Usage
